@@ -140,6 +140,11 @@ hr {
   margin:0 0 24px;
 }
 
+span.dotted {
+	border-style: dotted;
+	border-width: 1px;
+	}
+	
 /* Images */
 
 img {
