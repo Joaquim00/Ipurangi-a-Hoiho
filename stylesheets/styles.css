@@ -70,10 +70,23 @@ h3 {
 	font-size: 18px;
 }
 
-h4, h5, h6 {
+h4 {
 	font-family: Arvo, Monaco, serif;
 	font-weight: 700;
 }
+
+h5 {
+	font-family: Arvo, Monaco, serif;
+	font-weight: 500;
+	font-variant: small-caps;
+} 
+
+h6 {
+	font-family: Arvo, Monaco, serif;
+	font-weight: 400;
+	font-style: italic;
+	
+} 
 
 a {
   color:#C30000;
