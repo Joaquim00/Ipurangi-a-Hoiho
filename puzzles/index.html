@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Hilário's webpage</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  <style>
+  figure {
+    display:inline-block;
+    margin-left:40px;
+    margin-right:40px;}
+  </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="green">
+        <h1 class="header"><a href="hobby.html#top">Hilário de&nbsp;Sousa</a></h1>
+        <p class="header"></p>
+        <ul>
+          <li class="link-purple"><a class="buttons" href="maps/index.html">Network maps</a></li>
+          <li class="link-purple"><a class="buttons" href="puzzles/index.html">Puzzles</a></li>
+          <li class="link-purple"><a class="buttons" href="hobby.html#random-links">Random links</a></li>
+          <li class="link-purple"><a class="buttons" href="index.html">Academic page</a></li>
+        </ul>
+
+        <!--<p class="header">This project is maintained by <a class="header name" href="https://github.com/Joaquim00">Joaquim00</a></p>-->
+
+      </header>
+      <section>
+<p id="top"><strong>(While this page is already public, this page is not yet ready. It will probably be hosted somewhere else when this page is 'ready'. If you have reached here, welcome anyway!)</strong></p>
+        <h3>
+<a id="puzzles" class="anchor" href="#puzzles" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Puzzles</h3>
+<p>Here I'm referring to 2D visual logic puzzles, or 'pencil puzzles'. Some brain exercises in free time.</p>
+
+	<h3>
+<a id="slant" class="anchor" href="#slant" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"</span></a>Slant</h3>
+<p>Slant is also known as <em>slalom</em>, or ごきげんななめ <em>gokigen naname</em> in Japanese. The basic principles are very simple:
+<ol>
+<li>There is a rectangular field of contiguous squares ▢, and each square has to be filled in by one diagonal line: ⧄ ("forward slash") or ⧅ ("backward slash").</li>
+<li>There is a number at some corners of the squares; the number indicates – out of the one/two/four squares that share that corner, exactly how many diagonal lines touches that corner. Corners without numbers can be touched by any number of diagonal lines.</li>
+<li>The diagonal lines cannot form a loop. (The 'numbers' do not block the continuous lines of diagonals.)</li>
+</ol></p>
+<p>Slant is originally published by Nicoli. You can also read <a href="http://www.nikoli.co.jp/ja/puzzles/gokigen_naname/" target="_blank">Nicoli's explanations of the rules in Japanese</a>. Their English page refers the audience to the relevant <a href="https://en.wikipedia.org/wiki/Gokigen_Naname" target="_blank">Wikipedia page</a>.</p>
+<p>There are many places online that you can play slant, for instance, <a href="http://www.chiark.greenend.org.uk/~sgtatham/puzzles/js/slant.html" target="_blank">here</a>, <a href="http://www.janko.at/Raetsel/Gokigen-Naname/" target="_blank">here</a>, <a href="http://www.brainbashers.com/slant.asp" target="_blank">here</a>, <a href="http://nikolikeipuzzle.blog.fc2.com/blog-category-23.html" target="_blank">here</a> or <a href="http://blog.livedoor.jp/bachelor_seal-puzzle/archives/cat_531460.html" target="_blank">here</a> (press the links which say ぱずぷれで遊ぶ next to each thumbnail to play online).</p>
+<p>Like other logic puzzles, you start by spotting places with unique solutions, and as you fill in the diagonals, other unique solutions/ clues will appear.</p>
+<h4>
+<a id="basic-logic-relations" class="anchor" href="#basic-logic-relations" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Basic logic relations</h4>
+<p>The following are the most-obvious logic relations. These will probably suffice for an easy-level puzzle. The example diagrams only show solutions in one orientation; they apply equally in other orientations. A <em style="color:black">black diagonal</em> signifies what you have already filled in; a <em style="color:blue">blue diagonal</em> signifies what you fill in now (if that is not already filled in); a <em style="color:red">red</em> signifies an illegal move.</p>
+<h5>Corner of field:</h5>
+<p>0 at corner: diagonal does not touch it.</p>
+<p>1 at corner: diagonal touches it.</p>
+<h5>Edge of field:</h5>
+<p>0 at edge: neither diagonals touch it.</p>
+<p>1 at edge: one diagonal touches it, one does not.</p>
+<p>2 at edge: both diagonals touch it.</p>
+<h5>Middle of field:</h5>
+<p>0 does not occur in the middle of a field. See <a href="#not-forming-loops">below</a>.</p>
+<p>1 in middle: one diagonal touches it, three does not.</p>
+<p>2 in middle: two diagonals touch it, two does not.</p>
+<p>3 in middle: three diagonals touch it, three does not.</p>
+<p>4 in middle: four diagonals touch it.</p>
+<h4>
+<a id="logic-relations-between-two-numbers" class="anchor" href="#logic-relations-between-two-numbers" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Logic relations between two numbers</h4>
+<p>You will need these in a hard-level puzzle. I'll leave it up to you to work out why these relations hold. Like other logic problems, check the antecedent (i.e. the 'if'), and apply the consequent, carefully. Avoid fallacies, which is very easy to commit, for beginners at least. If something is wrong, you have done something wrong; the following relations have been tested by a lot of people before me.</p>
+<p>The following relations concern two numbers <strong>orthogonally</strong> next to each other, or with an <strong>uninterrupted<strong> continuous line of 2's in between.</p>
+<p>The consequences concern the four <em>external</em> squares, i.e. the four squares 'facing away', and not the squares in between two numbers.</p>
+<p>when I talk about <em>non/touching diagonals</em>, I em refering to diagonals touching or not touching the number, not diagonals touching or not touching other diagonals. By default I am talking about numbers in the middle of a field, unless I specify that a number is on the edge.</p>
+<h5>1–1</h5>
+<p>The 1's have non-touching external diagonals.</p>
+<p>Here and below, you will notice that a 1 on the edge behaves like a 1 with non-touching external diagonals. When a 1 is on the edge and a 1 is in the middle, the 1 in the middle has non-touching external diagonals.</p>
+<h5>3-3</h5>
+<p>The 3's have touching external diagonals.</p>
+<h5>1-3</h5>
+<p>If 1 has non-touching external diagonals, then 3 has touching external diagonals.</p>
+<p>If 3 has touching external diagonals, then 1 has non-touching external diagonals.</p>
+<h5>2-2</h5>
+<p>If each 2 has one touching external diagonal, then each 2 has one non-touching diagonal.</p>
+<p>If each 2 has one non-touching external diagonal, then each 2 has one touching diagonal.</p>
+<h5>2-1</h5>
+<p>If 2 has parallel external diagonals, then 1 has non-touching external diagonals.</p>
+<p>If 1 has non-touching external diagonals, then 2 has parallel external diagonals. (You will need clues elsewhere to know the orientation of one of the two diagonals first.)</p>
+<h5>2-3</h5>
+<p>If 2 has parallel external diagonals, then 3 has touching external diagonals.</p>
+<p>If 3 has touching external diagonals, then 2 has parallel external diagonals. (You will need clues elsewhere to know the orientation of one of the two diagonals first.)</p>
+<h4>
+<a id="not-forming-loops" class="anchor" href="#not-forming-loops" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Not forming loops</h4>
+<p>A 0 does not exist in in the middle of a field; having so would form a loop.</p>
+<p>For two 1's <strong>diagonally</strong> next to each other, and <strong>neither</strong> are on the edge, then the diagonal in the square between them do not touch the 1's.<p>
+<p>Because if the diagonal touches the two 1's, a loop will form around it.</p>
+<p>2's and 3's will not have diagonals that are oriented in such a way that they form a rhombus with other diagonals. Often this tells you the orientation of other diagonals.</p>
+<p>When there is a string of diagonals that is one diagonal away from forming a loop, the remaining square has a diagonal in an orientation that prevents that loop from forming. The smallest loop is a one-unit rhombus.</p>
+<p>The following is another example.</p>
+<p>Larger loops are harder to spot. Often an easier way is to spot diagonal networks that would be 'trapped' by such loops. All diagonals form paths that eventually touch the edge of the field. If all ends of a path network are dead-ends in the middle of a field, a loop will form around it.</p>
+<p>Especially useful is to spot a diagonal that might lead to a 1. A diagonal to a 1 is a sure dead-end; if the other ends of the diagonal network are already all deadends, the last diagonal does not lead to the 1.<p> 
+
+      </section>
+      
+      <footer>
+        <p><small>©Hilário de Sousa 2016. Hosted on <a href="https://pages.github.com" target="_blank">GitHub Pages</a> using a modified version of the Dinky theme.</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
+  </body>
+</html>
