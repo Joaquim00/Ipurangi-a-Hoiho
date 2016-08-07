@@ -73,11 +73,12 @@ h3 {
 h4 {
 	font-family: Arvo, Monaco, serif;
 	font-weight: 700;
+	text-decoration: underline;
 }
 
 h5 {
 	font-family: Arvo, Monaco, serif;
-	font-weight: 500;
+	font-weight: 700;
 	font-variant: small-caps;
 } 
 
