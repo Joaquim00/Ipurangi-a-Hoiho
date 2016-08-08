@@ -162,6 +162,13 @@ hr {
   margin:0 0 24px;
 }
 
+div.dotted {
+	border-style: dotted;
+	border-width: 1px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
 span.dotted {
 	border-style: dotted;
 	border-width: 1px;
