@@ -411,7 +411,7 @@ header li.link-green:hover {
   border:2px solid #FBFAF7;
 }
 
-header li.link-orange {
+header li.link-yellow {
 	list-style-type: none;
   width:132px;
   height:15px;
@@ -435,7 +435,7 @@ header li.link-orange {
 
 }
 
-header li.link-orange:hover {
+header li.link-yellow:hover {
 	background: #BAB200;
 <!--	background: -moz-linear-gradient(top, #E7DD0C 0%, #979100 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
