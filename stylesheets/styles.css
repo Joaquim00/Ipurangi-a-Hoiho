@@ -60,7 +60,7 @@ h1, h2, h3 {
 	font-weight: normal;
 }
 
-h1,h2, h3 {
+h1, h2, h3 {
 	display: block;
 	border-bottom: 1px solid #ccc;
 	padding-bottom: 5px;
@@ -109,6 +109,32 @@ a:hover {
 
 a small {
 	font-size: 12px;
+}
+
+a.dotted {
+  color:#C30000;
+  font-weight:200;
+  text-decoration:none;
+  border-style: dotted;
+	border-width: 1px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+a:hover.dotted {
+	text-decoration: underline;
+	border-style: dotted;
+	border-width: 1px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+a small.dotted {
+	font-size: 12px;
+	border-style: dotted;
+	border-width: 1px;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
 em {
