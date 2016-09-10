@@ -364,6 +364,7 @@ header ul {
 }
 
 header li.link-purple {
+	cursor: pointer;
 	list-style-type: none;
   width:132px;
   height:15px;
@@ -388,6 +389,7 @@ header li.link-purple {
 }
 
 header li.link-purple:hover {
+	cursor: pointer;
 	background: #47097D;
 <!--	background: -moz-linear-gradient(top, #5C139B 0%, #390566 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
@@ -401,6 +403,7 @@ header li.link-purple:hover {
 }
 
 header li.link-green {
+	cursor: pointer;
 	list-style-type: none;
   width:132px;
   height:15px;
@@ -425,6 +428,7 @@ header li.link-green {
 }
 
 header li.link-green:hover {
+	cursor: pointer;
 	background: #BA4700;
 <!--	background: -moz-linear-gradient(top, #089575 0%, #00624C 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
@@ -438,6 +442,7 @@ header li.link-green:hover {
 }
 
 header li.link-yellow {
+	cursor: pointer;
 	list-style-type: none;
   width:132px;
   height:15px;
@@ -462,6 +467,7 @@ header li.link-yellow {
 }
 
 header li.link-yellow:hover {
+	cursor: pointer;
 	background: #BAB200;
 <!--	background: -moz-linear-gradient(top, #E7DD0C 0%, #979100 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
