@@ -440,7 +440,7 @@ footer {
     margin:0;
   }
 
-  header, section, footer {
+  header.sidemenu, section, footer {
     float:none;
     position:static;
     display:block;
@@ -456,7 +456,7 @@ footer {
 	padding:0;
 	}
 
-  header {
+  header.sidemenu {
     padding-right:320px;
   }
 
@@ -465,7 +465,7 @@ footer {
     margin:0 0 20px;
   }
 
-  header a small {
+  header.sidemenu a small {
     display:inline;
   }
 
@@ -481,7 +481,7 @@ footer {
     word-wrap:break-word;
   }
 
-  header {
+  header.sidemenu {
     padding:10px 20px 0;
 	margin-right: 0;
   }
@@ -495,18 +495,18 @@ footer {
 	margin: 0 0 0 30px;
 	}
 
-  header ul, header p.view {
+  header.sidemenu ul, header p.view {
     position:static;
   }
 }
 
 @media print, screen and (max-width: 480px) {
 
-  header ul {
+  header.sidemenu ul {
     display:none;
   }
 
-  header:hover ul {
+  header.sidemenu:hover ul {
     display:block;
   }
 
