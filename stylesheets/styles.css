@@ -448,12 +448,13 @@ footer {
     float:none;
     position:static;
     width:auto;
+    display:block;
   }
 
-	footer {
-		border-top: 1px solid #ccc;
-		margin:0 84px 0 50px;
-		padding:0;
+  footer {
+	border-top: 1px solid #ccc;
+	margin:0 84px 0 50px;
+	padding:0;
 	}
 
   header {
