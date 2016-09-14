@@ -191,7 +191,7 @@ div.pic > img:first-child + p {
 img {
   position: relative;
   margin: 0 auto;
-  max-width: 650px;
+  width: 100%;
   padding: 10px;
   margin: 10px;
   border: none;
