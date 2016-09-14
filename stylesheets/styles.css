@@ -540,6 +540,10 @@ footer {
   	float:none;
   }
 
+  section {
+    padding:20px 84px 20px 50px;
+    margin:0px 0px 20px;
+  }
 
 	footer {
 		margin: 0 0 0 20px;
@@ -548,6 +552,8 @@ footer {
 	footer a{
 		display:block;
 	}
+
+
 
 }
 
