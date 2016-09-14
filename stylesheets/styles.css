@@ -511,7 +511,7 @@ footer {
   }
 
   header:hover ul {
-    display: static;
+    display:block;
   }
 
 	footer {
