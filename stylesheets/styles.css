@@ -543,6 +543,9 @@ footer {
     margin:0px 0px 20px;
   }
 
+  body {
+    padding:10px 0 0 0;
+  }
   footer {
     margin: 0 0 0 20px;
   }
@@ -551,10 +554,6 @@ footer {
     display:block;
   }
   
-  img {
-  	width:auto;
-  	height:auto;
-  }
 }
 
 @media print {
