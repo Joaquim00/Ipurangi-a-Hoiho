@@ -252,6 +252,10 @@ td {
 
 /* Header */
 
+header {
+	z-index: 1;
+}
+
 header.sidemenu {
   width:170px;
   float:left;
