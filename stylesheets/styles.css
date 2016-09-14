@@ -512,13 +512,13 @@ footer {
     width:170px;
   }
 
-  header ul {
+/*  header ul {
     display:none;
   }
 
   header:hover ul {
     display:block;
-  }
+  } */
 
   header li.generic-link {
   	float:none;
