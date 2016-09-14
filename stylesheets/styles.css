@@ -571,7 +571,7 @@ footer {
   }
 
   a {
-    word-wrap: break-word;
+    word-break: break-all;
   }
 	
 }
