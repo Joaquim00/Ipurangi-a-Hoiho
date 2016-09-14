@@ -570,7 +570,7 @@ footer {
     float: none;	
   }
 
-  a {
+  a.doi {
     word-break: break-all;
   }
 	
