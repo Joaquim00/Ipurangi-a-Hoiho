@@ -447,8 +447,10 @@ footer {
   header, section, footer {
     float:none;
     position:static;
-    width:auto;
-    display:block;
+  }
+
+  section, footer {
+  	width:auto;
   }
 
   footer {
@@ -505,6 +507,10 @@ footer {
 
   header ul li {
     display:none;
+  }
+
+  header:hover ul li {
+  	display: static;
   }
 
 	footer {
