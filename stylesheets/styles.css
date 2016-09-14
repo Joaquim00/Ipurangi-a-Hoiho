@@ -458,22 +458,10 @@ footer {
     display:block;
     width:auto;
     height:auto;
-    position:static;
   }
-
-  footer {
-	border-top: 1px solid #ccc;
-	margin:0 84px 0 50px;
-	padding:0;
-	}
 
  header.sidemenu {
     margin:0px;
-  }
-
-  section {
-    padding:20px 84px 20px 50px;
-    margin:0 0 20px;
   }
 
   header a small {
@@ -483,12 +471,31 @@ footer {
   header li.generic-link {
   	float:left;
   }
+
+  section, footer {
+  	position:static;
+  }
+
+  section {
+    padding:20px 84px 20px 50px;
+    margin:210px 0px 20px;
+  }
+
+  footer {
+	border-top: 1px solid #ccc;
+	margin:0 84px 0 50px;
+	padding:0;
+	}
 	
 }
 
-/*@media print, screen and (max-width: 720px) {
+@media print, screen and (max-width: 722px) {
+  section {
+    padding:20px 84px 20px 50px;
+    margin:253px 0px 20px;
+  }
 
-  header {
+/*  header {
     padding:10px 20px 0;
     margin-right: 0;
     position:static;
@@ -505,8 +512,15 @@ footer {
 
   header ul, header p.view {
     position:static;
+  }*/
+}
+
+@media print, screen and (max-width: 573) {
+  section {
+    padding:20px 84px 20px 50px;
+    margin:296px 0px 20px;
   }
-}*/
+}
 
 @media print, screen and (max-width: 480px) {
 
