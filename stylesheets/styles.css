@@ -456,6 +456,7 @@ footer {
     position:static;
     display:block;
     width:auto;
+    height:auto;
   }
 
   footer {
@@ -505,6 +506,10 @@ footer {
 }
 
 @media print, screen and (max-width: 480px) {
+
+  header {
+    width:170px;
+  }
 
   header ul {
     display:none;
