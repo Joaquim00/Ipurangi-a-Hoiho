@@ -533,7 +533,6 @@ footer {
 
   body {
     padding:10px 0 0 0;
-    word-wrap: break-word;
   }
 
   header {
@@ -570,6 +569,11 @@ footer {
   img.links, img.rechts {
     float: none;	
   }
+
+  a {
+    word-wrap: break-word;
+  }
+	
 }
 
 @media print, screen and (max-width: 372px) {
