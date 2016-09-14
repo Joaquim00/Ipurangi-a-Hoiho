@@ -473,6 +473,7 @@ footer {
 
   section, footer {
   	position:static;
+  	flote:none;
   }
 
   section {
@@ -488,7 +489,7 @@ footer {
 	
 }
 
-@media print, screen and (max-width: 722px) {
+@media print, screen and (max-width: 672px) {
   section {
     padding:20px 84px 20px 50px;
     margin:253px 0px 20px;
@@ -514,7 +515,7 @@ footer {
   }*/
 }
 
-@media print, screen and (max-width: 573) {
+@media print, screen and (max-width: 523px) {
   section {
     padding:20px 84px 20px 50px;
     margin:296px 0px 20px;
