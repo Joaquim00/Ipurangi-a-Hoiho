@@ -264,6 +264,7 @@ header {
   width:170px;
   float:left;
   position:fixed;
+  overflow:auto;
 }
 
 header.sidemenu {
