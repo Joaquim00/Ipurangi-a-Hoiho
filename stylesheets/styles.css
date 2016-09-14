@@ -115,8 +115,6 @@ a small {
 	font-size: 12px;
 }
 
-}
-
 em {
 	font-style: italic;
 }
@@ -178,6 +176,7 @@ div.75 {
 	border-width: 1px;
 	padding-left: 5px;
 	padding-right: 5px;
+}
 
 /* Images */
 
