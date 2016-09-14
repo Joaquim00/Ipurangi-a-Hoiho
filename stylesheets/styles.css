@@ -252,10 +252,13 @@ td {
 
 /* Header */
 
-header.sidemenu {
+header {
   width:170px;
   float:left;
   position:fixed;
+}
+
+header.sidemenu {
 	border: 1px solid #000;
 	-webkit-border-top-right-radius: 4px;
 	-webkit-border-bottom-right-radius: 4px;
@@ -440,7 +443,7 @@ footer {
     margin:0;
   }
 
-  header.sidemenu, section, footer {
+  header, section, footer {
     float:none;
     position:static;
     display:block;
@@ -456,7 +459,7 @@ footer {
 	padding:0;
 	}
 
-  header.sidemenu {
+  header {
     padding-right:320px;
   }
 
@@ -465,7 +468,7 @@ footer {
     margin:0 0 20px;
   }
 
-  header.sidemenu a small {
+  header a small {
     display:inline;
   }
 
@@ -481,7 +484,7 @@ footer {
     word-wrap:break-word;
   }
 
-  header.sidemenu {
+  header {
     padding:10px 20px 0;
 	margin-right: 0;
   }
@@ -495,18 +498,18 @@ footer {
 	margin: 0 0 0 30px;
 	}
 
-  header.sidemenu ul, header p.view {
+  header ul, header p.view {
     position:static;
   }
 }
 
 @media print, screen and (max-width: 480px) {
 
-  header.sidemenu ul {
+  header ul {
     display:none;
   }
 
-  header.sidemenu:hover ul {
+  header:hover ul {
     display:block;
   }
 
