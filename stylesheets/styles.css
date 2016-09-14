@@ -197,6 +197,14 @@ img {
   border: none;
 }
 
+img.links {
+	float:left;
+}
+
+img.rechts {
+	float:right;
+}
+
 p img {
   display: inline;
   margin: 0;
@@ -557,7 +565,7 @@ footer {
     display:block;
   }
   
-  img {
+  img.links, img.rechts {
     float: none;	
   }
 }
