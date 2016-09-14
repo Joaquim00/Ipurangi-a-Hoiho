@@ -458,21 +458,14 @@ footer {
     display:block;
     width:auto;
     height:auto;
-  }
-
-  section, footer {
     position:static;
-  } 
+  }
 
   footer {
 	border-top: 1px solid #ccc;
 	margin:0 84px 0 50px;
 	padding:0;
 	}
-
- header {
-    bottom:0px;	
- }
 
  header.sidemenu {
     margin:0px;
@@ -519,7 +512,6 @@ footer {
 
   header {
     width:170px;
-    position:static;
   }
 
 /*  header ul {
