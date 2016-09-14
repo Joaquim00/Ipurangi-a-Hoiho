@@ -171,6 +171,14 @@ div.75 {
 	width: 75%;
 }
 
+div.pic {
+	overflow: auto;
+}
+
+div.pic > p:first-child {
+	margin-top: 15px;
+}
+
 .dotted {
   border-style: dotted;
 	border-width: 1px;
@@ -471,18 +479,9 @@ footer {
   header a small {
     display:inline;
   }
-
-/*  header ul {
-    position:absolute;
-    right:130px;
-    top:84px;
-  }*/
 }
 
 @media print, screen and (max-width: 720px) {
-  body {
-    word-wrap:break-word;
-  }
 
   header {
     padding:10px 20px 0;
