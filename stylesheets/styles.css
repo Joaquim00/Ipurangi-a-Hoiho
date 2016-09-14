@@ -175,7 +175,7 @@ div.pic {
 	overflow: auto;
 }
 
-div.pic > p:first-child {
+div.pic > img:first-child + p {
 	margin-top: 15px;
 }
 
@@ -455,10 +455,7 @@ footer {
     float:none;
     position:static;
     display:block;
-  }
-
-  section, footer {
-  	width:auto;
+    width:auto;
   }
 
   footer {
@@ -479,6 +476,11 @@ footer {
   header a small {
     display:inline;
   }
+
+  header li.generic-link {
+  	float:left;
+  }
+	
 }
 
 @media print, screen and (max-width: 720px) {
@@ -511,6 +513,11 @@ footer {
   header:hover ul {
     display:block;
   }
+
+  header li.generic-link {
+  	float:none;
+  }
+
 
 	footer {
 		margin: 0 0 0 20px;
