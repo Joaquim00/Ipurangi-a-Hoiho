@@ -285,11 +285,11 @@ header.orange-sm {
 	background-color: #BA4700;
 }
 
-p.header {
+header p {
 	font-size: 16px;
 }
 
-h1.header {
+header h1 {
 	font-family: Arvo, sans-serif;
 	font-size: 30px;
 	font-weight: 300;
@@ -299,16 +299,12 @@ h1.header {
 }
 
 
-h1.header, a.header, a.name, header a{
+header h1, header a {
 	color: #fff;
 }
 
-a.header {
+header a {
 	text-decoration: underline;
-}
-
-a.name {
-	white-space: nowrap;
 }
 
 header ul {
@@ -441,7 +437,7 @@ footer {
 	padding-left: 50px;
 }
 
-/* @media print, screen and (max-width: 960px) {
+@media print, screen and (max-width: 960px) {
 
   div.wrapper {
     width:auto;
@@ -518,7 +514,7 @@ footer {
 		display:block;
 	}
 
-} */
+}
 
 @media print {
   body {
