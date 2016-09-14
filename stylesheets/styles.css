@@ -447,6 +447,7 @@ footer {
   header, section, footer {
     float:none;
     position:static;
+    display:block;
   }
 
   section, footer {
@@ -486,7 +487,7 @@ footer {
 
   header {
     padding:10px 20px 0;
-		margin-right: 0;
+	margin-right: 0;
   }
 
 	section {
@@ -495,7 +496,7 @@ footer {
   }
 
 	footer {
-		margin: 0 0 0 30px;
+	margin: 0 0 0 30px;
 	}
 
   header ul, header p.view {
@@ -505,12 +506,12 @@ footer {
 
 @media print, screen and (max-width: 480px) {
 
-  header ul li {
+  header ul {
     display:none;
   }
 
-  header:hover ul li {
-  	display: static;
+  header:hover ul {
+    display: static;
   }
 
 	footer {
