@@ -303,7 +303,7 @@ header h1, header a {
 	color: #fff;
 }
 
-header a {
+header a:hover {
 	text-decoration: underline;
 }
 
@@ -317,6 +317,7 @@ header li.generic-link {
 	list-style-type: none;
   width:132px;
   height:15px;
+	margin: auto;
 	margin-bottom: 12px;
 	line-height: 1em;
 	padding: 6px 6px 6px 7px;
@@ -345,7 +346,7 @@ header li.link-purple {
 
 header li.link-purple:hover {
 	background: #47097D;
-<!--	background: -moz-linear-gradient(top, #5C139B 0%, #390566 100%);
+	background: -moz-linear-gradient(top, #5C139B 0%, #390566 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
   background: -webkit-linear-gradient(top, #5C139B 0%,#390566 100%);
   background: -o-linear-gradient(top, #5C139B 0%,#390566 100%);
@@ -369,7 +370,7 @@ header li.link-green {
 
 header li.link-green:hover {
 	background: #BA4700;
-<!--	background: -moz-linear-gradient(top, #089575 0%, #00624C 100%);
+	background: -moz-linear-gradient(top, #089575 0%, #00624C 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
   background: -webkit-linear-gradient(top, #089575 0%,#00624C 100%);
   background: -o-linear-gradient(top, #089575 0%,#00624C 100%);
@@ -394,7 +395,7 @@ header li.link-yellow {
 
 header li.link-yellow:hover {
 	background: #BAB200;
-<!--	background: -moz-linear-gradient(top, #E7DD0C 0%, #979100 100%);
+	background: -moz-linear-gradient(top, #E7DD0C 0%, #979100 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
   background: -webkit-linear-gradient(top, #E7DD0C 0%,#979100 100%);
   background: -o-linear-gradient(top, #E7DD0C 0%,#979100 100%);
