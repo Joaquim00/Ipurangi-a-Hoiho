@@ -460,9 +460,9 @@ footer {
     height:auto;
   }
 
-  section, footer {
+/*  section, footer {
     position:static;
-  }
+  } */
 
   footer {
 	border-top: 1px solid #ccc;
@@ -470,9 +470,9 @@ footer {
 	padding:0;
 	}
 
- /* header {
-    padding-right:320px;
-  }*/
+ header.sidemenu {
+    margin:0px;
+  }
 
   section {
     padding:20px 84px 20px 50px;
@@ -489,11 +489,11 @@ footer {
 	
 }
 
-@media print, screen and (max-width: 720px) {
+/*@media print, screen and (max-width: 720px) {
 
   header {
- /*   padding:10px 20px 0;
-    margin-right: 0;*/
+    padding:10px 20px 0;
+    margin-right: 0;
     position:static;
   }
 
@@ -509,7 +509,7 @@ footer {
   header ul, header p.view {
     position:static;
   }
-}
+}*/
 
 @media print, screen and (max-width: 480px) {
 
