@@ -531,6 +531,11 @@ footer {
 
 @media print, screen and (max-width: 480px) {
 
+  body {
+    padding:10px 0 0 0;
+    word-wrap: break-word;
+  }
+
   header {
     width:170px;
     position:static;
@@ -554,9 +559,6 @@ footer {
 
   }
 
-  body {
-    padding:10px 0 0 0;
-  }
   footer {
     margin: 0 0 0 20px;
   }
@@ -564,7 +566,7 @@ footer {
   footer a{
     display:block;
   }
-  
+
   img.links, img.rechts {
     float: none;	
   }
