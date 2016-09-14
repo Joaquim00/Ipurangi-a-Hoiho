@@ -557,6 +557,9 @@ footer {
     display:block;
   }
   
+  img {
+    display:block;	
+  }
 }
 
 @media print, screen and (max-width: 372px) {
