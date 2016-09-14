@@ -454,10 +454,13 @@ footer {
 
   header, section, footer {
     float:none;
-    position:static;
     display:block;
     width:auto;
     height:auto;
+  }
+
+  section, footer {
+    position:static;
   }
 
   footer {
@@ -489,7 +492,8 @@ footer {
 
   header {
     padding:10px 20px 0;
-	margin-right: 0;
+    margin-right: 0;
+    position:static;
   }
 
 	section {
