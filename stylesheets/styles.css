@@ -517,6 +517,7 @@ footer {
 @media print, screen and (max-width: 523px) {
   section {
     margin:296px 0px 20px;
+    padding:20px 42px 20px 25px;
   }
 }
 
@@ -541,6 +542,8 @@ footer {
 
   section {
     margin:0px 0px 20px;
+    padding:20px 21px 20px 12px;
+
   }
 
   body {
@@ -554,6 +557,14 @@ footer {
     display:block;
   }
   
+}
+
+@media print, screen and (max-width: 372px) {
+
+  section {
+    margin:0px 0px 20px;
+    padding:0px 10px 20px 0px;
+
 }
 
 @media print {
