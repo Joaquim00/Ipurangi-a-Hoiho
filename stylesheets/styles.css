@@ -186,7 +186,7 @@ div.pic > span + p {
 	padding-right: 5px;
 }
 
-span .tooltiptextleft, span .tooltiptextright {
+span img + .tooltiptextleft, span img + .tooltiptextright {
     visibility: hidden;
     background-color: black;
     color: #fff;
@@ -198,15 +198,15 @@ span .tooltiptextleft, span .tooltiptextright {
     bottom: 100%;
 }
 
-span .tooltiptextleft {
+span img + .tooltiptextleft {
     left: 0%;
 }
 
-span .tooltiptextright {
+span img + .tooltiptextright {
     right: 0%;
 }
 
-span img:hover + .tooltiptext {
+span img:hover + .tooltiptextleft, span img:hover + .tooltiptextright {
     visibility: visible;
 }
 
