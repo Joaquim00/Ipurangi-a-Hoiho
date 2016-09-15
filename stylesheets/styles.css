@@ -175,7 +175,7 @@ div.pic {
 	overflow: auto;
 }
 
-div.pic > div.tooltip + p {
+div.pic > span + p {
 	margin-top: 15px;
 }
 
@@ -186,12 +186,7 @@ div.pic > div.tooltip + p {
 	padding-right: 5px;
 }
 
-.tooltip {
-    position: relative;
-    display: inline-block;
-}
-
-.tooltip .tooltiptextleft, .tooltip .tooltiptextright {
+span .tooltiptextleft, span .tooltiptextright {
     visibility: hidden;
     background-color: black;
     color: #fff;
@@ -203,15 +198,15 @@ div.pic > div.tooltip + p {
     bottom: 100%;
 }
 
-.tooltip .tooltiptextleft {
+span .tooltiptextleft {
     left: 0%;
 }
 
-.tooltip .tooltiptextright {
+span .tooltiptextright {
     right: 0%;
 }
 
-.tooltip:hover .tooltiptext {
+span img:hover + .tooltiptext {
     visibility: visible;
 }
 
