@@ -175,7 +175,7 @@ div.pic {
 	overflow: auto;
 }
 
-div.pic > img:first-child + p {
+div.pic > div.tooltip + p {
 	margin-top: 15px;
 }
 
@@ -185,6 +185,34 @@ div.pic > img:first-child + p {
 	padding-left: 5px;
 	padding-right: 5px;
 }
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptextleft, .tooltip .tooltiptextright {
+    visibility: hidden;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+}
+
+.tooltip .tooltiptextleft {
+    left: 0%;
+}
+
+.tooltip .tooltiptextright {
+    right: 0%;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
 
 /* Images */
 
@@ -273,7 +301,7 @@ header {
   float:left;
   position:fixed;
   overflow:auto;
-  z-index:1;
+  z-index:2;
 }
 
 header.sidemenu {
