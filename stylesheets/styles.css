@@ -186,30 +186,6 @@ div.pic > span + p {
 	padding-right: 5px;
 }
 
-.pic .tooltiptextleft, .pic .tooltiptextright {
-    visibility: hidden;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 10px;
-    position: absolute;
-    z-index: 1;
-    bottom: 100%;
-}
-
-.pic .tooltiptextleft {
-    left: 0%;
-}
-
-.pic .tooltiptextright {
-    right: 0%;
-}
-
-.pic:hover .tooltiptextleft, .pic:hover .tooltiptextright {
-    visibility: visible;
-}
-
 /* Images */
 
 img {
