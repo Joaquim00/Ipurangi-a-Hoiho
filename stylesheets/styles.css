@@ -213,6 +213,7 @@ div.pic > div.tooltip + p {
 
 .tooltip:hover .tooltiptext {
     visibility: visible;
+}
 
 /* Images */
 
