@@ -329,6 +329,10 @@ header ul {
   padding:0;
 }
 
+.current {
+  border:2px dashed #FBFAF7;
+}
+
 .generic-link {
 	list-style-type: none;
   width:132px;
@@ -341,7 +345,6 @@ header ul {
 
 .generic-link:hover {
   cursor: pointer;
-  border-radius:4px;
   border:2px solid #FBFAF7;
 }
 
