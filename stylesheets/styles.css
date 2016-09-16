@@ -345,6 +345,11 @@ header ul {
   border:2px solid #FBFAF7;
 }
 
+.generic-link .generic-link {
+	margin-bottom:0;
+	z-index:3;
+}
+
 .link-purple {
 	background: #47097D;
 	background: -moz-linear-gradient(top, #5C139B 0%, #390566 100%);
@@ -401,6 +406,7 @@ header ul {
 .dropdown-content {
     display: none;
     position: absolute;
+    top: 0;
     left: 100%;
 }
 
@@ -467,10 +473,6 @@ footer {
 	margin:0 84px 0 50px;
 	padding:0;
 	}
-
- .generic-link {
-	margin-bottom:0;
-}
 
   .dropdown-content {
     left:0;
@@ -554,10 +556,6 @@ footer {
   a.doi {
     word-break: break-all;
   }
-
- .generic-link {
-	margin-bottom: 12px;
-}
 
   .dropdown-content {
     left: 100%;
