@@ -363,7 +363,7 @@ header ul {
 }
 
 .this-page-purple {
-	  border:2px double #BAB200;
+	  border:2px inset #BAB200;
 }
 
 .other-page-purple {
@@ -381,7 +381,7 @@ header ul {
 }
 
 .this-page-green {
-	  border:2px double #BA4700;
+	  border:2px inset #BA4700;
 }
 
 .other-page-green {
@@ -399,7 +399,7 @@ header ul {
 }
 
 .this-page-yellow {
-	  border:2px double #47097D;
+	  border:2px inset #47097D;
 }
 
 .other-page-yellow {
