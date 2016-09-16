@@ -329,7 +329,7 @@ header ul {
   padding:0;
 }
 
-header li.generic-link {
+.generic-link {
 	list-style-type: none;
   width:132px;
   height:15px;
@@ -339,12 +339,13 @@ header li.generic-link {
   border-radius:4px;
 }
 
-header li.generic-link:hover {
-	cursor: pointer;
+.generic-link:hover {
+  cursor: pointer;
   border-radius:4px;
+  border:2px solid #FBFAF7;
 }
 
-header li.link-purple {
+.link-purple {
 	background: #47097D;
 	background: -moz-linear-gradient(top, #5C139B 0%, #390566 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
@@ -359,11 +360,7 @@ header li.link-purple {
 
 }
 
-header li.link-purple:hover {
-  border:2px solid #FBFAF7;
-}
-
-header li.link-green {
+.link-green {
 	background: #00785D;
 	background: -moz-linear-gradient(top, #089575 0%, #00624C 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
@@ -371,16 +368,10 @@ header li.link-green {
   background: -o-linear-gradient(top, #089575 0%,#00624C 100%);
   background: -ms-linear-gradient(top, #089575 0%,#00624C 100%);
   background: linear-gradient(top, #089575 0%,#00624C 100%);
-
   border:2px solid #BA4700;
-
 }
 
-header li.link-green:hover {
-  border:2px solid #FBFAF7;
-}
-
-header li.link-yellow {
+.link-yellow {
 	background: #BAB200;
 	background: -moz-linear-gradient(top, #E7DD0C 0%, #979100 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
@@ -388,13 +379,8 @@ header li.link-yellow {
   background: -o-linear-gradient(top, #E7DD0C 0%,#979100 100%);
   background: -ms-linear-gradient(top, #E7DD0C 0%,#979100 100%);
   background: linear-gradient(top, #E7DD0C 0%,#979100 100%);
-
   border:2px solid #47097D;
 
-}
-
-header li.link-yellow:hover {
-  border:2px solid #FBFAF7;
 }
 
 .buttons {
@@ -412,6 +398,26 @@ header li.link-yellow:hover {
 	text-decoration: none;
 }
 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: 100%;
+}
+
+.dropdown-content li {
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content li:hover {
+  cursor: pointer;
+  border-radius:4px;
+  border:2px solid #FBFAF7;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
 /* Section - for main page content */
 
