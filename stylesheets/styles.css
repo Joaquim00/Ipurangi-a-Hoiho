@@ -415,7 +415,7 @@ header ul {
   border:2px solid #FBFAF7;
 }
 
-.dropdown:hover .dropdown-content {
+.buttons:hover .dropdown-content {
     display: block;
 }
 
