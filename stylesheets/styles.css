@@ -404,17 +404,6 @@ header ul {
     left: 100%;
 }
 
-.dropdown-content li {
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content li:hover {
-  cursor: pointer;
-  border-radius:4px;
-  border:2px solid #FBFAF7;
-}
-
 .buttons:hover .dropdown-content {
     display: block;
 }
