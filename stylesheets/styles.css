@@ -468,6 +468,10 @@ footer {
 	padding:0;
 	}
 
+ .generic-link {
+	margin-bottom:0;
+}
+
   .dropdown-content {
     left:0;
   }
@@ -550,6 +554,10 @@ footer {
   a.doi {
     word-break: break-all;
   }
+
+ .generic-link {
+	margin-bottom: 12px;
+}
 
   .dropdown-content {
     left: 100%;
