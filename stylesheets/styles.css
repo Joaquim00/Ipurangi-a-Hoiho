@@ -330,7 +330,6 @@ header ul {
 }
 
 header li.generic-link {
-	cursor: pointer;
 	list-style-type: none;
   width:132px;
   height:15px;
@@ -404,6 +403,8 @@ header li.link-yellow:hover {
 	text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
 	padding: 2px 2px 2px 22px;
 	height: 30px;
+	position: relative;
+        display: inline-block;
 }
 
 .buttons:hover {
