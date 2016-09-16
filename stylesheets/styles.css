@@ -412,7 +412,7 @@ header ul {
     left: 100%;
 }
 
-.buttons:hover .dropdown-content {
+.dropdown:hover .dropdown-content {
     display: inline-block;
 }
 
