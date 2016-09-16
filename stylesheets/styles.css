@@ -272,7 +272,7 @@ header {
   width:170px;
   float:left;
   position:fixed;
-  overflow:auto;
+  overflow:visible;
   z-index:2;
 }
 
@@ -467,6 +467,10 @@ footer {
 	margin:0 84px 0 50px;
 	padding:0;
 	}
+
+  .dropdown-content {
+    left:0;
+  }
 	
 }
 
@@ -545,6 +549,10 @@ footer {
 
   a.doi {
     word-break: break-all;
+  }
+
+  .dropdown-content {
+    left: 100%;
   }
 	
 }
