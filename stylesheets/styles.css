@@ -345,9 +345,8 @@ header ul {
   border:2px solid #FBFAF7;
 }
 
-.buttons .buttons {
+.generic-link .generic-link {
 	margin-bottom:0;
-	z-index:3;
 }
 
 .link-purple {
