@@ -408,8 +408,8 @@ header ul {
 .dropdown-content {
     display: none;
     position: absolute;
-    top: -10%;
-    left: 100%;
+    top: -20%;
+    left: 110%;
 }
 
 .dropdown:hover .dropdown-content {
@@ -477,8 +477,8 @@ footer {
 	}
 
   .dropdown-content {
-    left:-2%;
-    top:102%;
+    left:-5%;
+    top:110%;
   }
 	
 }
@@ -561,8 +561,8 @@ footer {
   }
 
   .dropdown-content {
-    top: -10%;
-    left: 100%;
+    top: -20%;
+    left: 110%;
   }
 	
 }
