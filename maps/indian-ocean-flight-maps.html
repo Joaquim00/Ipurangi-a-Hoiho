@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -18,11 +18,18 @@
         <h1 class="header"><a href="../hobby.html#top">Hilário de&nbsp;Sousa</a></h1>
         <p class="header"></p>
         <ul>
-          <li onclick="location.href='index.html';" class="generic-link link-purple"><span class="buttons">Network maps</span></li>
-          <li onclick="location.href='../puzzles/index.html';" class="generic-link link-purple"><span class="buttons">Puzzles</span></li>
-          <li onclick="location.href='../hobby.html#random-links';" class="generic-link link-purple"><span class="buttons" >Random links</span></li>
-          <li onclick="location.href='../nl/index.html';" class="generic-link link-purple"><span class="buttons">How to NL</span></li>
-          <li onclick="location.href='../index.html';" class="generic-link link-purple"><span class="buttons">Academic page</span></li>
+          <li class="generic-link link-purple this-page-purple dropdown"><span class="buttons" onclick="location.href='index.html';" >Network maps</span>
+          <span class="dropdown-content">
+    		<ul>
+    		<li class="generic-link link-purple other-page-purple"><span class="buttons" onclick="location.href='new-zealand-flight-maps.html';">New Zealand &#9992;</span></li>
+    		<li class="generic-link link-purple other-page-purple"><span class="buttons" onclick="location.href='inner-oceania-flight-map.html';">Pacific Ocean &#9992;</span></li>
+    		<li class="generic-link link-purple this-page-purple"><span class="buttons" onclick="location.href='indian-ocean-flight-maps.html';">Indian Ocean &#9992;</span></li>
+    		</ul>
+  	  </span></li>
+          <li class="generic-link link-purple other-page-purple"><span class="buttons" onclick="location.href='../puzzles/index.html';">Puzzles</span></li>
+          <li class="generic-link link-purple other-page-purple"><span class="buttons" onclick="location.href='../hobby.html#random-links';">Random links</span></li>
+          <li class="generic-link link-purple other-page-purple"><span class="buttons" onclick="location.href='../nl/index.html';">How to NL</span></li>
+          <li class="generic-link link-purple other-page-purple"><span class="buttons" onclick="location.href='../index.html';">Academic page</span></li>
         </ul>
 
         <!--<p class="header">This project is maintained by <a class="header name" href="https://github.com/Joaquim00">Joaquim00</a></p>-->
@@ -33,7 +40,7 @@
 	<h3 id="top">
 <a id="indian-ocean-international-passenger-flight-route-maps" class="anchor" href="#indian-ocean-international-passenger-flight-route-maps" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Indian Ocean international passenger flight route maps</h3>
 <p>'Indian Ocean' here referrs to islands in the Indian Ocean that are 'far enough' away from the rim of the ocean. 'International' refers only to the fact that you have to go through immigration and customs at some point for these flights. All regularly-scheduled international passenger direct flights to/from the airports in this region – during Northern Winter/Southern Summer 2016-2017 – are shown in this map. (Details will be checked again as late 2016 approaches.) There are <strong>19</strong> airports with international flights in the region during this period; they are shown as <em>stars</em> on the map. Destinations outside the region are shown as <em>circles</em>.</p> 
-<div class="75 dotted">
+<div class="greybox dotted">
 	<p>Jump to:</p>
 	<ul>
 		<li><a href="#international-airports-and-flights">International airports and flights</a></li>
@@ -69,19 +76,41 @@
 <p>Not shown in these maps are charter flights and seasonal flights in other seasons. This region sees a lot of tourism-oriented charter flights, many of them longhaul from Europe and East Asia. Some of the more interesting 'non-regular' flights are Saint-Pierre ZSE in Réunion to Rodriges RRG in Mauritius, and Christmas Island XCH to Jakarta CDG. 
 
 <h4>
-<a id="international-airports-and-flights" class="anchor" href="#international-airports-and-flights" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>International airports and flights</h4>
-<p>The following are some further information. Due to my currently-limited coding ability, the information is listed here just as texts; you can do a text-search (cltr+F/&#8984;+F) on the following texts.</p>
-<p id="international-airports">The following are the <strong>19</strong> airports with regular international flights in the region during this season, plus some other names associated with them.</p>
+<a id="international-airports" class="anchor" href="#international-airports" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>International airports</h4>
+<p>The following are the <strong>19</strong> airports with regular international flights in the region during this season, plus some other names associated with them.</p> (The datalist below work best with Firefox; you can otherwise do a text-search (cltr+F/&#8984;+F) on the following texts.)</p>
+<input type="text" list="airports" name="airport" style="width:100%" />
+<datalist id="airports">
+    <option value="Mauritius MRU (FIMP, Sir Seewoosagur Ramgoolam, Port Louis)" />
+    <option value="Saint-Denis RUN (FMEE, Roland Garros, Gillot, Sainte-Marie, Réunion, France)" />
+    <option value="Saint-Pierre ZSE (FMEP, Pierrefonds, Réunion, France)" />
+    <option value="Antananarivo TNR (FMMI, Ivato, Tananarive, Madagascar)" />
+    <option value="Toamasina TMM (FMMT, Tamatave, Madagascar)" />
+    <option value="Antsiranana DIE (FMNA, Arrachart, Diego-Suárez, Madagascar)" />
+    <option value="Nosy Be NOS (FMNN, Fascene, Madagascar)" />
+    <option value="Mahajanga MJN (FMNM, Amborovy, Philibert Tsiranana, Majunga, Madagascar)" />
+    <option value="Dzaoudzi DZA (FMCZ, Pamandzi, Mayotte, France)" />
+    <option value="Anjouan AJN (FMCV, Ouani, Comoros)" />
+    <option value="Mohéli MWA (FMCI, Bandar Es Eslam, Comoros)" />
+    <option value="Moroni HAH (FMCH, Hahaya, Prince Saïd Ibrahim, AIMPSI, Comoros)" />
+    <option value="Mahé SEZ (FSIA, Pointe Larue, Victoria, Seychelles)" />
+    <option value="Malé MLE (VRMM, Hulhulé, Ibrahim Nasir, Maldives)" />
+    <option value="Hanimaadhoo HAQ (VRMH, Haa Dhaalu, Maldives)" />
+    <option value="Colombo CMB (VCBI, Bandaranaike, Katunayake, Negombo, Sri Lanka)" />
+    <option value="Mattala HRI (VCRI, Hambantota, Rajapaksa, Sri Lanka)" />
+    <option value="Christmas Island XCH (YPXM, Australia)" />
+    <option value="Cocos (Keeling) Islands CCK</a> (YPCC, Australia)" />
+</datalist>    
+
 <ul>
 <li><a href="http://mauritius-airport.atol.aero/" target="_blank">Mauritius MRU</a> (FIMP, Sir Seewoosagur Ramgoolam, Port Louis)</li>
-<li><a href="http://www.reunion.aeroport.fr/" target="_blank">Saint-Denis RUN</a> (FMEE, Roland Garros, Gillot, Sainte-Marie, Réunion)</li>
-<li><a href="http://www.pierrefonds.aeroport.fr/" target="_blank">Saint-Pierre ZSE</a> (FMEP, Pierrefonds, Réunion)</li>
+<li><a href="http://www.reunion.aeroport.fr/" target="_blank">Saint-Denis RUN</a> (FMEE, Roland Garros, Gillot, Sainte-Marie, Réunion, France)</li>
+<li><a href="http://www.pierrefonds.aeroport.fr/" target="_blank">Saint-Pierre ZSE</a> (FMEP, Pierrefonds, Réunion, France)</li>
 <li><a href="http://adema.dot.mg/category/aerodrome/" target="_blank">Antananarivo TNR</a> (FMMI, Ivato, Tananarive, Madagascar)</li>
 <li><a href="http://adema.dot.mg/category/aerodrome/" target="_blank">Toamasina TMM</a> (FMMT, Tamatave, Madagascar)</li>
 <li><a href="http://adema.dot.mg/category/aerodrome/" target="_blank">Antsiranana DIE</a> (FMNA, Arrachart, Diego-Suárez, Madagascar)</li>
 <li><a href="http://adema.dot.mg/category/aerodrome/" target="_blank">Nosy Be NOS</a> (FMNN, Fascene, Madagascar)</li>
 <li><a href="http://adema.dot.mg/category/aerodrome/" target="_blank">Mahajanga MJN</a> (FMNM, Amborovy, Philibert Tsiranana, Majunga, Madagascar)</li>
-<li><a href="http://www.aeroport-mayotte.com/" target="_blank">Dzaoudzi DZA</a> (FMCZ, Pamandzi, Mayotte)</li>
+<li><a href="http://www.aeroport-mayotte.com/" target="_blank">Dzaoudzi DZA</a> (FMCZ, Pamandzi, Mayotte, France)</li>
 <li>Anjouan AJN (FMCV, Ouani, Comoros)</li>
 <li>Mohéli MWA (FMCI, Bandar Es Eslam, Comoros)</li>
 <li>Moroni HAH (FMCH, Hahaya, Prince Saïd Ibrahim, AIMPSI, Comoros)</li>
@@ -93,7 +122,80 @@
 <li><a href="https://www.christmas.net.au/plan-your-trip/flights.html" target="_blank">Christmas Island XCH</a> (YPXM, Australia)</li>
 <li><a href="https://www.cocoskeelingislands.com.au/travel-info/flights-to-cocos" target="_blank">Cocos (Keeling) Islands CCK</a> (YPCC, Australia)</li>
 </ul>
-<p id="international-airlines">The following are the airlines and routes involved <em>(Note that airlines do not necessarily have rights to sell tickets for sectors flown entirely outside of their own countries.)</em>:</p>
+
+<a id="international-airlines" class="anchor" href="#international-airlines" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>International airlines and flights</h4>
+<p>The following are the airlines and routes involved <em>(Note that airlines do not necessarily have rights to sell tickets for sectors flown entirely outside of their own countries.)</em> (The datalist below work best with Firefox; you can otherwise do a text-search (cltr+F/&#8984;+F) on the following texts.):</p>
+
+<input type="text" list="airroutes" name="airroute" style="width:100%" />
+<datalist id="airroutes">
+  <option value="Moroni HAH – Dzaoudzi DZA | Int'Air Îles (I7)" />
+  <option value="Mohéli NWA – Dzaoudzi DZA | Int'Air Îles (I7)" />
+  <option value="Anjouan AJN – Dzaoudzi DZA | Int'Air Îles (I7)" />
+  <option value="Moroni HAH – Mahajanga MJN | AB Aviation (Y6)" />
+  <option value="Moroni HAH – Antananarivo TNR | AB Aviation (Y6)" />
+  <option value="Moroni HAH – Dar es Salaam DAR | AB Aviation (Y6)" />
+  <option value="Anjouan AJN – Dzaoudzi DZA | AB Aviation (Y6)" />
+  <option value="Mohéli NWA – Dzaoudzi DZA | AB Aviation (Y6)" />
+  <option value="Dzaoudzi DZA – Moroni HAH | Ewa Air (ZD)" />
+  <option value="Dzaoudzi DZA – Anjouan AJN | Ewa Air (ZD)" />
+  <option value="Dzaoudzi DZA – Antsiranana DIE | Ewa Air (ZD)" />
+  <option value="Dzaoudzi DZA – Mahajanga MJN | Ewa Air (ZD)" />
+  <option value="Dzaoudzi DZA – Nosy Be NOS | Ewa Air (ZD)" />
+  <option value="Dzaoudzi DZA – Antananarivo TNR | Ewa Air (ZD)" />
+  <option value="Saint-Denis RUN – Mauritius MRU | Air Austral (UU)" />
+  <option value="Saint-Denis RUN – Dzaoudzi DZA | Air Austral (UU)" />
+  <option value="Saint-Denis RUN – Antananarivo TNR | Air Austral (UU)" />
+  <option value="Saint-Denis RUN – Nosy Be NOS | Air Austral (UU)" />
+  <option value="Saint-Denis RUN – Toamasina TMM | Air Austral (UU)" />
+  <option value="Saint-Denis RUN – Mahé SEZ | Air Austral (UU)" />
+  <option value="Saint-Denis RUN – Johannesburg JNB | Air Austral (UU)" />
+  <option value="Saint-Denis RUN – Moroni HAH | Air Austral (UU)" />
+  <option value="Saint-Denis RUN – Paris CDG | Air Austral (UU)" />
+  <option value="Saint-Denis RUN – Bangkok BKK | Air Austral (UU)" />
+  <option value="Saint-Denis RUN – Chennai MAA | Air Austral (UU)" />
+  <option value="Saint-Pierre ZSE – Mauritius MRU | Air Austral (UU)" />
+  <option value="Dzaoudzi DZA – Paris CDG | Air Austral (UU)" />
+  <option value="Antananarivo TNR – Marseille MRS | Air Madagascar (MD)" />
+  <option value="Antananarivo TNR – Paris CDG | Air Madagascar (MD)" />
+  <option value="Antananarivo TNR – Moroni HAH | Air Madagascar (MD)" />
+  <option value="Antananarivo TNR – Saint-Denis RUN | Air Madagascar (MD)" />
+  <option value="Antananarivo TNR – Saint-Denis RUN – Guangzhou CAN | Air Madagascar (MD)" />
+  <option value="Antananarivo TNR – Mauritius MRU | Air Madagascar (MD)" />
+  <option value="Antananarivo TNR – Mahé SEZ | Air Madagascar (MD)" />
+  <option value="Toamasina TMM – Saint-Denis RUN | Air Madagascar (MD)" />
+  <option value="Antsiranana DIE – Dzaoudzi DZA | Air Madagascar (MD)" />
+  <option value="Mahajanga MJN – Dzaoudzi DZA | Air Madagascar (MD)" />
+  <option value="Mahé SEZ – Mauritius MRU | Air Seychelles (HM)" />
+  <option value="Mahé SEZ – Antananarivo TNR | Air Seychelles (HM)" />
+  <option value="Mahé SEZ – Johannesburg JNB | Air Seychelles (HM)" />
+  <option value="Mahé SEZ – Paris CDG | Air Seychelles (HM)" />
+  <option value="Mahé SEZ – Abu Dhabi AUH | Air Seychelles (HM)" />
+  <option value="Mahé SEZ – Mumbai BOM | Air Seychelles (HM)" />
+  <option value="Mahé SEZ – Beijing PEK | Air Seychelles (HM)" />
+  <option value="Mauritius MRU – Saint-Denis RUN | Air Mauritius (MK)" />
+  <option value="Mauritius MRU – Saint-Pierre ZSE | Air Mauritius (MK)" />
+  <option value="Mauritius MRU - Antananarivo TNR | Air Mauritius (MK)" />
+  <option value="Mauritius MRU – Cape Town CPT | Air Mauritius (MK)" />
+  <option value="Mauritius MRU – Durban DUR | Air Mauritius (MK)" />
+  <option value="Mauritius MRU > Maputo MPM > Durban DUR > Mauritius MRU | Air Mauritius (MK)" />
+  <option value="Mauritius MRU – Johannesburg JNB | Air Mauritius (MK)" />
+  <option value="Mauritius MRU – Nairobi NBO | Air Mauritius (MK)" />
+  <option value="Mauritius MRU > Dar es Salaam DAR > Nairobi NBO > Mauritius MRU | Air Mauritius (MK)" />
+  <option value="Mauritius MRU – Paris CDG | Air Mauritius (MK)" />
+  <option value="Mauritius MRU – London LHR | Air Mauritius (MK)" />
+  <option value="Mauritius MRU – Dubai DXB | Air Mauritius (MK)" />
+  <option value="Mauritius MRU – Delhi DEL | Air Mauritius (MK)" />
+  <option value="Mauritius MRU – Mumbai BOM | Air Mauritius (MK)" />
+  <option value="Mauritius MRU > Bengaluru BLR > Chennai MAA > Mauritius MRU | Air Mauritius (MK)" />
+  <option value="Mauritius MRU – Chengdu CTU | Air Mauritius (MK)" />
+  <option value="Mauritius MRU – Beijing PEK | Air Mauritius (MK)" />
+  <option value="Mauritius MRU – Shanghai PVG | Air Mauritius (MK)" />
+  <option value="Mauritius MRU – Hong Kong HKG | Air Mauritius (MK)" />
+  <option value="Mauritius MRU – Singapore SIN – Kuala Lumpur KUL | Air Mauritius (MK)" />
+  <option value="Mauritius MRU – Perth PER | Air Mauritius (MK)" />
+
+</datalist>
+
 <p><a href="http://www.inter-iles-air.com/" target="_blank">Int'Air Îles (I7)</a>:</p>
 <ul>
 <li>Moroni HAH – Dzaoudzi DZA</li>
@@ -508,7 +610,7 @@
       </section>
       
       <footer>
-        <p><small>©Hilário de Sousa 2016. Hosted on <a href="https://pages.github.com" target="_blank">GitHub Pages</a> using a modified version of the Dinky theme.</small></p>
+        <p><small>©Hilário de Sousa 2016. <a href="https://pages.github.com" target="_blank">GitHub Pages</a> (&asymp;Dinky theme).</small></p>
       </footer>
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
