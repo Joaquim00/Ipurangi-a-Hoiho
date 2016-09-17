@@ -19,13 +19,13 @@
         <p class="header"></p>
         <ul>
           <li class="generic-link link-purple this-page-purple dropdown"><span class="buttons" onclick="location.href='index.html';" >Network maps</span>
-          <span class="dropdown-content">
+          <div class="dropdown-content">
     		<ul>
     		<li class="generic-link link-purple other-page-purple"><span class="buttons" onclick="location.href='new-zealand-flight-maps.html';">New Zealand &#9992;</span></li>
     		<li class="generic-link link-purple other-page-purple"><span class="buttons" onclick="location.href='inner-oceania-flight-map.html';">Pacific Ocean &#9992;</span></li>
     		<li class="generic-link link-purple this-page-purple"><span class="buttons" onclick="location.href='indian-ocean-flight-maps.html';">Indian Ocean &#9992;</span></li>
     		</ul>
-  	  </span></li>
+  	  </div></li>
           <li class="generic-link link-purple other-page-purple"><span class="buttons" onclick="location.href='../puzzles/index.html';">Puzzles</span></li>
           <li class="generic-link link-purple other-page-purple"><span class="buttons" onclick="location.href='../hobby.html#random-links';">Random links</span></li>
           <li class="generic-link link-purple other-page-purple"><span class="buttons" onclick="location.href='../nl/index.html';">How to NL</span></li>
@@ -43,12 +43,11 @@
 <div class="greybox dotted">
 	<p>Jump to:</p>
 	<ul>
-		<li><a href="#international-airports-and-flights">International airports and flights</a></li>
-		<ul>
-			<li><a href="#international-airports">International airports</a></li>
-			<li><a href="#international-airlines">International airlines</a></li>
+		<li><a href="#international-airports">International airports</a></li>
+		<li><a href="#international-airlines">International airlines</a>
+			<ul>
 			<li><a href="#christmas-cocos">Note on Christmas and Cocos (Keeling) Islands</a></li>
-		</ul>
+			</ul></li>
 		<li><a href="#domestic-airlines">Domestic airlines</a></li>
 	</ul>
 </div>
@@ -78,29 +77,29 @@
 <h4>
 <a id="international-airports" class="anchor" href="#international-airports" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>International airports</h4>
 <p>The following are the <strong>19</strong> airports with regular international flights in the region during this season, plus some other names associated with them.</p> (The datalist below work best with Firefox; you can otherwise do a text-search (cltr+F/&#8984;+F) on the following texts.)</p>
-<p>Type in this box:
+<p>Type place name in this box:</p>
 <input type="text" list="airports" name="airport" style="width:100%" />
 <datalist id="airports">
-    <option value="Mauritius MRU (FIMP, Sir Seewoosagur Ramgoolam, Port Louis)" />
-    <option value="Saint-Denis RUN (FMEE, Roland Garros, Gillot, Sainte-Marie, Réunion, France)" />
-    <option value="Saint-Pierre ZSE (FMEP, Pierrefonds, Réunion, France)" />
-    <option value="Antananarivo TNR (FMMI, Ivato, Tananarive, Madagascar)" />
-    <option value="Toamasina TMM (FMMT, Tamatave, Madagascar)" />
-    <option value="Antsiranana DIE (FMNA, Arrachart, Diego-Suárez, Madagascar)" />
-    <option value="Nosy Be NOS (FMNN, Fascene, Madagascar)" />
-    <option value="Mahajanga MJN (FMNM, Amborovy, Philibert Tsiranana, Majunga, Madagascar)" />
-    <option value="Dzaoudzi DZA (FMCZ, Pamandzi, Mayotte, France)" />
-    <option value="Anjouan AJN (FMCV, Ouani, Comoros)" />
-    <option value="Mohéli MWA (FMCI, Bandar Es Eslam, Comoros)" />
-    <option value="Moroni HAH (FMCH, Hahaya, Prince Saïd Ibrahim, AIMPSI, Comoros)" />
-    <option value="Mahé SEZ (FSIA, Pointe Larue, Victoria, Seychelles)" />
-    <option value="Malé MLE (VRMM, Hulhulé, Ibrahim Nasir, Maldives)" />
-    <option value="Hanimaadhoo HAQ (VRMH, Haa Dhaalu, Maldives)" />
-    <option value="Colombo CMB (VCBI, Bandaranaike, Katunayake, Negombo, Sri Lanka)" />
-    <option value="Mattala HRI (VCRI, Hambantota, Rajapaksa, Sri Lanka)" />
-    <option value="Christmas Island XCH (YPXM, Australia)" />
-    <option value="Cocos (Keeling) Islands CCK</a> (YPCC, Australia)" />
-</datalist></p>    
+    <option value="Mauritius MRU (FIMP, Sir Seewoosagur Ramgoolam, Port Louis)">
+    <option value="Saint-Denis RUN (FMEE, Roland Garros, Gillot, Sainte-Marie, Réunion, France)">
+    <option value="Saint-Pierre ZSE (FMEP, Pierrefonds, Réunion, France)">
+    <option value="Antananarivo TNR (FMMI, Ivato, Tananarive, Madagascar)">
+    <option value="Toamasina TMM (FMMT, Tamatave, Madagascar)">
+    <option value="Antsiranana DIE (FMNA, Arrachart, Diego-Suárez, Madagascar)">
+    <option value="Nosy Be NOS (FMNN, Fascene, Madagascar)">
+    <option value="Mahajanga MJN (FMNM, Amborovy, Philibert Tsiranana, Majunga, Madagascar)">
+    <option value="Dzaoudzi DZA (FMCZ, Pamandzi, Mayotte, France)">
+    <option value="Anjouan AJN (FMCV, Ouani, Comoros)">
+    <option value="Mohéli MWA (FMCI, Bandar Es Eslam, Comoros)">
+    <option value="Moroni HAH (FMCH, Hahaya, Prince Saïd Ibrahim, AIMPSI, Comoros)">
+    <option value="Mahé SEZ (FSIA, Pointe Larue, Victoria, Seychelles)">
+    <option value="Malé MLE (VRMM, Hulhulé, Ibrahim Nasir, Maldives)">
+    <option value="Hanimaadhoo HAQ (VRMH, Haa Dhaalu, Maldives)">
+    <option value="Colombo CMB (VCBI, Bandaranaike, Katunayake, Negombo, Sri Lanka)">
+    <option value="Mattala HRI (VCRI, Hambantota, Rajapaksa, Sri Lanka)">
+    <option value="Christmas Island XCH (YPXM, Australia)">
+    <option value="Cocos (Keeling) Islands CCK</a> (YPCC, Australia)">
+</datalist>  
 
 <ul>
 <li><a href="http://mauritius-airport.atol.aero/" target="_blank">Mauritius MRU</a> (FIMP, Sir Seewoosagur Ramgoolam, Port Louis)</li>
@@ -124,215 +123,216 @@
 <li><a href="https://www.cocoskeelingislands.com.au/travel-info/flights-to-cocos" target="_blank">Cocos (Keeling) Islands CCK</a> (YPCC, Australia)</li>
 </ul>
 
+<h4>
 <a id="international-airlines" class="anchor" href="#international-airlines" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>International airlines and flights</h4>
 <p>The following are the airlines and routes involved <em>(Note that airlines do not necessarily have rights to sell tickets for sectors flown entirely outside of their own countries.)</em> (The datalist below work best with Firefox; you can otherwise do a text-search (cltr+F/&#8984;+F) on the following texts.):</p>
 
-<p>Type in this box:
+<p>Type name of airport/airline in this box:</p>
 <input type="text" list="airroutes" name="airroute" style="width:100%" />
 <datalist id="airroutes">
-  <option value="Moroni HAH – Dzaoudzi DZA | Int'Air Îles (I7)" />
-  <option value="Mohéli NWA – Dzaoudzi DZA | Int'Air Îles (I7)" />
-  <option value="Anjouan AJN – Dzaoudzi DZA | Int'Air Îles (I7)" />
-  <option value="Moroni HAH – Mahajanga MJN | AB Aviation (Y6)" />
-  <option value="Moroni HAH – Antananarivo TNR | AB Aviation (Y6)" />
-  <option value="Moroni HAH – Dar es Salaam DAR | AB Aviation (Y6)" />
-  <option value="Anjouan AJN – Dzaoudzi DZA | AB Aviation (Y6)" />
-  <option value="Mohéli NWA – Dzaoudzi DZA | AB Aviation (Y6)" />
-  <option value="Dzaoudzi DZA – Moroni HAH | Ewa Air (ZD)" />
-  <option value="Dzaoudzi DZA – Anjouan AJN | Ewa Air (ZD)" />
-  <option value="Dzaoudzi DZA – Antsiranana DIE | Ewa Air (ZD)" />
-  <option value="Dzaoudzi DZA – Mahajanga MJN | Ewa Air (ZD)" />
-  <option value="Dzaoudzi DZA – Nosy Be NOS | Ewa Air (ZD)" />
-  <option value="Dzaoudzi DZA – Antananarivo TNR | Ewa Air (ZD)" />
-  <option value="Saint-Denis RUN – Mauritius MRU | Air Austral (UU)" />
-  <option value="Saint-Denis RUN – Dzaoudzi DZA | Air Austral (UU)" />
-  <option value="Saint-Denis RUN – Antananarivo TNR | Air Austral (UU)" />
-  <option value="Saint-Denis RUN – Nosy Be NOS | Air Austral (UU)" />
-  <option value="Saint-Denis RUN – Toamasina TMM | Air Austral (UU)" />
-  <option value="Saint-Denis RUN – Mahé SEZ | Air Austral (UU)" />
-  <option value="Saint-Denis RUN – Johannesburg JNB | Air Austral (UU)" />
-  <option value="Saint-Denis RUN – Moroni HAH | Air Austral (UU)" />
-  <option value="Saint-Denis RUN – Paris CDG | Air Austral (UU)" />
-  <option value="Saint-Denis RUN – Bangkok BKK | Air Austral (UU)" />
-  <option value="Saint-Denis RUN – Chennai MAA | Air Austral (UU)" />
-  <option value="Saint-Pierre ZSE – Mauritius MRU | Air Austral (UU)" />
-  <option value="Dzaoudzi DZA – Paris CDG | Air Austral (UU)" />
-  <option value="Antananarivo TNR – Marseille MRS | Air Madagascar (MD)" />
-  <option value="Antananarivo TNR – Paris CDG | Air Madagascar (MD)" />
-  <option value="Antananarivo TNR – Moroni HAH | Air Madagascar (MD)" />
-  <option value="Antananarivo TNR – Saint-Denis RUN | Air Madagascar (MD)" />
-  <option value="Antananarivo TNR – Saint-Denis RUN – Guangzhou CAN | Air Madagascar (MD)" />
-  <option value="Antananarivo TNR – Mauritius MRU | Air Madagascar (MD)" />
-  <option value="Antananarivo TNR – Mahé SEZ | Air Madagascar (MD)" />
-  <option value="Toamasina TMM – Saint-Denis RUN | Air Madagascar (MD)" />
-  <option value="Antsiranana DIE – Dzaoudzi DZA | Air Madagascar (MD)" />
-  <option value="Mahajanga MJN – Dzaoudzi DZA | Air Madagascar (MD)" />
-  <option value="Mahé SEZ – Mauritius MRU | Air Seychelles (HM)" />
-  <option value="Mahé SEZ – Antananarivo TNR | Air Seychelles (HM)" />
-  <option value="Mahé SEZ – Johannesburg JNB | Air Seychelles (HM)" />
-  <option value="Mahé SEZ – Paris CDG | Air Seychelles (HM)" />
-  <option value="Mahé SEZ – Abu Dhabi AUH | Air Seychelles (HM)" />
-  <option value="Mahé SEZ – Mumbai BOM | Air Seychelles (HM)" />
-  <option value="Mahé SEZ – Beijing PEK | Air Seychelles (HM)" />
-  <option value="Mauritius MRU – Saint-Denis RUN | Air Mauritius (MK)" />
-  <option value="Mauritius MRU – Saint-Pierre ZSE | Air Mauritius (MK)" />
-  <option value="Mauritius MRU - Antananarivo TNR | Air Mauritius (MK)" />
-  <option value="Mauritius MRU – Cape Town CPT | Air Mauritius (MK)" />
-  <option value="Mauritius MRU – Durban DUR | Air Mauritius (MK)" />
-  <option value="Mauritius MRU > Maputo MPM > Durban DUR > Mauritius MRU | Air Mauritius (MK)" />
-  <option value="Mauritius MRU – Johannesburg JNB | Air Mauritius (MK)" />
-  <option value="Mauritius MRU – Nairobi NBO | Air Mauritius (MK)" />
-  <option value="Mauritius MRU > Dar es Salaam DAR > Nairobi NBO > Mauritius MRU | Air Mauritius (MK)" />
-  <option value="Mauritius MRU – Paris CDG | Air Mauritius (MK)" />
-  <option value="Mauritius MRU – London LHR | Air Mauritius (MK)" />
-  <option value="Mauritius MRU – Dubai DXB | Air Mauritius (MK)" />
-  <option value="Mauritius MRU – Delhi DEL | Air Mauritius (MK)" />
-  <option value="Mauritius MRU – Mumbai BOM | Air Mauritius (MK)" />
-  <option value="Mauritius MRU > Bengaluru BLR > Chennai MAA > Mauritius MRU | Air Mauritius (MK)" />
-  <option value="Mauritius MRU – Chengdu CTU | Air Mauritius (MK)" />
-  <option value="Mauritius MRU – Beijing PEK | Air Mauritius (MK)" />
-  <option value="Mauritius MRU – Shanghai PVG | Air Mauritius (MK)" />
-  <option value="Mauritius MRU – Hong Kong HKG | Air Mauritius (MK)" />
-  <option value="Mauritius MRU – Singapore SIN – Kuala Lumpur KUL | Air Mauritius (MK)" />
-  <option value="Mauritius MRU – Perth PER | Air Mauritius (MK)" />
-  <option value="Dar es Salaam DAR – Moroni HAH | Air Tanzania (TC)" />
-  <option value="Nairobi NBO – Moroni HAH | Fly-SAX (B5)" />
-  <option value="Nairobi NBO – Moroni HAH | Kenya Airways (KQ)" />
-  <option value="Nairobi NBO – Dzaoudzi DZA | Kenya Airways (KQ)" />
-  <option value="Nairobi NBO – Antananarivo TNR | Kenya Airways (KQ)" />
-  <option value="Nairobi NBO – Mahé SEZ | Kenya Airways (KQ)" />
-  <option value="Addis Ababa ADD – Mahé SEZ | Ethiopian Airlines (ET)" />
-  <option value="Johannesburg JNB – Antananarivo TNR | Airlink (4Z)" />
-  <option value="Johannesburg JNB > Nosy Be NOS > Beira BEW > Johannesburg JNB | Airlink (4Z)" />
-  <option value="Johannesburg JNB – Mauritius MRU | South African Airways (SA)" />
-  <option value="Paris ORY > Dzaoudzi DZA > Antananarivo TNR > Paris ORY | Corsair (SS)" />
-  <option value="Paris ORY – Saint-Denis RUN | Corsair (SS)" />
-  <option value="Paris ORY – Saint-Denis RUN | Air France (AF)" />
-  <option value="Paris CDG – Mauritius MRU | Air France (AF)" />
-  <option value="Paris CDG – Marseille MRS – Saint-Denis RUN | XL Airways (SE)" />
-  <option value="Paris CDG – Lyon LYS – Saint-Denis RUN | XL Airways (SE)" />
-  <option value="Frankfurt FRA – Mauritius MRU | Condor (DE)" />
-  <option value="Frankfurt FRA – Mahé SEZ | Condor (DE)" />
-  <option value="Frankfurt FRA – Malé MLE | Condor (DE)" />
-  <option value="Vienna VIE – Mauritius MRU (northern winter) | Austrian Airlines (OS)" />
-  <option value="Vienna VIE – Malé MLE (northern winter) | Austrian Airlines (OS)" />
-  <option value="Vienna VIE – Colombo CMB (northern winter) | Austrian Airlines (OS)" />
-  <option value="London LGW – Mauritius MRU | British Airways (BA)" />
-  <option value="Johannesburg JNB – Mauritius MRU | British Airways (BA)" />
-  <option value="London LGW – Malé MLE (northern winter) | British Airways (BA)" />
-  <option value="Amsterdam AMS – Colombo CMB (northern winter) | KLM (KL)" />
-  <option value="Zürich ZRH – Mauritius MRU (northern winter) | Edelweiss Air (WK)" />
-  <option value="Zürich ZHR – Malé MLE (northern winter) | Edelweiss Air (WK)" />
-  <option value="Cologne-Bonn CGN – Mauritius MRU | Eurowings (EW)" />
-  <option value="Frankfurt FRA – Mauritius MRU (northern winter) | Lufthansa Cityline (CL)" />
-  <option value="Frankfurt FRA – Malé MLE (northern winter) | Lufthansa Cityline (CL)" />
-  <option value="Milan MXP – Mauritius MRU | Meridiana (IG)" />
-  <option value="Moscow SVO – Malé MLE | Aeroflot (SU)" />
-  <option value="Kiev KBP – Colombo CMB | Ukrainian International Airlines (PS)" />
-  <option value="Istanbul IST – Mauritius MRU – Antananarivo TNR | Turkish Airlines (TK)" />
-  <option value="Istanbul IST – Mahé SEZ | Turkish Airlines (TK)" />
-  <option value="Istanbul IST – Malé MLE – Colombo CMB | Turkish Airlines (TK)" />
-  <option value="Dubai DXB – Mahé SEZ | Emirates (EK)" />
-  <option value="Dubai DXB – Mauritius MRU | Emirates (EK)" />
-  <option value="Dubai DXB – Malé MLE | Emirates (EK)" />
-  <option value="Dubai DXB – Malé MLE - Colombo CMB | Emirates (EK)" />
-  <option value="Dubai DXB – Colombo CMB | Emirates (EK)" />
-  <option value="Dubai DXB > Malé MLE > Colombo CMB > Dubai DXB | flydubai (FZ)" />
-  <option value="Dubai DXB – Colombo CMB | flydubai (FZ)" />
-  <option value="Dubai DXB > Colombo CMB > Mattala HRI > Dubai DXB | flydubai (FZ)" />
-  <option value="Abu Dhabi AUH – Mahé SEZ | Etihad (EY)" />
-  <option value="Abu Dhabi AUH – Malé MLE | Etihad (EY)" />
-  <option value="Abu Dhabi AUH – Colombo CMB | Etihad (EY)" />
-  <option value="Abu Dhabi AUH > Colombo CMB > Mattala HRI > Abu Dhabi AUH | Rotana Jet (RG)" />
-  <option value="Abu Dhabi AUH > Mattala HRI > Colombo CMB > Abu Dhabi AUH | Rotana Jet (RG)" />
-  <option value="Sharjah SHJ – Colombo CMB | Air Arabia (G9)" />
-  <option value="Doha DOH – Mahé SEZ | Qatar Airways (QR)" />
-  <option value="Doha DOH – Malé SEZ | Qatar Airways (QR)" />
-  <option value="Doha DOH – Colombo CMB | Qatar Airways (QR)" />
-  <option value="Muscat MCT – Colombo CMB | Oman Air (WY)" />
-  <option value="Riyadh RUH – Malé MLE – Colombo CMB | Saudia (SV)" />
-  <option value="Jeddah JED – Colombo CMB | Saudia (SV)" />
-  <option value="Kuwait KWI – Colombo CMB | Kuwait Airways (KU)" />
-  <option value="Malé MLE – Bangkok DMK – Chengdu CTU | Maldivian (Q2)" />
-  <option value="Malé MLE – Bangkok DMK – Chongqing CKG | Maldivian (Q2)" />
-  <option value="Malé MLE – Bangkok DMK – Xi'an XIY | Maldivian (Q2)" />
-  <option value="Malé MLE – Bangkok DMK – Wuhan WUH | Maldivian (Q2)" />
-  <option value="Malé MLE – Bangkok DMK – Changsha CSX | Maldivian (Q2)" />
-  <option value="Malé MLE – Bangkok DMK – Nanjing NKG | Maldivian (Q2)" />
-  <option value="Malé MLE – Thiruvananthapuram TRV | Maldivian (Q2)" />
-  <option value="Malé MLE – Chennai MAA – Dhaka DAC | Maldivian (Q2)" />
-  <option value="Hanimaadhoo HAQ – Thiruvananthapuram TRV | Maldivian (Q2)" />
-  <option value="Malé MLE – Beijing PEK – Tokyo NRT | Mega Maldives Airlines (LV)" />
-  <option value="Malé MLE – Shanghai PVG | Mega Maldives Airlines (LV)" />
-  <option value="Malé MLE – Kuala Lumpur KUL | Mega Maldives Airlines (LV)" />
-  <option value="Malé MLE – Jeddah JED | Mega Maldives Airlines (LV)" />
-  <option value="Colombo CMB – Mahé SEZ | Mihin Lanka (MJ)" />
-  <option value="Colombo CMB – Malé MLE | Mihin Lanka (MJ)" />
-  <option value="Colombo CMB – Bahrain BAH | Mihin Lanka (MJ)" />
-  <option value="Colombo CMB – Muscat MCT | Mihin Lanka (MJ)" />
-  <option value="Colombo CMB – Chennai MAA | Mihin Lanka (MJ)" />
-  <option value="Colombo CMB – Dhaka DAC | Mihin Lanka (MJ)" />
-  <option value="Colombo CMB – Kolkata CCU | Mihin Lanka (MJ)" />
-  <option value="Colombo CMB – Lahore LHE | Mihin Lanka (MJ)" />
-  <option value="Colombo CMB – Madurai IXM | Mihin Lanka (MJ)" />
-  <option value="Colombo CMB – Jakarta CGK | Mihin Lanka (MJ)" />
-  <option value="Colombo CMB – Malé MLE | SriLankan Airlines (UL)" />
-  <option value="Colombo CMB – Abu Dhabi AUH | SriLankan Airlines (UL)" />
-  <option value="Colombo CMB – Bengaluru BLR | SriLankan Airlines (UL)" />
-  <option value="Colombo CMB – Bangkok BKK | SriLankan Airlines (UL)" />
-  <option value="Colombo CMB – Bangkok BKK – Guangzhou CAN | SriLankan Airlines (UL)" />
-  <option value="Colombo CMB – Bangkok BKK – Hong Kong HKG | SriLankan Airlines (UL)" />
-  <option value="Colombo CMB – Beijing PEK | SriLankan Airlines (UL)" />
-  <option value="Colombo CMB – Chennai MAA | SriLankan Airlines (UL)" />
-  <option value="Colombo CMB – Dammam DMM | SriLankan Airlines (UL)" />
-  <option value="Colombo CMB – Delhi DEL | SriLankan Airlines (UL)" />
-  <option value="Colombo CMB – Doha DOH | SriLankan Airlines (UL)" />
-  <option value="Colombo CMB – Dubai DXB | SriLankan Airlines (UL)" />
-  <option value="Colombo CMB – Guangzhou CAN | SriLankan Airlines (UL)" />
-  <option value="Colombo CMB – Jeddah JED | SriLankan Airlines (UL)" />
-  <option value="Colombo CMB – Karachi KHI | SriLankan Airlines (UL)" />
-  <option value="Colombo CMB – Kochi COK | SriLankan Airlines (UL)" />
-  <option value="Colombo CMB – Kuala Lumpur KUL | SriLankan Airlines (UL)" />
-  <option value="Colombo CMB – Kunming KMG | SriLankan Airlines (UL)" />
-  <option value="Colombo CMB – Kuwait KWI | SriLankan Airlines (UL)" />
-  <option value="Colombo CMB – London LHR | SriLankan Airlines (UL)" />
-  <option value="Colombo CMB – Mumbai BOM | SriLankan Airlines (UL)" />
-  <option value="Colombo CMB – Tokyo NRT | SriLankan Airlines (UL)" />
-  <option value="Colombo CMB – Riyadh RUH | SriLankan Airlines (UL)" />
-  <option value="Colombo CMB – Shanghai PVG | SriLankan Airlines (UL)" />
-  <option value="Colombo CMB – Singapore SIN | SriLankan Airlines (UL)" />
-  <option value="Colombo CMB – Thiruvananthapuram TRV | SriLankan Airlines (UL)" />
-  <option value="Colombo CMB – Tiruchirappalli TRZ | SriLankan Airlines (UL)" />
-  <option value="Chennai MAA – Thiruvananthapuram TRV – Malé MLE | Air India (AI)" />
-  <option value="Bengaluru BLR – Malé MLE | Air India (AI)" />
-  <option value="Delhi DEL – Colombo CMB | Air India (AI)" />
-  <option value="Chennai MAA – Colombo CMB | Air India (AI)" />
-  <option value="Kochi COK – Malé MLE | SpiceJet (SG)" />
-  <option value="Chennai MAA – Colombo CMB | SpiceJet (SG)" />
-  <option value="Madurai IXM – Colombo CMB | SpiceJet (SG)" />
-  <option value="Mumbai BOM – Colombo CMB | Jet Airways (9W)" />
-  <option value="Singapore SIN – Malé MLE | Singapore Airlines (SQ)" />
-  <option value="Singapore SIN – Colombo CMB | Singapore Airlines (SQ)" />
-  <option value="Singapore SIN – Malé MLE | Silk Air (MI)" />
-  <option value="Singapore SIN – Malé MLE | Tiger Airways (TR)" />
-  <option value="Kuala Lumpur KUL – Malé MLE | Air Asia (AK)" />
-  <option value="Kuala Lumpur KUL – Colombo CMB | Air Asia (AK)" />
-  <option value="Kuala Lumpur KUL – Mauritius MRU | Air Asia X (D7)" />
-  <option value="Kuala Lumpur KUL – Colombo CMB | Malaysia Airlines (MH)" />
-  <option value="Kuala Lumpur KUL – Colombo CMB | Malindo Air (OD)" />
-  <option value="Bangkok BKK – Colombo CMB | Thai Airways (TG)" />
-  <option value="Bangkok BKK – Malé MLE | Bangkok Airways (PG)" />
-  <option value="Hong Kong HKG – Malé MLE | Cathay Pacific (CX)" />
-  <option value="Hong Kong HKG – Colombo CMB | Cathay Pacific (CX)" />
-  <option value="Chengdu CTU – Colombo CMB | Air China (CA)" />
-  <option value="Guangzhou CAN – Malé MLE | China Southern Airlines (CZ)" />
-  <option value="Kunming KMG – Colombo CMB – Malé MLE | China Eastern Airlines (MU)" />
-  <option value="Shanghai PVG – Colombo CMB | China Eastern Airlines (MU)" />
-  <option value="Seoul ICN – Colombo CMB – Malé MLE | Korean Air (KE)" />
-  <option value="Perth PER – Christmas Island XCH | Virgin Australia (VA)" />
-  <option value="Perth PER – Cocos (Keeling) Islands CCK | Virgin Australia (VA)" />
-  <option value="Christmas Island XCH – Cocos (Keeling) Islands CCK | Virgin Australia (VA)" />
-</datalist></p>
+  <option value="Moroni HAH – Dzaoudzi DZA | Int'Air Îles (I7)">
+  <option value="Mohéli NWA – Dzaoudzi DZA | Int'Air Îles (I7)">
+  <option value="Anjouan AJN – Dzaoudzi DZA | Int'Air Îles (I7)">
+  <option value="Moroni HAH – Mahajanga MJN | AB Aviation (Y6)">
+  <option value="Moroni HAH – Antananarivo TNR | AB Aviation (Y6)">
+  <option value="Moroni HAH – Dar es Salaam DAR | AB Aviation (Y6)">
+  <option value="Anjouan AJN – Dzaoudzi DZA | AB Aviation (Y6)">
+  <option value="Mohéli NWA – Dzaoudzi DZA | AB Aviation (Y6)">
+  <option value="Dzaoudzi DZA – Moroni HAH | Ewa Air (ZD)">
+  <option value="Dzaoudzi DZA – Anjouan AJN | Ewa Air (ZD)">
+  <option value="Dzaoudzi DZA – Antsiranana DIE | Ewa Air (ZD)">
+  <option value="Dzaoudzi DZA – Mahajanga MJN | Ewa Air (ZD)">
+  <option value="Dzaoudzi DZA – Nosy Be NOS | Ewa Air (ZD)">
+  <option value="Dzaoudzi DZA – Antananarivo TNR | Ewa Air (ZD)">
+  <option value="Saint-Denis RUN – Mauritius MRU | Air Austral (UU)">
+  <option value="Saint-Denis RUN – Dzaoudzi DZA | Air Austral (UU)">
+  <option value="Saint-Denis RUN – Antananarivo TNR | Air Austral (UU)">
+  <option value="Saint-Denis RUN – Nosy Be NOS | Air Austral (UU)">
+  <option value="Saint-Denis RUN – Toamasina TMM | Air Austral (UU)">
+  <option value="Saint-Denis RUN – Mahé SEZ | Air Austral (UU)">
+  <option value="Saint-Denis RUN – Johannesburg JNB | Air Austral (UU)">
+  <option value="Saint-Denis RUN – Moroni HAH | Air Austral (UU)">
+  <option value="Saint-Denis RUN – Paris CDG | Air Austral (UU)">
+  <option value="Saint-Denis RUN – Bangkok BKK | Air Austral (UU)">
+  <option value="Saint-Denis RUN – Chennai MAA | Air Austral (UU)">
+  <option value="Saint-Pierre ZSE – Mauritius MRU | Air Austral (UU)">
+  <option value="Dzaoudzi DZA – Paris CDG | Air Austral (UU)">
+  <option value="Antananarivo TNR – Marseille MRS | Air Madagascar (MD)">
+  <option value="Antananarivo TNR – Paris CDG | Air Madagascar (MD)">
+  <option value="Antananarivo TNR – Moroni HAH | Air Madagascar (MD)">
+  <option value="Antananarivo TNR – Saint-Denis RUN | Air Madagascar (MD)">
+  <option value="Antananarivo TNR – Saint-Denis RUN – Guangzhou CAN | Air Madagascar (MD)">
+  <option value="Antananarivo TNR – Mauritius MRU | Air Madagascar (MD)">
+  <option value="Antananarivo TNR – Mahé SEZ | Air Madagascar (MD)">
+  <option value="Toamasina TMM – Saint-Denis RUN | Air Madagascar (MD)">
+  <option value="Antsiranana DIE – Dzaoudzi DZA | Air Madagascar (MD)">
+  <option value="Mahajanga MJN – Dzaoudzi DZA | Air Madagascar (MD)">
+  <option value="Mahé SEZ – Mauritius MRU | Air Seychelles (HM)">
+  <option value="Mahé SEZ – Antananarivo TNR | Air Seychelles (HM)">
+  <option value="Mahé SEZ – Johannesburg JNB | Air Seychelles (HM)">
+  <option value="Mahé SEZ – Paris CDG | Air Seychelles (HM)">
+  <option value="Mahé SEZ – Abu Dhabi AUH | Air Seychelles (HM)">
+  <option value="Mahé SEZ – Mumbai BOM | Air Seychelles (HM)">
+  <option value="Mahé SEZ – Beijing PEK | Air Seychelles (HM)">
+  <option value="Mauritius MRU – Saint-Denis RUN | Air Mauritius (MK)">
+  <option value="Mauritius MRU – Saint-Pierre ZSE | Air Mauritius (MK)">
+  <option value="Mauritius MRU - Antananarivo TNR | Air Mauritius (MK)">
+  <option value="Mauritius MRU – Cape Town CPT | Air Mauritius (MK)">
+  <option value="Mauritius MRU – Durban DUR | Air Mauritius (MK)">
+  <option value="Mauritius MRU > Maputo MPM > Durban DUR > Mauritius MRU | Air Mauritius (MK)">
+  <option value="Mauritius MRU – Johannesburg JNB | Air Mauritius (MK)">
+  <option value="Mauritius MRU – Nairobi NBO | Air Mauritius (MK)">
+  <option value="Mauritius MRU > Dar es Salaam DAR > Nairobi NBO > Mauritius MRU | Air Mauritius (MK)">
+  <option value="Mauritius MRU – Paris CDG | Air Mauritius (MK)">
+  <option value="Mauritius MRU – London LHR | Air Mauritius (MK)">
+  <option value="Mauritius MRU – Dubai DXB | Air Mauritius (MK)">
+  <option value="Mauritius MRU – Delhi DEL | Air Mauritius (MK)">
+  <option value="Mauritius MRU – Mumbai BOM | Air Mauritius (MK)">
+  <option value="Mauritius MRU > Bengaluru BLR > Chennai MAA > Mauritius MRU | Air Mauritius (MK)">
+  <option value="Mauritius MRU – Chengdu CTU | Air Mauritius (MK)">
+  <option value="Mauritius MRU – Beijing PEK | Air Mauritius (MK)">
+  <option value="Mauritius MRU – Shanghai PVG | Air Mauritius (MK)">
+  <option value="Mauritius MRU – Hong Kong HKG | Air Mauritius (MK)">
+  <option value="Mauritius MRU – Singapore SIN – Kuala Lumpur KUL | Air Mauritius (MK)">
+  <option value="Mauritius MRU – Perth PER | Air Mauritius (MK)">
+  <option value="Dar es Salaam DAR – Moroni HAH | Air Tanzania (TC)">
+  <option value="Nairobi NBO – Moroni HAH | Fly-SAX (B5)">
+  <option value="Nairobi NBO – Moroni HAH | Kenya Airways (KQ)">
+  <option value="Nairobi NBO – Dzaoudzi DZA | Kenya Airways (KQ)">
+  <option value="Nairobi NBO – Antananarivo TNR | Kenya Airways (KQ)">
+  <option value="Nairobi NBO – Mahé SEZ | Kenya Airways (KQ)">
+  <option value="Addis Ababa ADD – Mahé SEZ | Ethiopian Airlines (ET)">
+  <option value="Johannesburg JNB – Antananarivo TNR | Airlink (4Z)">
+  <option value="Johannesburg JNB > Nosy Be NOS > Beira BEW > Johannesburg JNB | Airlink (4Z)">
+  <option value="Johannesburg JNB – Mauritius MRU | South African Airways (SA)">
+  <option value="Paris ORY > Dzaoudzi DZA > Antananarivo TNR > Paris ORY | Corsair (SS)">
+  <option value="Paris ORY – Saint-Denis RUN | Corsair (SS)">
+  <option value="Paris ORY – Saint-Denis RUN | Air France (AF)">
+  <option value="Paris CDG – Mauritius MRU | Air France (AF)">
+  <option value="Paris CDG – Marseille MRS – Saint-Denis RUN | XL Airways (SE)">
+  <option value="Paris CDG – Lyon LYS – Saint-Denis RUN | XL Airways (SE)">
+  <option value="Frankfurt FRA – Mauritius MRU | Condor (DE)">
+  <option value="Frankfurt FRA – Mahé SEZ | Condor (DE)">
+  <option value="Frankfurt FRA – Malé MLE | Condor (DE)">
+  <option value="Vienna VIE – Mauritius MRU (northern winter) | Austrian Airlines (OS)">
+  <option value="Vienna VIE – Malé MLE (northern winter) | Austrian Airlines (OS)">
+  <option value="Vienna VIE – Colombo CMB (northern winter) | Austrian Airlines (OS)">
+  <option value="London LGW – Mauritius MRU | British Airways (BA)">
+  <option value="Johannesburg JNB – Mauritius MRU | British Airways (BA)">
+  <option value="London LGW – Malé MLE (northern winter) | British Airways (BA)">
+  <option value="Amsterdam AMS – Colombo CMB (northern winter) | KLM (KL)">
+  <option value="Zürich ZRH – Mauritius MRU (northern winter) | Edelweiss Air (WK)">
+  <option value="Zürich ZHR – Malé MLE (northern winter) | Edelweiss Air (WK)">
+  <option value="Cologne-Bonn CGN – Mauritius MRU | Eurowings (EW)">
+  <option value="Frankfurt FRA – Mauritius MRU (northern winter) | Lufthansa Cityline (CL)">
+  <option value="Frankfurt FRA – Malé MLE (northern winter) | Lufthansa Cityline (CL)">
+  <option value="Milan MXP – Mauritius MRU | Meridiana (IG)">
+  <option value="Moscow SVO – Malé MLE | Aeroflot (SU)">
+  <option value="Kiev KBP – Colombo CMB | Ukrainian International Airlines (PS)">
+  <option value="Istanbul IST – Mauritius MRU – Antananarivo TNR | Turkish Airlines (TK)">
+  <option value="Istanbul IST – Mahé SEZ | Turkish Airlines (TK)">
+  <option value="Istanbul IST – Malé MLE – Colombo CMB | Turkish Airlines (TK)">
+  <option value="Dubai DXB – Mahé SEZ | Emirates (EK)">
+  <option value="Dubai DXB – Mauritius MRU | Emirates (EK)">
+  <option value="Dubai DXB – Malé MLE | Emirates (EK)">
+  <option value="Dubai DXB – Malé MLE - Colombo CMB | Emirates (EK)">
+  <option value="Dubai DXB – Colombo CMB | Emirates (EK)">
+  <option value="Dubai DXB > Malé MLE > Colombo CMB > Dubai DXB | flydubai (FZ)">
+  <option value="Dubai DXB – Colombo CMB | flydubai (FZ)">
+  <option value="Dubai DXB > Colombo CMB > Mattala HRI > Dubai DXB | flydubai (FZ)">
+  <option value="Abu Dhabi AUH – Mahé SEZ | Etihad (EY)">
+  <option value="Abu Dhabi AUH – Malé MLE | Etihad (EY)">
+  <option value="Abu Dhabi AUH – Colombo CMB | Etihad (EY)">
+  <option value="Abu Dhabi AUH > Colombo CMB > Mattala HRI > Abu Dhabi AUH | Rotana Jet (RG)">
+  <option value="Abu Dhabi AUH > Mattala HRI > Colombo CMB > Abu Dhabi AUH | Rotana Jet (RG)">
+  <option value="Sharjah SHJ – Colombo CMB | Air Arabia (G9)">
+  <option value="Doha DOH – Mahé SEZ | Qatar Airways (QR)">
+  <option value="Doha DOH – Malé SEZ | Qatar Airways (QR)">
+  <option value="Doha DOH – Colombo CMB | Qatar Airways (QR)">
+  <option value="Muscat MCT – Colombo CMB | Oman Air (WY)">
+  <option value="Riyadh RUH – Malé MLE – Colombo CMB | Saudia (SV)">
+  <option value="Jeddah JED – Colombo CMB | Saudia (SV)">
+  <option value="Kuwait KWI – Colombo CMB | Kuwait Airways (KU)">
+  <option value="Malé MLE – Bangkok DMK – Chengdu CTU | Maldivian (Q2)">
+  <option value="Malé MLE – Bangkok DMK – Chongqing CKG | Maldivian (Q2)">
+  <option value="Malé MLE – Bangkok DMK – Xi'an XIY | Maldivian (Q2)">
+  <option value="Malé MLE – Bangkok DMK – Wuhan WUH | Maldivian (Q2)">
+  <option value="Malé MLE – Bangkok DMK – Changsha CSX | Maldivian (Q2)">
+  <option value="Malé MLE – Bangkok DMK – Nanjing NKG | Maldivian (Q2)">
+  <option value="Malé MLE – Thiruvananthapuram TRV | Maldivian (Q2)">
+  <option value="Malé MLE – Chennai MAA – Dhaka DAC | Maldivian (Q2)">
+  <option value="Hanimaadhoo HAQ – Thiruvananthapuram TRV | Maldivian (Q2)">
+  <option value="Malé MLE – Beijing PEK – Tokyo NRT | Mega Maldives Airlines (LV)">
+  <option value="Malé MLE – Shanghai PVG | Mega Maldives Airlines (LV)">
+  <option value="Malé MLE – Kuala Lumpur KUL | Mega Maldives Airlines (LV)">
+  <option value="Malé MLE – Jeddah JED | Mega Maldives Airlines (LV)">
+  <option value="Colombo CMB – Mahé SEZ | Mihin Lanka (MJ)">
+  <option value="Colombo CMB – Malé MLE | Mihin Lanka (MJ)">
+  <option value="Colombo CMB – Bahrain BAH | Mihin Lanka (MJ)">
+  <option value="Colombo CMB – Muscat MCT | Mihin Lanka (MJ)">
+  <option value="Colombo CMB – Chennai MAA | Mihin Lanka (MJ)">
+  <option value="Colombo CMB – Dhaka DAC | Mihin Lanka (MJ)">
+  <option value="Colombo CMB – Kolkata CCU | Mihin Lanka (MJ)">
+  <option value="Colombo CMB – Lahore LHE | Mihin Lanka (MJ)">
+  <option value="Colombo CMB – Madurai IXM | Mihin Lanka (MJ)">
+  <option value="Colombo CMB – Jakarta CGK | Mihin Lanka (MJ)">
+  <option value="Colombo CMB – Malé MLE | SriLankan Airlines (UL)">
+  <option value="Colombo CMB – Abu Dhabi AUH | SriLankan Airlines (UL)">
+  <option value="Colombo CMB – Bengaluru BLR | SriLankan Airlines (UL)">
+  <option value="Colombo CMB – Bangkok BKK | SriLankan Airlines (UL)">
+  <option value="Colombo CMB – Bangkok BKK – Guangzhou CAN | SriLankan Airlines (UL)">
+  <option value="Colombo CMB – Bangkok BKK – Hong Kong HKG | SriLankan Airlines (UL)">
+  <option value="Colombo CMB – Beijing PEK | SriLankan Airlines (UL)">
+  <option value="Colombo CMB – Chennai MAA | SriLankan Airlines (UL)">
+  <option value="Colombo CMB – Dammam DMM | SriLankan Airlines (UL)">
+  <option value="Colombo CMB – Delhi DEL | SriLankan Airlines (UL)">
+  <option value="Colombo CMB – Doha DOH | SriLankan Airlines (UL)">
+  <option value="Colombo CMB – Dubai DXB | SriLankan Airlines (UL)">
+  <option value="Colombo CMB – Guangzhou CAN | SriLankan Airlines (UL)">
+  <option value="Colombo CMB – Jeddah JED | SriLankan Airlines (UL)">
+  <option value="Colombo CMB – Karachi KHI | SriLankan Airlines (UL)">
+  <option value="Colombo CMB – Kochi COK | SriLankan Airlines (UL)">
+  <option value="Colombo CMB – Kuala Lumpur KUL | SriLankan Airlines (UL)">
+  <option value="Colombo CMB – Kunming KMG | SriLankan Airlines (UL)">
+  <option value="Colombo CMB – Kuwait KWI | SriLankan Airlines (UL)">
+  <option value="Colombo CMB – London LHR | SriLankan Airlines (UL)">
+  <option value="Colombo CMB – Mumbai BOM | SriLankan Airlines (UL)">
+  <option value="Colombo CMB – Tokyo NRT | SriLankan Airlines (UL)">
+  <option value="Colombo CMB – Riyadh RUH | SriLankan Airlines (UL)">
+  <option value="Colombo CMB – Shanghai PVG | SriLankan Airlines (UL)">
+  <option value="Colombo CMB – Singapore SIN | SriLankan Airlines (UL)">
+  <option value="Colombo CMB – Thiruvananthapuram TRV | SriLankan Airlines (UL)">
+  <option value="Colombo CMB – Tiruchirappalli TRZ | SriLankan Airlines (UL)">
+  <option value="Chennai MAA – Thiruvananthapuram TRV – Malé MLE | Air India (AI)">
+  <option value="Bengaluru BLR – Malé MLE | Air India (AI)">
+  <option value="Delhi DEL – Colombo CMB | Air India (AI)">
+  <option value="Chennai MAA – Colombo CMB | Air India (AI)">
+  <option value="Kochi COK – Malé MLE | SpiceJet (SG)">
+  <option value="Chennai MAA – Colombo CMB | SpiceJet (SG)">
+  <option value="Madurai IXM – Colombo CMB | SpiceJet (SG)">
+  <option value="Mumbai BOM – Colombo CMB | Jet Airways (9W)">
+  <option value="Singapore SIN – Malé MLE | Singapore Airlines (SQ)">
+  <option value="Singapore SIN – Colombo CMB | Singapore Airlines (SQ)">
+  <option value="Singapore SIN – Malé MLE | Silk Air (MI)">
+  <option value="Singapore SIN – Malé MLE | Tiger Airways (TR)">
+  <option value="Kuala Lumpur KUL – Malé MLE | Air Asia (AK)">
+  <option value="Kuala Lumpur KUL – Colombo CMB | Air Asia (AK)">
+  <option value="Kuala Lumpur KUL – Mauritius MRU | Air Asia X (D7)">
+  <option value="Kuala Lumpur KUL – Colombo CMB | Malaysia Airlines (MH)">
+  <option value="Kuala Lumpur KUL – Colombo CMB | Malindo Air (OD)">
+  <option value="Bangkok BKK – Colombo CMB | Thai Airways (TG)">
+  <option value="Bangkok BKK – Malé MLE | Bangkok Airways (PG)">
+  <option value="Hong Kong HKG – Malé MLE | Cathay Pacific (CX)">
+  <option value="Hong Kong HKG – Colombo CMB | Cathay Pacific (CX)">
+  <option value="Chengdu CTU – Colombo CMB | Air China (CA)">
+  <option value="Guangzhou CAN – Malé MLE | China Southern Airlines (CZ)">
+  <option value="Kunming KMG – Colombo CMB – Malé MLE | China Eastern Airlines (MU)">
+  <option value="Shanghai PVG – Colombo CMB | China Eastern Airlines (MU)">
+  <option value="Seoul ICN – Colombo CMB – Malé MLE | Korean Air (KE)">
+  <option value="Perth PER – Christmas Island XCH | Virgin Australia (VA)">
+  <option value="Perth PER – Cocos (Keeling) Islands CCK | Virgin Australia (VA)">
+  <option value="Christmas Island XCH – Cocos (Keeling) Islands CCK | Virgin Australia (VA)">
+</datalist>
 
 <p><a href="http://www.inter-iles-air.com/" target="_blank">Int'Air Îles (I7)</a>:</p>
 <ul>
@@ -385,9 +385,7 @@
 <li>Toamasina TMM – Saint-Denis RUN</li>
 <li>Antsiranana DIE – Dzaoudzi DZA</li>
 <li>Mahajanga MJN – Dzaoudzi DZA</li>
-<ul style="list-style-type:none">
-<li>(There are also many triangular flights amongst the shorthaul destinations.)</li>
-</ul>
+<li style="list-style-type:none">(There are also many triangular flights amongst the shorthaul destinations.)</li>
 </ul>
 <p><a href="http://www.airseychelles.com/" target="_blank">Air Seychelles (HM)</a>:</p>
 <ul>
@@ -592,9 +590,7 @@
 <li>Malé MLE – Shanghai PVG</li>
 <li>Malé MLE – Kuala Lumpur KUL</li>
 <li>Malé MLE – Jeddah JED</li>
-<ul style="list-style-type:none">
-<li>(There are more.)</li>	
-</ul>
+<li style="list-style-type:none">(There are more.)</li>	
 </ul>
 <p><a href="http://www.mihinlanka.com/" target="_blank">Mihin Lanka (MJ)</a>:</p>
 <ul>
@@ -722,9 +718,7 @@
 <li>Perth PER – Christmas Island XCH</li>
 <li>Perth PER – Cocos (Keeling) Islands CCK</li>
 <li>Christmas Island XCH – Cocos (Keeling) Islands CCK</li>
-<ul style="list-style-type:none">
-<li>(Six flight numbers, operated as two triangular flights departing from Perth PER each week, once in each direction. Passengers travelling between Australia and <a href="http://regional.gov.au/territories/christmas/traveller_info.aspx#anc_ci" target="_blank">Christmas Island</a> or <a href="http://regional.gov.au/territories/Cocos_Keeling/traveller_info.aspx#anc_ci" target="_blank">Cocos (Keeling) Islands</a> pass through immigration and customs in Australia, similar to how Australia treats <a href="new-zealand-flight-maps.html#new-zealand-australia-south-pacific-international-passenger-flight-route-map">Norfolk Island</a>.)</li>	
-</ul>
+<li style="list-style-type:none">(Six flight numbers, operated as two triangular flights departing from Perth PER each week, once in each direction. Passengers travelling between Australia and <a href="http://regional.gov.au/territories/christmas/traveller_info.aspx#anc_ci" target="_blank">Christmas Island</a> or <a href="http://regional.gov.au/territories/Cocos_Keeling/traveller_info.aspx#anc_ci" target="_blank">Cocos (Keeling) Islands</a> pass through immigration and customs in Australia, similar to how Australia treats <a href="new-zealand-flight-maps.html#new-zealand-australia-south-pacific-international-passenger-flight-route-map">Norfolk Island</a>.)</li>	
 </ul>
 
 <h4>
