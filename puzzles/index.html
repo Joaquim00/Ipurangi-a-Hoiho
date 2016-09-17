@@ -53,12 +53,12 @@
 <p>Slant is also known as <em>slalom</em>, or ごきげんななめ <em>gokigen naname</em> in Japanese. The basic principles are very simple:</p>
 <ol>
 <li>There is a rectangular field of contiguous squares ▢, and each square has to be filled in by one diagonal line: ⧄ ("forward slash") or ⧅ ("backward slash").</li>
-<li>There is a number at the corner of some squares; the number indicates – out of the one/two/four squares that share that corner, exactly how many diagonal lines touch that corner. Corners without numbers can be touched by any number of diagonal lines.</li>
+<li>There is a number at the corner of some squares; the number indicates – out of the one/two/four squares that share that corner – exactly how many diagonal lines touch that corner. Corners without numbers can be touched by any number of diagonal lines.</li>
 <li>The diagonal lines cannot form a loop. (The numbers do not block a continuous string of diagonals.)</li>
 </ol>
 <figure><figcaption>An easy slant puzzle</figcaption><img src="images/slant-01.jpg" alt="An easy slant puzzle" style="max-width:200px; max-height:200px"></figure>
 <figure><figcaption>Solution</figcaption><img src="images/slant-02.jpg" alt="Solution" style="max-width:194px; max-height:194px"></figure>
-<p>Slant is originally published by Nicoli. You can also read <a href="http://www.nikoli.co.jp/ja/puzzles/gokigen_naname/" target="_blank">Nicoli's explanations of the rules in Japanese</a>. Their English page refers the audience to the relevant <a href="https://en.wikipedia.org/wiki/Gokigen_Naname" target="_blank">Wikipedia page</a>.</p>
+<p>Slant is originally published by Nicoli. You can also read <a href="http://www.nikoli.co.jp/ja/puzzles/gokigen_naname/" target="_blank">Nicoli's explanations of the rules in Japanese</a>. Their English page refers the audience to the relevant <a href="https://en.wikipedia.org/wiki/Gokigen_Naname" target="_blank">English Wikipedia page</a>.</p>
 <p>There are many places online that you can play slant, for instance, <a href="http://www.chiark.greenend.org.uk/~sgtatham/puzzles/js/slant.html" target="_blank">here</a>, <a href="http://www.janko.at/Raetsel/Gokigen-Naname/" target="_blank">here</a>, <a href="http://www.brainbashers.com/slant.asp" target="_blank">here</a>, [<a href="http://nikolikeipuzzle.blog.fc2.com/blog-category-23.html" target="_blank">here</a> or <a href="http://blog.livedoor.jp/bachelor_seal-puzzle/archives/cat_531460.html" target="_blank">here</a> (press the links which say ぱずぷれで遊ぶ next to each thumbnail to play online)].</p>
 <p>Like other logic puzzles, you start by spotting places with unique solutions, and as you fill in the diagonals, other unique solutions/ clues will appear.</p>
 <h4>
@@ -120,8 +120,8 @@
 <figure><figcaption>When I talk about, e.g., this:</figcaption><img src="images/slant-33.jpg" alt="1–3" style="max-width:125px; max-height:139px"></figure>
 <figure><figcaption>It also applies to, e.g., this:</figcaption><img src="images/slant-34.jpg" alt="1–2–2–2–3" style="max-width:208px; max-height:139px"></figure>
 <p>The relations outlined here concern the four <em>external</em> squares, i.e. the four squares 'facing away', and not the squares in between the two numbers concerned.</p>
-<figure><figcaption>I am talking about these:</figcaption><img src="images/slant-35.jpg" alt="external squares" style="max-width:167px; max-height:139px"></figure>
-<figure><figcaption>Not these:</figcaption><img src="images/slant-36.jpg" alt="internal squares" style="max-width:167px; max-height:139px"></figure>
+<figure><figcaption>I am talking about these squares:</figcaption><img src="images/slant-35.jpg" alt="external squares" style="max-width:167px; max-height:139px"></figure>
+<figure><figcaption>Not these squares:</figcaption><img src="images/slant-36.jpg" alt="internal squares" style="max-width:167px; max-height:139px"></figure>
 <p>when I talk about <em>touching/non-touching diagonals</em>, I em refering to diagonals touching or not touching the number, not diagonals touching or not touching other diagonals. By default I am talking about numbers in the middle of a field, unless I specify that a number is on the edge.</p>
 <h5>1–1</h5>
 <p>The 1's have non-touching external diagonals.</p>
@@ -198,7 +198,7 @@
 <p>Larger loops are harder to spot. Often an easier way is to spot diagonal networks that would be 'trapped' by such loops. All diagonals form paths that eventually reach the edge of the field. If all ends of a diagonal path network are dead-ends in the middle of a field, a loop will form around it, and that has to be avoided. The following is a simplified example. The string of diagonals with the numbers 1–3–1 all lead to a dead-end, except at the 3; the string of diagonals must have an outlet.</p>
 <figure><figcaption>If:</figcaption><img src="images/slant-78.jpg" alt="Diagonal network needs outlet" style="max-width:194px; max-height:194px"></figure>
 <figure><figcaption>Then:</figcaption><img src="images/slant-79.jpg" alt="Outlet found" style="max-width:194px; max-height:194px"></figure>
-<p>Especially useful is to spot a diagonal that might lead to a 1. A diagonal that leads to a 1 is a sure dead-end; if all the other ends of the diagonal network are already deadends, the last diagonal must not lead to the 1. In the following simplified example, the only outlet of the diagonal network is with the 2 on the left; if the remaining diagonal of the 2 leads to either of the 1's, the entire network would be trapped by a loop. Therefore, the remaining diagonal of the 2 leads to bottom-left corner with no number.<p> 
+<p>Especially useful is to spot a diagonal that might lead to a 1 <strong>in the middle of a field</strong> (i.e. not on the edge). A diagonal that leads to a 1 is a sure dead-end; if all the other ends of the diagonal network are already deadends, the last diagonal must not lead to a 1 in the middle of a field. In the following simplified example, the only outlet of the diagonal network is with the 2 on the left; if the remaining diagonal of the 2 leads to either of the 1's, the entire network would be trapped by a loop. Therefore, the remaining diagonal of the 2 leads to bottom-left corner with no number.<p> 
 <figure><figcaption>If:</figcaption><img src="images/slant-80.jpg" alt="Diagonal network needs outlet" style="max-width:194px; max-height:194px"></figure>
 <figure><figcaption>Then:</figcaption><img src="images/slant-81.jpg" alt="Outlet not leading to 1's" style="max-width:194px; max-height:194px"></figure>
 
