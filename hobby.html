@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -18,11 +18,18 @@
         <h1 class="header"><a href="hobby.html#top">Hilário de&nbsp;Sousa</a></h1>
         <p class="header"></p>
         <ul>
-          <li onclick="location.href='maps/index.html';" class="generic-link link-purple"><span class="buttons">Network maps</span></li>
-          <li onclick="location.href='puzzles/index.html';" class="generic-link link-purple"><span class="buttons">Puzzles</span></li>
-          <li onclick="location.href='hobby.html#random-links';" class="generic-link link-purple"><span class="buttons" >Random links</span></li>
-          <li onclick="location.href='nl/index.html';" class="generic-link link-purple"><span class="buttons">How to NL</span></li>
-          <li onclick="location.href='index.html';" class="generic-link link-purple"><span class="buttons">Academic page</span></li>
+          <li class="generic-link link-purple other-page-purple dropdown"><span class="buttons" onclick="location.href='maps/index.html';" >Network maps</span>
+          <span class="dropdown-content">
+    		<ul>
+    		<li class="generic-link link-purple other-page-purple"><span class="buttons" onclick="location.href='maps/new-zealand-flight-maps.html';">New Zealand &#9992;</span></li>
+    		<li class="generic-link link-purple other-page-purple"><span class="buttons" onclick="location.href='maps/inner-oceania-flight-map.html';">Pacific Ocean &#9992;</span></li>
+    		<li class="generic-link link-purple other-page-purple"><span class="buttons" onclick="location.href='maps/indian-ocean-flight-maps.html';">Indian Ocean &#9992;</span></li>
+    		</ul>
+  	  </span></li>
+          <li class="generic-link link-purple other-page-purple"><span class="buttons" onclick="location.href='puzzles/index.html';">Puzzles</span></li>
+          <li class="generic-link link-purple other-page-purple"><span class="buttons" onclick="location.href='hobby.html#random-links';">Random links</span></li>
+          <li class="generic-link link-purple other-page-purple"><span class="buttons" onclick="location.href='nl/index.html';">How to NL</span></li>
+          <li class="generic-link link-purple other-page-purple"><span class="buttons" onclick="location.href='index.html';">Academic page</span></li>
         </ul>
 
         <!--<p class="header">This project is maintained by <a class="header name" href="https://github.com/Joaquim00">Joaquim00</a></p>-->
@@ -64,7 +71,7 @@
       </section>
       
       <footer>
-        <p><small>©Hilário de Sousa 2016. Hosted on <a href="https://pages.github.com" target="_blank">GitHub Pages</a> using a modified version of the Dinky theme.</small></p>
+        <p><small>©Hilário de Sousa 2016. <a href="https://pages.github.com" target="_blank">GitHub Pages</a> (&asymp;Dinky theme).</small></p>
       </footer>
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
