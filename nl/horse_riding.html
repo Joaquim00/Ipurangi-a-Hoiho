@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -18,13 +18,56 @@
         <h1 class="header"><a href="index.html">How to NL</a></h1>
         <p class="header"></p>
         <ul>
-          <li onclick="location.href='nl_mates.html';" class="generic-link link-purple"><span class="buttons">NL &amp; mates</span></li>
-          <li onclick="location.href='sky.html';" class="generic-link link-purple"><span class="buttons">Sky</span></li>
-          <li onclick="location.href='water.html';" class="generic-link link-purple"><span class="buttons" >Water</span></li>
-          <li onclick="location.href='ground.html';" class="generic-link link-purple"><span class="buttons">Ground</span></li>
-          <li onclick="location.href='payment_on_domestic_public_transport.html';" class="generic-link link-purple"><span class="buttons">How to pay</span></li>
-          <li onclick="location.href='public_transport_in_beluxd.html';" class="generic-link link-purple"><span class="buttons">Belg, Lux &amp; D</span></li>
-          <li onclick="location.href='my_other_pages.html';" class="generic-link link-purple"><span class="buttons">My other pages</span></li>
+          <li class="generic-link link-purple other-page-purple"><span class="buttons" onclick="location.href='nl_mates.html';">NL &amp; mates</span></li>
+          <li class="generic-link link-purple other-page-purple"><span class="buttons" onclick="location.href='sky.html';">Sky</span></li>
+	  <li class="generic-link link-purple other-page-purple dropdown"><span class="buttons" onclick="location.href='water.html';">Water</span>
+          <div class="dropdown-content">
+    		<ul>
+    		<li class="generic-link link-purple other-page-purple"><span class="buttons" onclick="location.href='international_ferries.html';">Int'l ferries</span></li>
+    		<li class="generic-link link-purple other-page-purple"><span class="buttons" onclick="location.href='domestic_ferries.html';">Domestic ferries</span></li>
+    		<li class="generic-link link-purple other-page-purple"><span class="buttons" onclick="location.href='sailing.html';">Sailing</span></li>
+    		</ul>
+  	  </div></li>
+  	  <li class="generic-link link-purple this-page-purple dropdown"><span class="buttons" onclick="location.href='ground.html';">Ground</span>
+          <div class="dropdown-content">
+    		<ul>
+    		<li class="generic-link link-purple other-page-purple"><span class="buttons" onclick="location.href='international_rail.html';">Int'l rail</span></li>
+    		<li class="generic-link link-purple other-page-purple"><span class="buttons" onclick="location.href='domestic_rail.html';">Domestic rail</span></li>
+    		<li class="generic-link link-purple other-page-purple"><span class="buttons" onclick="location.href='tourist_railroads.html';">Tourist rail</span></li>
+    		<li class="generic-link link-purple other-page-purple"><span class="buttons" onclick="location.href='long_distance_buses.html';">Long-dist. bus</span></li>
+    		<li class="generic-link link-purple other-page-purple"><span class="buttons" onclick="location.href='buses_trams_and_metros.html';">Bus/tram/metro</span></li>
+    		<li class="generic-link link-purple other-page-purple"><span class="buttons" onclick="location.href='regiotaxis.html';">Regiotaxi</span></li>
+    		<li class="generic-link link-purple other-page-purple"><span class="buttons" onclick="location.href='taxis_and_carpooling.html';">Taxi/carpool</span></li>
+    		<li class="generic-link link-purple other-page-purple"><span class="buttons" onclick="location.href='walking_and_wheelchairing.html';">Walk/wheelchair</span></li>
+    		<li class="generic-link link-purple other-page-purple dropdown"><span class="buttons" onclick="location.href='cycling.html';">Cycling</span>
+    		<div class="dropdown-content">
+    			<ul>
+    				<li class="generic-link link-purple other-page-purple"><span class="buttons" onclick="location.href='F325.html';">F325</span></li>
+    			</ul>
+    		</div></li>
+    		<li class="generic-link link-purple other-page-purple"><span class="buttons" onclick="location.href='moped_riding.html';">Moped-riding</span></li>
+    		<li class="generic-link link-purple other-page-purple"><span class="buttons" onclick="location.href='motorcycling.html';">Motorcycling</span></li>
+    		<li class="generic-link link-purple other-page-purple"><span class="buttons" onclick="location.href='driving.html';">Driving</span></li>
+    		<li class="generic-link link-purple this-page-purple"><span class="buttons" onclick="location.href='horse_riding.html';">Horse-riding</span></li>
+    		</ul>
+  	  </div></li>
+          <li class="generic-link link-purple other-page-purple"><span class="buttons" onclick="location.href='payment_on_domestic_public_transport.html';">How to pay</span></li>
+          <li class="generic-link link-purple other-page-purple dropdown"><span class="buttons" onclick="location.href='public_transport_in_beluxd.html';">Belg, Lux &amp; D</span>
+          <div class="dropdown-content">
+    		<ul>
+    		<li class="generic-link link-purple other-page-purple"><span class="buttons" onclick="location.href='public_transport_in_beluxd.html#belgium';">Belgium</span></li>
+    		<li class="generic-link link-purple other-page-purple"><span class="buttons" onclick="location.href='public_transport_in_beluxd.html#luxembourg';">Luxembourg</span></li>
+    		<li class="generic-link link-purple other-page-purple"><span class="buttons" onclick="location.href='public_transport_in_beluxd.html#nearby-germany';">Nearby Germany</span></li>
+    		<li class="generic-link link-purple other-page-purple"><span class="buttons" onclick="location.href='public_transport_in_beluxd.html#nearby-france';">Nearby France</span></li>
+          	</ul>
+          </div></li>
+          <li class="generic-link link-purple other-page-purple dropdown"><span class="buttons" onclick="location.href='my_other_pages.html';">My other pages</span>
+          <div class="dropdown-content">
+    		<ul>
+    		<li class="generic-link link-purple other-page-purple"><span class="buttons" onclick="location.href='../index.html';">Academic page</span></li>
+    		<li class="generic-link link-purple other-page-purple"><span class="buttons" onclick="location.href='../hobby.html';">Hobby page</span></li>
+          	</ul>
+          </div></li>
         </ul>
 
         <!--<p class="header">This project is maintained by <a class="header name" href="https://github.com/Joaquim00">Joaquim00</a></p>-->
@@ -71,7 +114,7 @@
       </section>
       
       <footer>
-        <p><small>©Hilário de Sousa 2016. Hosted on <a href="https://pages.github.com" target="_blank">GitHub Pages</a> using a modified version of the Dinky theme.</small></p>
+        <p><small>©Hilário de Sousa 2016. <a href="https://pages.github.com" target="_blank">GitHub Pages</a> (&asymp;Dinky theme).</small></p>
       </footer>
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
