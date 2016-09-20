@@ -413,6 +413,7 @@ header ul {
 	padding: 2px 2px 2px 22px;
 	height: 30px;
 	width: 119px;
+	display: inline-block;
 }
 
 .buttons:hover {
