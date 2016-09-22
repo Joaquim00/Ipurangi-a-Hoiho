@@ -134,8 +134,8 @@ ol {
   padding-left: 25px;
 }
 
-section ul ul {
-	list-style: square;
+section ul ol, section ol ol{
+	list-style: lower-latin;
 }
 
 blockquote {
