@@ -134,6 +134,10 @@ ol {
   padding-left: 25px;
 }
 
+section ul ul {
+	list-style: square;
+}
+
 blockquote {
   margin: 0;
   padding: 0 0 0 20px;
