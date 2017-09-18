@@ -250,17 +250,11 @@ table {
  }
 
 th {
-  font-family: 'Arvo', Helvetica, Arial, sans-serif;
-	font-size: 18px;
-	font-weight: normal;
   padding: 10px;
-  background: #232323;
-  color: #FDFEFB;
  }
 
 td {
   padding: 10px;
-	background: #ccc;
  }
 
 
