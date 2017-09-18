@@ -244,19 +244,19 @@ table {
 }
 
 table {
-  border: 1px solid #ccc;
+  border-collapse: collapse;
   margin-bottom: 32px;
   text-align: left;
  }
 
-th {
-  padding: 10px;
- }
+table, th, td {
+  border: 1px solid #ccc;
+}
 
-td {
+th, td {
   padding: 10px;
+  vertical-align: middle;
  }
-
 
 /* Wrapper */
 .wrapper {
