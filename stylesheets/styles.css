@@ -258,6 +258,30 @@ th, td {
   vertical-align: middle;
  }
 
+.top {
+  border-top: thin solid;
+}
+
+.bottom {
+  border-bottom: thin solid;
+}
+
+.left {
+  border-left: thin solid;
+}
+
+.right {
+  border-right: thin solid;
+}
+
+.red {
+  border-color: red;
+}
+
+.blue {
+  border-color: blue;
+}
+
 /* Wrapper */
 .wrapper {
   width:960px;
