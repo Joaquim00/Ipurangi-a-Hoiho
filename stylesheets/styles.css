@@ -209,7 +209,7 @@ img.rechts, figure.rechts {
 	float:right;
 }
 
-p img, p figure {
+p img, div figure {
   display: inline;
   margin: 0;
   padding: 0;
