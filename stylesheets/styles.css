@@ -12,7 +12,7 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
-figure, footer, header, hgroup,
+footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
   margin: 0;
@@ -20,6 +20,10 @@ time, mark, audio, video {
   border: 0;
   font: inherit;
   vertical-align: baseline;
+}
+
+figure {
+	margin-bottom: 10px;
 }
 
 figcaption {
@@ -227,7 +231,6 @@ figure img {
 }
 
 figure figcaption {
-	display: inline-block;
 	text-align: center;
 }
 
