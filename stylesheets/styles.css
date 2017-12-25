@@ -192,7 +192,7 @@ div.pic > span + p {
 
 /* Images Figures*/
 
-img, figure {
+img {
   position: relative;
   margin: 0 auto;
   max-width: 100%;
@@ -209,7 +209,15 @@ img.rechts, figure.rechts {
 	float:right;
 }
 
-p img {
+div figure {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+  border: none;
+}
+
+figure img {
   display: inline;
   margin: 0;
   padding: 0;
@@ -218,14 +226,10 @@ p img {
   border: none;
 }
 
-div figure {
-  display: inline;
-  margin: 0;
-  padding: 0;
-  vertical-align: middle;
-  border: none;
+figure figcaption {
+	display: inline-block;
+	text-align: center;
 }
-
 
 /* Code blocks */
 
