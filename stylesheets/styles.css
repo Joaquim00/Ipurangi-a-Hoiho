@@ -190,9 +190,9 @@ div.pic > span + p {
 	padding-right: 5px;
 }
 
-/* Images */
+/* Images Figures*/
 
-img {
+img, figure {
   position: relative;
   margin: 0 auto;
   max-width: 100%;
@@ -201,15 +201,15 @@ img {
   border: none;
 }
 
-img.links {
+img.links, figure.links {
 	float:left;
 }
 
-img.rechts {
+img.rechts, figure.rechts {
 	float:right;
 }
 
-p img {
+p img, p figure {
   display: inline;
   margin: 0;
   padding: 0;
