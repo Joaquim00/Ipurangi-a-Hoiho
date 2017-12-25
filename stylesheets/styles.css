@@ -218,10 +218,6 @@ p img, div figure {
   border: none;
 }
 
-div figure figcaption {
-	display: inline;
-}
-
 /* Code blocks */
 
 code, pre {
