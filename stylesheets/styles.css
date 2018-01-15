@@ -218,7 +218,6 @@ div figure {
   margin: 0;
   padding: 0;
   vertical-align: middle;
-  border: none;
 }
 
 figure img {
@@ -227,7 +226,6 @@ figure img {
   padding: 0;
   vertical-align: middle;
   text-align: center;
-  border: none;
 }
 
 figure figcaption {
