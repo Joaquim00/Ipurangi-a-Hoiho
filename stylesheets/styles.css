@@ -372,8 +372,8 @@ header h1, header a {
 	color: #fff;
 }
 
-header.sidemenuborderlblue h1 {
-	color: saddlebrown;
+header h1.bordersidemenusbrown {
+	color: saddlebrown
 }
 
 header a:hover {
