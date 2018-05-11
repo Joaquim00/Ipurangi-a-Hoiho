@@ -325,6 +325,20 @@ header.sidemenu {
   color: #FDFDFB;
 }
 
+header.sidemenuborderlblue {
+	border: 20px solid ##00EAFF;
+	-webkit-border-top-right-radius: 30px;
+	-webkit-border-bottom-right-radius: 30px;
+	-moz-border-radius-topright: 30px;
+	-moz-border-radius-bottomright: 30px;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+	padding: 34px 25px 22px 50px;
+	margin: 30px 25px 0 0;
+	-webkit-font-smoothing: antialiased;
+  color: #FDFDFB;
+}
+
 header.purple-sm {
 	background-color: #47097D;
 }
