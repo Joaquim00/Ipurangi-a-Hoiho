@@ -326,7 +326,7 @@ header.sidemenu {
 }
 
 header.sidemenuborderlblue {
-	border: 20px solid ##00EAFF;
+	border: 20px solid #00EAFF;
 	-webkit-border-top-right-radius: 30px;
 	-webkit-border-bottom-right-radius: 30px;
 	-moz-border-radius-topright: 30px;
