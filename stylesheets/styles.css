@@ -331,11 +331,15 @@ header.sidemenuborderlblue {
 	-webkit-border-bottom-right-radius: 30px;
 	-moz-border-radius-topright: 30px;
 	-moz-border-radius-bottomright: 30px;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
 	border-top-right-radius: 30px;
 	border-bottom-right-radius: 30px;
 	padding: 34px 25px 22px 50px;
 	margin: 30px 25px 0 0;
 	-webkit-font-smoothing: antialiased;
+	color: #FDFDFB;
+	background-color: #FBFAF7;
 }
 
 header.purple-sm {
