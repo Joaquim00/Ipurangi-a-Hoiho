@@ -372,6 +372,10 @@ header h1, header a {
 	color: #fff;
 }
 
+header.sidemenuborderlblue h1 {
+	color: saddlebrown;
+}
+
 header a:hover {
 	text-decoration: underline;
 }
