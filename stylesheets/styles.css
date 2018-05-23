@@ -412,6 +412,7 @@ header ul {
   background: -o-linear-gradient(top, #03E9FF 0%,#009EAD 100%);
   background: -ms-linear-gradient(top, #03E9FF 0%,#009EAD 100%);
   background: linear-gradient(top, #03E9FF 0%,#009EAD 100%);
+}
 
 .this-page-lblue {
 	  border:2px inset #BAB200;
