@@ -326,7 +326,7 @@ header.sidemenu {
 }
 
 header.sidemenuborderlblue {
-	border: 20px solid #00EAFF;
+	border: 20px solid #00A3E0;
 	-webkit-border-top-right-radius: 30px;
 	-webkit-border-bottom-right-radius: 30px;
 	-moz-border-radius-topright: 30px;
@@ -426,21 +426,21 @@ header ul {
 	  border:2px solid #BAB200;
 }
 
-.link-dpurple {
-	background: #390566;
-	background: -moz-linear-gradient(top, #46087C 0%, #2A024D 100%);
+.link-lblue {
+	background: #00A3E0;
+	background: -moz-linear-gradient(top, #06BAFF 0%, #00729D 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
-  background: -webkit-linear-gradient(top, #46087C 0%,#2A024D 100%);
-  background: -o-linear-gradient(top, #46087C 0%,#2A024D 100%);
-  background: -ms-linear-gradient(top, #46087C 0%,#2A024D 100%);
-  background: linear-gradient(top, #46087C 0%,#2A024D 100%);
+  background: -webkit-linear-gradient(top, #06BAFF 0%,#00729D 100%);
+  background: -o-linear-gradient(top, #06BAFF 0%,#00729D 100%);
+  background: -ms-linear-gradient(top, #06BAFF 0%,#00729D 100%);
+  background: linear-gradient(top, #06BAFF 0%,#00729D 100%);
 }
 
-.this-page-dpurple {
+.this-page-lblue {
 	  border:2px inset #BAB200;
 }
 
-.other-page-dpurple {
+.other-page-lblue {
 	  border:2px solid #BAB200;
 }
 
