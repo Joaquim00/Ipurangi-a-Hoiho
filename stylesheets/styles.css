@@ -542,6 +542,7 @@ footer {
     display:block;
     width:auto;
     height:auto;
+    position:static;
   }
 
  header.sidemenu {
@@ -562,7 +563,7 @@ footer {
   }
 
   section {
-    padding:20px 84px 20px 50px;
+    padding:20px 20px 20px 50px;
     margin:210px 0px 20px;
   }
 
@@ -581,7 +582,7 @@ footer {
 
 @media print, screen and (max-width: 672px) {
   section {
-    margin:253px 0px 20px;
+    margin:0px 0px 20px;
   }
 
 /*  header {
@@ -606,7 +607,7 @@ footer {
 
 @media print, screen and (max-width: 523px) {
   section {
-    margin:296px 0px 20px;
+    margin:0px 0px 20px;
     padding:20px 42px 20px 25px;
   }
 }
@@ -619,7 +620,6 @@ footer {
 
   header {
     width:170px;
-    position:static;
   }
 
 /*  header ul {
