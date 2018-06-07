@@ -231,10 +231,6 @@ figure figcaption {
 	text-align: center;
 }
 
-figure.midden {
-  margin-left: auto;
-  margin-right: auto;
-}
 /* Code blocks */
 
 code, pre {
