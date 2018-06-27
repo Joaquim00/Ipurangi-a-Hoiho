@@ -237,6 +237,7 @@ figure figcaption {
     padding-top: 35px;
     height: 0;
     overflow: hidden;
+    max-width: 100%;
 }
 
 .video-container iframe {
