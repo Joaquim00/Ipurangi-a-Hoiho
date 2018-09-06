@@ -457,17 +457,18 @@
 <p>(In reality, things with the vowels are more complicated that this; let me read more about it / listen more first.) Stress is contrastive, but not indicated in the script.</p>      
 <h3 id="burmese"><a id="burmese" class="anchor" href="#burmese" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Burmese</h3>
 	      <p><strong>This section is currently being worked on!</strong></p>
-<p>This section is primarily about the most common reditions of rimes in Burmese script, and their pronunciation in modern standard Burmese. (Please contact me if you see errors.) I have ordered them in two different ways that I find useful: in dictionary order, and phonetically. Burmese script in Unicode is used here.</p>
+<p>This section is primarily about the most common reditions of rimes in Burmese script, and their pronunciation in modern standard Burmese. (Please contact me if you see errors; I am still learning.) I am presenting them in two different ways that I find useful: organising them based on dictionary order, and organising them based on their phonology in spoken language. Burmese script in Unicode is used here; Unicode is not commonly used in Myanmar (so, without the appropriate software, Burmese script that you see on social media is more often than not not rendered correctly). On my computer at least, Firefox renders Burmese script more accurantely than Chrome, so you might want to compare the rendition of Burmese script with different browsers.</p> 
+	<p>Burmese script is follwed by <a href="https://en.wikipedia.org/wiki/MLC_Transcription_System" target="_blank">MLC</a> transcription, in italics. The transcription is a transliteration of the written script; like many Brahmic scripts in the region, there is some distance between the written script and the actual modern day pronunciation. You might want to have a look at, e.g., the Wikipedia pages on <a href="https://en.wikipedia.org/wiki/Burmese_language#Phonology" target="_blank">Burmese phonology</a> and <a href="https://en.wikipedia.org/wiki/Burmese_alphabet" target="_blank">Burmese script</a>.</p>
 	      <h4>Rimes in dictionary order</h4>
 	      <p>I read about the collation of Burmese script here:</p>
 <ul>
 	<li><a href="http://my.duniakitab.com/ThanLwinSoft/ThanLwinSoft/MyanmarUnicode/Sorting/MyanmarCollation20080424.pdf" target="_blank">Stribley, Keith. 2008. Collation of Myanmar (Burmese) in Unicode</a></li>
 	      </ul>
-	      <p>Burmese script is a <a href="https://en.wikipedia.org/wiki/Brahmic_scripts" target="_blank">Brahmic script</a>. Within each orthographic syllable, five types of script elements can be distinguished for the purpose of collation. These script elements largely correlate with the components of a phonological syllable. The collation hierarchy of the script elements are as follow:</p>
+	      <p>Burmese script is a <a href="https://en.wikipedia.org/wiki/Brahmic_scripts" target="_blank">Brahmic script</a>. Within each orthographic syllable, five types of script elements can be distinguished for the purpose of collation. These script elements largely correlate with the components of a phonological syllable. The collation hierarchy of the script elements is as follows:</p>
 	      <ul>
 		      <li>Onset
 		      <ul>
-			      <li>Onset diacritic (approximant/voiceless symbols) 
+			      <li>Onset diacritic (approximant(s) in a cluster and/or the voiceless symbol) 
 			      <ul>
 				      <li>Coda
 				      <ul>
@@ -498,47 +499,741 @@
 		      <li>ြွှ <em>h_rw</em></li>
 	      </ul>
 	      <h5>Coda</h5>
-	      <p>Basically any consonant symbol can be used to symbolise a coda by adding the ် <em>a.sat</em> symbol to signify that it has no phonological vowel. For instance, က is <em>ka.</em>, while က် is <em>-k</em>. They have the same order as the onset consonant symbols. Another way to symbolise codas is using stacked consonant symbols: the normal consonant symbol is the coda, and the subscripted consonant symbol is the onset of the following syllable. For instance, in မန္တလေး <em>manta.lei:</em> 'Mandaley' (second city of Burma), the consonant symbols of န <em>n</em> and တ <em>t</em> are stacked. The stacked coda symbol is collated in the same way as a normal coda symbol.</p>
+	      <p>Basically any consonant symbol can be used to symbolise a coda by adding the ် <em>a.sat</em> diacritic to signify that it has no phonological vowel. For instance, က is <em>ka.</em>, while က် is <em>-k</em>. They have the same order as the onset consonant symbols. Another way to symbolise codas is using stacked consonant symbols: the normal consonant symbol is the coda, and the subscripted consonant symbol is the onset of the following syllable. For instance, in မန္တလေး <em>manta.lei:</em> 'Mandaley' (the second city of Burma), the coda န <em>n</em> has the onset တ <em>t</em> of the following syllable underneath it. The stacked coda symbol is collated in the same way as a normal coda symbol.</p>
 	      <h5>Vowel</h5>
-	      <p>Some of these orthographic 'vowel' symbols convey information other than phonological vowels. For their phonological values, see the rime table below. This is the collation order of the orthographic vowel symbols (the transcriptions of the vowel symbols are only valid in cases where they are not followed by a coda symbol):</p>
+	      <p>Some of these orthographic 'vowel' symbols convey information other than phonological vowels. For their phonological values, see the rime table below. The following is the collation order of the orthographic vowel symbols; the vowel symbols are here placed around the zero onset symbol အ, or ဝ <em>w</em> when next to the 'long' <em>a</em> symble ါ. The vowel transcription is that of the vowel when it is not followed by a coda symbol.</p>
 	      <ul>
 		      <li>no vowel symbol</li>
-		      <li>ါ/ာ <em>a</em> The long form ါ follows ခ <em>hk</em>, ဂ<em>g</em>, ဒ<em>d</em>, ပ<em>p</em>, and ဝ <em>w</em>, to avoid them looking like other consonant symbols if they are followed by the short form ာ. This vowel symbol cannot be followed by a coda symbol.</li>
-		      <li>ိ <em>i.</em></li>
-		      <li>ီ <em>i</em> , This vowel symbol cannot be followed by a coda symbol.</li>
-		      <li>ု <em>u.</em></li>
-		      <li>ူ <em>u</em> , This vowel symbol cannot be followed by a coda symbol.</li>
-		      <li>ေ <em>e</em> , Followed by a coda symbol only in loan words.</li>
-		      <li>ဲ <em>ai:</em></li>
-		      <li>ေါ/ော <em>au:</em> , The same rules for the long form ါ applies.</li>
-		      <li>ေါ်/ော် <em>au</em> , The above plus ် <em>a.sat</em>, to indicate that it is in low tone.</li>
-		      <li>ံ, If there is no vowel symbol, ံ <em>am</em> is placed here. If there is a vowel symbol ိ <em>i</em> or ု <em>u</em>, it is collated together with ိမ် <em>im</em> or ှမ် <em>um</em> respectively.</li>
-		      <li>ို <em>ui</em></li>
+		      <li>ဝါ / အာ <em>a</em> (The long form ါ follows ခ <em>hk</em>, ဂ <em>g</em>, ဒ <em>d</em>, ပ <em>p</em>, and ဝ <em>w</em>, to avoid them looking like other consonant symbols if they are followed by the short form ာ. This vowel symbol cannot be followed by a coda symbol)</li>
+		      <li>အိ <em>i.</em></li>
+		      <li>အိ <em>i</em> (This vowel symbol cannot be followed by a coda symbol)</li>
+		      <li>အု <em>u.</em></li>
+		      <li>အူ <em>u</em> (This vowel symbol cannot be followed by a coda symbol)</li>
+		      <li>အေ <em>e</em> (Followed by a coda symbol only in loan words)</li>
+		      <li>အဲ <em>ai:</em></li>
+		      <li>ဝေါ / အော <em>au:</em> (The same rules for the long form ါ applies)</li>
+		      <li>ဝေါ် / အော် <em>au</em> (The above plus ် <em>a.sat</em>, to indicate that it is in low tone)</li>
+		      <li>အံ (If there is no vowel symbol, ံ <em>am</em> is placed here. If there is a vowel symbol ိ <em>i</em> or ု <em>u</em>, ိံ and ုံ are collated together with ိမ် <em>im</em> or ှမ် <em>um</em> respectively)</li>
+		      <li>အို <em>ui</em></li>
 	      </ul>	      
-	     
-	      
-	      
-	      
+	      <h5>Tone</h5>
+	      <p>The collation order is as follows:</p>
+	      <ul>
+		      <li>No tone mark
+			      <ul>
+				      <li>no coda symbol: low tone (low tone is 'no dot' in transctiption), except အ <em>a.</em> အိ <em>i.</em> အု <em>u.</em> in creaky tone (these are short vowel symbols in corresponding Indic scripts), အဲ <em>ai:</em> and အို <em>au:</em> in high tone. Cases like အ with: a) no vowel symbol; b) no coda; c) no consonantal diacritic (onset is not a cluster); and d) not the final syllable in a word, are often reduced, with the vowel reduced to schwa, and tonal contrast is lost (<a href="https://en.wikipedia.org/wiki/Minor_syllable" target="_blank">minor syllable</a>).</li>
+				      <li>nasal coda symbol: low tone</li>
+				      <li>obstruent coda symbol: no tonal contrast</li>      
+			      </ul></li>
+		      <li> ့ creaky tone (creaky tone is 'one dot' . in transcription) </li>
+		      <li> း high tone (high tone is 'two dots'/colon : in transctiption)</li>
+		      <li> ့း marks genitive in some situations</li>
+	      </ul>
+	      <h5>Rime table in dictionary order</h5>
+	      <p>The following table presents the usual rimes in Burmese script. Read from top to bottom, and then left to right column by column. The zero/ʔ onset symbol အ is used. Burmese script is followed by transcription to the right, and then phonological form underneath. See also the notes following the table.</p>	         
 	      <table>
 		      <tr style="font-weight:bold">
-			      <td>П п</td>
-			      <td>Т т</td>
-			      <td>Тә тә</td>
+			      <td>အ <em>a.</em></td>
+			      <td>အက် <em>ak</em></td>
+			      <td></td>
+			      <td>အစ် <em>ac</em></td>
 			      <td></td>
 			      <td></td>
+			      <td>အတ် <em>at</em></td>
 			      <td></td>
-			      <td></td>
-			      <td></td>
-			      <td>К к</td>
-			      <td>Кь кь</td>
-			      <td>Кә кә</td>
-			      <td>Ҟ ҟ</td>
-			      <td>Ҟь ҟь</td>
-			      <td>Ҟә ҟә</td>
+			      <td>အပ် <em>ap</em></td>
 			      <td></td>
 			      <td></td>
 		       </tr>
-	      </table>	      
+		      <tr>
+			      <td>[ʔa̰] / [ʔə]</td>
+			      <td>[ʔɛʔ]</td>
+			      <td></td>
+			      <td>[ʔɪʔ]</td>
+			      <td></td>
+			      <td></td>
+			      <td>[ʔaʔ]</td>
+			      <td></td>
+			      <td>[ʔaʔ]</td>
+			      <td></td>
+			      <td></td>
+		       </tr>
+		      <tr style="font-weight:bold">
+			      <td>အာ <em>a</em></td>
+			      <td></td>
+			      <td>အင် <em>ang</em></td>
+			      <td></td>
+			      <td>အဉ် <em>any</em></td>
+			      <td>အည် <em>any</em></td>
+			      <td></td>
+			      <td>အန် <em>an</em></td>
+			      <td></td>
+			      <td>အမ် / *အံ <em>am</em></td>
+			      <td>အယ် <em>ai</em></td>
+		       </tr>
+		      <tr>
+			      <td>[ʔà]</td>
+			      <td></td>
+			      <td>[ʔɪ̀N]</td>
+			      <td></td>
+			      <td>[ʔɪ̀N]</td>
+			      <td>[ʔɛ̀] / [ʔì] / [ʔè]</td>
+			      <td></td>
+			      <td>[ʔàN]</td>
+			      <td></td>
+			      <td>[ʔàN]</td>
+			      <td>[ʔɛ̀]</td>
+		       </tr>
+		      <tr style="font-weight:bold">
+			      <td></td>
+			      <td></td>
+			      <td>အင့် <em>ang.</em></td>
+			      <td></td>
+			      <td>အဉ့် <em>any.</em></td>
+			      <td>အည့် <em>any.</em></td>
+			      <td></td>
+			      <td>အန့် <em>an.</em></td>
+			      <td></td>
+			      <td>အမ့် / *အံ့ <em>am.</em></td>
+			      <td></td>
+		       </tr>
+		      <tr>
+			      <td></td>
+			      <td></td>
+			      <td>[ʔɪ̰N]</td>
+			      <td></td>
+			      <td>[ʔɪ̰N]</td>
+			      <td>[ʔɛ̰] / [ʔḭ] / [ʔḛ]</td>
+			      <td></td>
+			      <td>[ʔa̰N]</td>
+			      <td></td>
+			      <td>[ʔa̰N]</td>
+			      <td></td>
+		       </tr>
+		      <tr style="font-weight:bold">
+			      <td>အား <em>a:</em></td>
+			      <td></td>
+			      <td>အင်း <em>ang:</em></td>
+			      <td></td>
+			      <td>အဉ်း <em>any:</em></td>
+			      <td>အည်း <em>any:</em></td>
+			      <td></td>
+			      <td>အန်း <em>an:</em></td>
+			      <td></td>
+			      <td>အမ်း / *အံး <em>am:</em></td>
+			      <td></td>
+		       </tr>
+		      <tr>
+			      <td>[ʔá]</td>
+			      <td></td>
+			      <td>[ʔɪ́N]</td>
+			      <td></td>
+			      <td>[ʔɪ́N]</td>
+			      <td>[ʔɛ́] / [ʔí] / [ʔé]</td>
+			      <td></td>
+			      <td>[ʔàN]</td>
+			      <td></td>
+			      <td>[ʔàN]</td>
+			      <td></td>
+		       </tr>
+		      <tr>
+			      <td colspan="11"></td>
+		      </tr>
+		      <tr style="font-weight:bold">
+			      <td>အိ / ဣ <em>i.</em></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td>အိတ် <em>it</em></td>
+			      <td></td>
+			      <td>အိပ် <em>ip</em></td>
+			      <td></td>
+			      <td></td>
+		       </tr>
+		      <tr>
+			      <td>[ʔḭ]</td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td>[ʔeɪʔ]</td>
+			      <td></td>
+			      <td>[ʔeɪʔ]</td>
+			      <td></td>
+			      <td></td>
+		       </tr>		      
+		      <tr style="font-weight:bold">
+			      <td>အီ / ဤ <em>i</em></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td>အိန် <em>in</em></td>
+			      <td></td>
+			      <td>အိမ် / အိံ <em>im</em></td>
+			      <td></td>
+		       </tr>
+		      <tr>
+			      <td>[ʔì]</td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td>[ʔèɪN]</td>
+			      <td></td>
+			      <td>[ʔèɪN]</td>
+			      <td></td>
+		       </tr>
+	      		<tr style="font-weight:bold">
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td>အိန့် <em>in.</em></td>
+			      <td></td>
+			      <td>အိမ့် / အိံ့ <em>im.</em></td>
+			      <td></td>
+		       </tr>
+		      <tr>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td>[ʔḛɪN]</td>
+			      <td></td>
+			      <td>[ʔḛɪN]</td>
+			      <td></td>
+		       </tr>	
+	      		<tr style="font-weight:bold">
+			      <td>အီး <em>i:</em></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+				<td>အိန်း <em>in:</em></td>
+			      <td></td>
+				<td>အိမ်း / အိံး <em>im:</em></td>
+			      <td></td>
+		       </tr>
+		      <tr>
+			      <td>[ʔí]</td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td>[ʔéɪN]</td>
+			      <td></td>
+			      <td>[ʔéɪN]</td>
+			      <td></td>
+		       </tr>	
+		      <tr>
+			      <td colspan="11"></td>
+		      </tr>
+		      <tr style="font-weight:bold">
+			      <td>အု / ဥ <em>u.</em></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td>အုတ် <em>ut</em></td>
+			      <td></td>
+			      <td>အုပ် <em>up</em></td>
+			      <td></td>
+			      <td></td>
+		       </tr>
+		      <tr>
+			      <td>[ʔṵ]</td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td>[ʔoʊʔ]</td>
+			      <td></td>
+			      <td>[ʔoʊʔ]</td>
+			      <td></td>
+			      <td></td>
+		       </tr>		      
+		      <tr style="font-weight:bold">
+			      <td>အူ / ဦ <em>u</em></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td>အုန် <em>un</em></td>
+			      <td></td>
+			      <td>အုမ် / အုံ <em>um</em></td>
+			      <td></td>
+		       </tr>
+		      <tr>
+			      <td>[ʔù]</td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td>[ʔòʊN]</td>
+			      <td></td>
+			      <td>[ʔòʊN]</td>
+			      <td></td>
+		       </tr>
+	      		<tr style="font-weight:bold">
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+				<td>အုန့် <em>un.</em></td>
+			      <td></td>
+				<td>အုမ့် / အုံ့ <em>um.</em></td>
+			      <td></td>
+		       </tr>
+		      <tr>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td>[ʔo̰ʊN]</td>
+			      <td></td>
+			      <td>[ʔo̰ʊN]</td>
+			      <td></td>
+		       </tr>	
+	      		<tr style="font-weight:bold">
+				<td>အူး / ဦး <em>u:</em></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+				<td>အုန်း <em>un:</em></td>
+			      <td></td>
+				<td>အုမ်း / အုံး <em>um:</em></td>
+			      <td></td>
+		       </tr>
+		      <tr>
+			      <td>[ʔú]</td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td>[ʔóʊN]</td>
+			      <td></td>
+			      <td>[ʔóʊN]</td>
+			      <td></td>
+		       </tr>	
+		      <tr>
+			      <td colspan="11"></td>
+		      </tr>
+	      		<tr style="font-weight:bold">
+				<td>အေ / ဧ <em>e</em></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+				<td></td>
+			      <td></td>
+				<td></td>
+			      <td></td>
+		       </tr>
+		      <tr>
+			      <td>[ʔè]</td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+		       </tr>	
+	      		<tr style="font-weight:bold">
+				<td>အေ့ <em>e.</em></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+				<td></td>
+			      <td></td>
+				<td></td>
+			      <td></td>
+		       </tr>
+		      <tr>
+			      <td>[ʔḛ]</td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+		       </tr>	
+	      		<tr style="font-weight:bold">
+				<td>အေး / ဧး <em>e:</em></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+				<td></td>
+			      <td></td>
+				<td></td>
+			      <td></td>
+		       </tr>
+		      <tr>
+			      <td>[ʔé]</td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+		       </tr>	
+		      <tr>
+			      <td colspan="11"></td>
+		      </tr>
+	      		<tr style="font-weight:bold">
+				<td>အဲ <em>ai:</em></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+				<td></td>
+			      <td></td>
+				<td></td>
+			      <td></td>
+		       </tr>
+		      <tr>
+			      <td>[ʔɛ́]</td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+		       </tr>	
+	      		<tr style="font-weight:bold">
+				<td>အဲ့ <em>ai.</em></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+				<td></td>
+			      <td></td>
+				<td></td>
+			      <td></td>
+		       </tr>
+		      <tr>
+			      <td>[ʔɛ̰]</td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+		       </tr>	
+		      <tr>
+			      <td colspan="11"></td>
+		      </tr>
+	      		<tr style="font-weight:bold">
+				<td>အော / ဩ <em>au:</em></td>
+				<td>အောက် <em>auk</em></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+				<td></td>
+			      <td></td>
+				<td></td>
+			      <td></td>
+		       </tr>
+		      <tr>
+			      <td>[ʔɔ́]</td>
+			      <td>[ʔaʊʔ]</td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+		       </tr>	
+	      		<tr style="font-weight:bold">
+				<td></td>
+				<td></td>
+				<td>အောင် <em>aung</em></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+				<td></td>
+			      <td></td>
+				<td></td>
+			      <td></td>
+		       </tr>
+		      <tr>
+			      <td></td>
+			      <td></td>
+			      <td>[ʔàʊN]</td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+		       </tr>	
+	      		<tr style="font-weight:bold">
+				<td>အော့ <em>au.</em></td>
+				<td></td>
+				<td>အောင့် <em>aung.</em></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+				<td></td>
+			      <td></td>
+				<td></td>
+			      <td></td>
+		       </tr>
+		      <tr>
+			      <td>[ʔɔ̰]</td>
+			      <td></td>
+			      <td>[ʔa̰ʊN]</td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+		       </tr>	
+	      		<tr style="font-weight:bold">
+				<td></td>
+				<td></td>
+				<td>အောင်း <em>aung:</em></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+				<td></td>
+			      <td></td>
+				<td></td>
+			      <td></td>
+		       </tr>
+		      <tr>
+			      <td></td>
+			      <td></td>
+			      <td>[ʔáʊN]</td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+		       </tr>	
+	      		<tr style="font-weight:bold">
+				<td>အော် / ဪ <em>au</em></td>
+				<td></td>
+				<td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+				<td></td>
+			      <td></td>
+				<td></td>
+			      <td></td>
+		       </tr>
+		      <tr>
+			      <td>[ʔɔ̀]</td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+		       </tr>	
+		      <tr>
+			      <td colspan="11"></td>
+		      </tr>
+	      		<tr style="font-weight:bold">
+				<td>*</td>
+		      </tr>
+		      <tr>
+			      <td colspan="11"></td>
+		      </tr>
+	      		<tr style="font-weight:bold">
+				<td></td>
+				<td>အိုက် <em>uik</em></td>
+				<td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+				<td></td>
+			      <td></td>
+				<td></td>
+			      <td></td>
+		       </tr>
+		      <tr>
+			      <td></td>
+			      <td>[ʔaɪʔ]</td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+		       </tr>	
+	      		<tr style="font-weight:bold">
+				<td>အို <em>ui</em></td>
+				<td></td>
+				<td>အိုင် <em>uing</em></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+				<td></td>
+			      <td></td>
+				<td></td>
+			      <td></td>
+		       </tr>
+		      <tr>
+			      <td>[ʔò]</td>
+			      <td></td>
+			      <td>[ʔàɪN]</td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+		       </tr>	
+	      		<tr style="font-weight:bold">
+				<td>အို့ <em>ui.</em></td>
+				<td></td>
+				<td>အိုင့် <em>uing.</em></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+				<td></td>
+			      <td></td>
+				<td></td>
+			      <td></td>
+		       </tr>
+		      <tr>
+			      <td>[ʔo̰]</td>
+			      <td></td>
+			      <td>[ʔa̰ɪN]</td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+		       </tr>			      
+	      		<tr style="font-weight:bold">
+				<td>အိုး <em>ui:</em></td>
+				<td></td>
+				<td>အိုင်း <em>uing:</em></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+				<td></td>
+			      <td></td>
+				<td></td>
+			      <td></td>
+		       </tr>
+		      <tr>
+			      <td>[ʔó]</td>
+			      <td></td>
+			      <td>[ʔáɪN]</td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+		       </tr>		
+	      </table>
+	      <p>Notes:</p>	      
 	      <h3 id="georgian"><a id="georgian" class="anchor" href="#georgian" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Georgian</h3>
 	      <p>I read through this:</p>
 	      <ul>
