@@ -36,6 +36,7 @@
 	<p>Jump to:</p>
 	<ul>
 		<li><a href="#abkhaz">Abkhaz</a></li>
+		<li><a href="#burmese">Burmese</a></li>
 		<li><a href="#georgian">Georgian</a></li>
 	</ul>
 </div>	      
@@ -454,7 +455,91 @@
 		      <li>&lt;О о&gt; [o] is the realisation of the sequences /aw/, /wa/, and /awa/; or /a/ in /Cʷa/</li> 
 	      </ul>
 <p>(In reality, things with the vowels are more complicated that this; let me read more about it / listen more first.) Stress is contrastive, but not indicated in the script.</p>      
-<h3 id="georgian"><a id="georgian" class="anchor" href="#georgian" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Georgian</h3>
+<h3 id="burmese"><a id="burmese" class="anchor" href="#burmese" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Burmese</h3>
+	      <p><strong>This section is currently being worked on!</strong></p>
+<p>This section is primarily about the most common reditions of rimes in Burmese script, and their pronunciation in modern standard Burmese. (Please contact me if you see errors.) I have ordered them in two different ways that I find useful: in dictionary order, and phonetically. Burmese script in Unicode is used here.</p>
+	      <h4>Rimes in dictionary order</h4>
+	      <p>I read about the collation of Burmese script here:</p>
+<ul>
+	<li><a href="http://my.duniakitab.com/ThanLwinSoft/ThanLwinSoft/MyanmarUnicode/Sorting/MyanmarCollation20080424.pdf" target="_blank">Stribley, Keith. 2008. Collation of Myanmar (Burmese) in Unicode</a></li>
+	      </ul>
+	      <p>Burmese script is a <a href="https://en.wikipedia.org/wiki/Brahmic_scripts" target="_blank">Brahmic script</a>. Within each orthographic syllable, five types of script elements can be distinguished for the purpose of collation. These script elements largely correlate with the components of a phonological syllable. The collation hierarchy of the script elements are as follow:</p>
+	      <ul>
+		      <li>Onset
+		      <ul>
+			      <li>Onset diacritic (approximant/voiceless symbols) 
+			      <ul>
+				      <li>Coda
+				      <ul>
+					      <li>Vowel
+					      <ul>
+						      <li>Tone</li>
+						      </ul></li>
+					      </ul></li>
+				      </ul></li>
+			      </ul></li>
+	      </ul>
+	      <h5>Onset</h5>
+	      <p>Basicaly follows the Brahmic script order. See the table <a href="https://en.wikipedia.org/wiki/Burmese_alphabet#Letters" target="_blank">here</a>. In the table, read from left to right, and then top to bottom row by row. For the two varients of <em>ny</em>, ဉ precedes ည. Ignore the 'independent vowels' symbols for now.</p>
+	      <h5>Onset diacritic</h5>
+	      <p>The order is:</p>
+	      <ul>
+		      <li>no diacritic</li>
+		      <li>ျ <em>_y</em></li>
+		      <li>ြ <em>_r</em></li>
+		      <li>ွ <em>_w</em></li>
+		      <li>ှ <em>h_</em></li>
+		      <li>ျွ <em>_yw</em></li>
+		      <li>ြွ <em>_rw</em></li>
+		      <li>ျှ <em>h_y</em></li>
+		      <li>ြှ <em>h_r</em></li>
+		      <li>ွှ <em>h_w</em></li>
+		      <li>ျွှ <em>h_yw</em></li>
+		      <li>ြွှ <em>h_rw</em></li>
+	      </ul>
+	      <h5>Coda</h5>
+	      <p>Basically any consonant symbol can be used to symbolise a coda by adding the ် <em>a.sat</em> symbol to signify that it has no phonological vowel. For instance, က is <em>ka.</em>, while က် is <em>-k</em>. They have the same order as the onset consonant symbols. Another way to symbolise codas is using stacked consonant symbols: the normal consonant symbol is the coda, and the subscripted consonant symbol is the onset of the following syllable. For instance, in မန္တလေး <em>manta.lei:</em> 'Mandaley' (second city of Burma), the consonant symbols of န <em>n</em> and တ <em>t</em> are stacked. The stacked coda symbol is collated in the same way as a normal coda symbol.</p>
+	      <h5>Vowel</h5>
+	      <p>Some of these orthographic 'vowel' symbols convey information other than phonological vowels. For their phonological values, see the rime table below. This is the collation order of the orthographic vowel symbols (the transcriptions of the vowel symbols are only valid in cases where they are not followed by a coda symbol):</p>
+	      <ul>
+		      <li>no vowel symbol</li>
+		      <li>ါ/ာ <em>a</em> The long form ါ follows ခ <em>hk</em>, ဂ<em>g</em>, ဒ<em>d</em>, ပ<em>p</em>, and ဝ <em>w</em>, to avoid them looking like other consonant symbols if they are followed by the short form ာ. This vowel symbol cannot be followed by a coda symbol.</li>
+		      <li>ိ <em>i.</em></li>
+		      <li>ီ <em>i</em> , This vowel symbol cannot be followed by a coda symbol.</li>
+		      <li>ု <em>u.</em></li>
+		      <li>ူ <em>u</em> , This vowel symbol cannot be followed by a coda symbol.</li>
+		      <li>ေ <em>e</em> , Followed by a coda symbol only in loan words.</li>
+		      <li>ဲ <em>ai:</em></li>
+		      <li>ေါ/ော <em>au:</em> , The same rules for the long form ါ applies.</li>
+		      <li>ေါ်/ော် <em>au</em> , The above plus ် <em>a.sat</em>, to indicate that it is in low tone.</li>
+		      <li>ံ, If there is no vowel symbol, ံ <em>am</em> is placed here. If there is a vowel symbol ိ <em>i</em> or ု <em>u</em>, it is collated together with ိမ် <em>im</em> or ှမ် <em>um</em> respectively.</li>
+		      <li>ို <em>ui</em></li>
+	      </ul>	      
+	     
+	      
+	      
+	      
+	      <table>
+		      <tr style="font-weight:bold">
+			      <td>П п</td>
+			      <td>Т т</td>
+			      <td>Тә тә</td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td></td>
+			      <td>К к</td>
+			      <td>Кь кь</td>
+			      <td>Кә кә</td>
+			      <td>Ҟ ҟ</td>
+			      <td>Ҟь ҟь</td>
+			      <td>Ҟә ҟә</td>
+			      <td></td>
+			      <td></td>
+		       </tr>
+	      </table>	      
+	      <h3 id="georgian"><a id="georgian" class="anchor" href="#georgian" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Georgian</h3>
 	      <p>I read through this:</p>
 	      <ul>
 		      <li>Harris, Alice C. 1981. Georgian syntax: a study in relational grammar. Cambridge: Cambridge University Press.</li>
