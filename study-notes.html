@@ -457,14 +457,14 @@
 <p>(In reality, things with the vowels are more complicated that this; let me read more about it / listen more first.) Stress is contrastive, but not indicated in the script.</p>      
 <h3 id="burmese"><a id="burmese" class="anchor" href="#burmese" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Burmese</h3>
 	      <p><strong>This section is currently being worked on!</strong></p>
-<p>This section is primarily about the most common reditions of rimes in Burmese script, and their pronunciation in modern standard Burmese. (Please contact me if you see errors; I am still learning.) I am presenting them in two different ways that I find useful: organising them based on dictionary order, and organising them based on their phonology in spoken language. Burmese script in Unicode is used here; Unicode is not commonly used in Myanmar (so, without the appropriate software, Burmese script that you see on social media is more often than not not rendered correctly). On my computer at least, Firefox renders Burmese script more accurantely than Chrome, so you might want to compare the rendition of Burmese script with different browsers.</p> 
-	<p>Burmese script is follwed by <a href="https://en.wikipedia.org/wiki/MLC_Transcription_System" target="_blank">MLC</a> transcription, in italics. The transcription is a transliteration of the written script; like many Brahmic scripts in the region, there is some distance between the written script and the actual modern day pronunciation. You might want to have a look at, e.g., the Wikipedia pages on <a href="https://en.wikipedia.org/wiki/Burmese_language#Phonology" target="_blank">Burmese phonology</a> and <a href="https://en.wikipedia.org/wiki/Burmese_alphabet" target="_blank">Burmese script</a>.</p>
+<p>This section is primarily about the most common reditions of rimes in Burmese script, and their pronunciation in modern standard Burmese. (Please contact me if you see errors; I am still learning.) I am presenting them in two different ways that I find useful: based on dictionary order, and based on their phonology in spoken language. Unicode Burmese font is used here; the most commonly used font in Myanmar, Zawgyi, is encoded differently to Unicode. (On my computer at least,) Firefox renders Burmese script more accurantely than Chrome, so you might want to compare the rendition of Burmese script in different browsers.</p> 
+	<p>Burmese script is follwed by <a href="https://en.wikipedia.org/wiki/MLC_Transcription_System" target="_blank">MLC</a> transcription, in italics. The MLC transcription is a transliteration of the written script; like many Brahmic scripts in Southeast Asia, there is considerable distance between the written script and the modern day pronunciation. You might want to have a look at, e.g., the Wikipedia pages on <a href="https://en.wikipedia.org/wiki/Burmese_language#Phonology" target="_blank">Burmese phonology</a> and <a href="https://en.wikipedia.org/wiki/Burmese_alphabet" target="_blank">Burmese script</a>.</p>
 	      <h4>Rimes in dictionary order</h4>
 	      <p>I read about the collation of Burmese script here:</p>
 <ul>
 	<li><a href="http://my.duniakitab.com/ThanLwinSoft/ThanLwinSoft/MyanmarUnicode/Sorting/MyanmarCollation20080424.pdf" target="_blank">Stribley, Keith. 2008. Collation of Myanmar (Burmese) in Unicode</a></li>
 	      </ul>
-	      <p>Burmese script is a <a href="https://en.wikipedia.org/wiki/Brahmic_scripts" target="_blank">Brahmic script</a>. Within each orthographic syllable, five types of script elements can be distinguished for the purpose of collation. These script elements largely correlate with the components of a phonological syllable. The collation hierarchy of the script elements is as follows:</p>
+	      <p>Burmese script is a <a href="https://en.wikipedia.org/wiki/Brahmic_scripts" target="_blank">Brahmic script</a>. Within each orthographic syllable, five types of script elements can be distinguished for the purpose of collation. These script elements largely correlate with the components in a phonological syllable. The collation hierarchy of the script elements is as follows:</p>
 	      <ul>
 		      <li>Onset
 		      <ul>
@@ -480,6 +480,7 @@
 				      </ul></li>
 			      </ul></li>
 	      </ul>
+	      <p>For instance, in ကြောင့် <em>kraung.</em> 'because of', က <em>k</em> is the onset, ြ <em>-r-</em> is the onset diacritic, င် <em>-ng</em> is the coda, ော <em>au</em> is the vowel, and ့ <em>.</em> is the tone.</p>
 	      <h5>Onset</h5>
 	      <p>Basicaly follows the Brahmic script order. See the table <a href="https://en.wikipedia.org/wiki/Burmese_alphabet#Letters" target="_blank">here</a>. In the table, read from left to right, and then top to bottom row by row. For the two varients of <em>ny</em>, ဉ precedes ည. Ignore the 'independent vowels' symbols for now.</p>
 	      <h5>Onset diacritic</h5>
@@ -499,21 +500,21 @@
 		      <li>ြွှ <em>h_rw</em></li>
 	      </ul>
 	      <h5>Coda</h5>
-	      <p>Basically any consonant symbol can be used to symbolise a coda by adding the ် <em>a.sat</em> diacritic to signify that it has no phonological vowel. For instance, က is <em>ka.</em>, while က် is <em>-k</em>. They have the same order as the onset consonant symbols. Another way to symbolise codas is using stacked consonant symbols: the normal consonant symbol is the coda, and the subscripted consonant symbol is the onset of the following syllable. For instance, in မန္တလေး <em>manta.lei:</em> 'Mandaley' (the second city of Burma), the coda န <em>n</em> has the onset တ <em>t</em> of the following syllable underneath it. The stacked coda symbol is collated in the same way as a normal coda symbol.</p>
+	      <p>Basically any consonant symbol can be used to symbolise a coda by adding the ် <em>a.sat</em> diacritic to signify that it has no phonological vowel. For instance, က is <em>ka.</em>, while က် is <em>-k</em>. They have the same order as the onset consonant symbols. Another way to symbolise a coda is using stacked consonant symbols: the normal consonant symbol is the coda, and the consonant symbol placed underneath is the onset of the following syllable. For instance, in မန္တလေး <em>manta.lei:</em> 'Mandaley' (the second city of Burma), န္တ <em>n</em> and <em>t</em> are stacked together; န <em>n</em> is the coda, and the တ <em>t</em> underneath it is the onset of the following syllable (phonologically it is becomes voiced). The stacked consonants are collated in the same way as a normal consonant symbols.</p>
 	      <h5>Vowel</h5>
-	      <p>Some of these orthographic 'vowel' symbols convey information other than phonological vowels. For their phonological values, see the rime table below. The following is the collation order of the orthographic vowel symbols; the vowel symbols are here placed around the zero onset symbol အ, or ဝ <em>w</em> when next to the 'long' <em>a</em> symble ါ. The vowel transcription is that of the vowel when it is not followed by a coda symbol.</p>
+	      <p>Some of the orthographic vowel symbols convey information more than just the phonological vowel. For their phonological values, see the rime table below. The following is the collation order of the orthographic vowel symbols; the vowel symbols are here placed around the zero onset symbol အ, or ဝ <em>w</em> when next to the 'long' <em>a</em> symble ါ. The vowel transcription is that of the orthographic vowel when it is not followed by a coda symbol.</p>
 	      <ul>
 		      <li>no vowel symbol</li>
-		      <li>ဝါ / အာ <em>a</em> (The long form ါ follows ခ <em>hk</em>, ဂ <em>g</em>, ဒ <em>d</em>, ပ <em>p</em>, and ဝ <em>w</em>, to avoid them looking like other consonant symbols if they are followed by the short form ာ. This vowel symbol cannot be followed by a coda symbol)</li>
+		      <li>ဝါ / အာ <em>a</em> (The long form ါ follows ခ <em>hk</em>, ဂ <em>g</em>, ဒ <em>d</em>, ပ <em>p</em>, and ဝ <em>w</em>, to avoid them looking like other consonant symbols if they are followed by the short form ာ. ဝါ / အာ cannot be followed by a coda symbol)</li>
 		      <li>အိ <em>i.</em></li>
 		      <li>အိ <em>i</em> (This vowel symbol cannot be followed by a coda symbol)</li>
 		      <li>အု <em>u.</em></li>
 		      <li>အူ <em>u</em> (This vowel symbol cannot be followed by a coda symbol)</li>
-		      <li>အေ <em>e</em> (Followed by a coda symbol only in loan words)</li>
+		      <li>အေ <em>e</em> (Followed by a coda symbol only in loanwords)</li>
 		      <li>အဲ <em>ai:</em></li>
 		      <li>ဝေါ / အော <em>au:</em> (The same rules for the long form ါ applies)</li>
 		      <li>ဝေါ် / အော် <em>au</em> (The above plus ် <em>a.sat</em>, to indicate that it is in low tone)</li>
-		      <li>အံ (If there is no vowel symbol, ံ <em>am</em> is placed here. If there is a vowel symbol ိ <em>i</em> or ု <em>u</em>, ိံ and ုံ are collated together with ိမ် <em>im</em> or ှမ် <em>um</em> respectively)</li>
+		      <li>အံ (If there is no vowel symbol, ံ <em>am</em> is placed here. If there is a vowel symbol ိ <em>i</em> or ု <em>u</em>, then ိံ <em>im</em> or ုံ <em>um</em> are collated together with ိမ် <em>im</em> or ှမ် <em>um</em>, respectively)</li>
 		      <li>အို <em>ui</em></li>
 	      </ul>	      
 	      <h5>Tone</h5>
@@ -525,7 +526,7 @@
 		      <li> ့း marks genitive in some situations</li>
 	      </ul>
 	      <h5>Rime table in dictionary order</h5>
-	      <p>The following table presents the usual rimes in Burmese script. Each few rows form a section; in each section the rimes of one or a pair of vowel symbols are displayed. In the first one or two rows are rimes without tone symbols, the following row are rimes in . tone, and the following row are rimes in : tone. Each column are rimes with different coda symbols, starting with the first column with no coda symbol. For dictionary collation order, you need to read from top to bottom, and then left to right column by column, because the coda symbol has higher priority than the vowel symbol. The zero/ʔ onset symbol အ is used for the onset. Burmese script is followed by transcription to the right, and then phonological form underneath. See also the notes following the table. (An online spreadsheet of this is also available <a href="https://docs.google.com/spreadsheets/d/1H-ewfXmeAjMz1TMFBpCd07s3etN9hlEQEbh5kVMMmc4/edit?usp=sharing" target="_blank">here</a>.)</p>	         
+	      <p>The following table presents the commonly encountered rimes in Burmese script. In each section the rimes of one or a pair of related vowel symbols are displayed. In the first one or two rows are rimes without tone symbols, the following row are rimes in . tone, and the following row are rimes in : tone. (အော် (ဪ) <em>au</em> is put in its own row.) Each column are rimes with different coda symbols, starting with the first column with no coda symbol. For dictionary collation order, you need to read from top to bottom, and then left to right column by column, because the coda symbol has higher priority than the vowel symbol. The zero/ʔ onset symbol အ is used for the onset. Burmese script is followed by transcription in the same cell, and then phonological form in the cell below. See also the notes following the table. (An online spreadsheet of this is also available <a href="https://docs.google.com/spreadsheets/d/1H-ewfXmeAjMz1TMFBpCd07s3etN9hlEQEbh5kVMMmc4/edit?usp=sharing" target="_blank">here</a>.)</p>	         
 	      <table>
 		      <tr style="font-weight:bold">
 			      <td>အ <em>a.</em></td>
@@ -541,7 +542,7 @@
 			      <td></td>
 		       </tr>
 		      <tr>
-			      <td>[ʔa̰] / [ʔə]</td>
+			      <td>[ʔa̰]</td>
 			      <td>[ʔɛʔ]</td>
 			      <td></td>
 			      <td>[ʔɪʔ]</td>
@@ -635,7 +636,7 @@
 			      <td colspan="11"></td>
 		      </tr>
 		      <tr style="font-weight:bold">
-			      <td>အိ / ဣ <em>i.</em></td>
+			      <td>အိ (ဣ) <em>i.</em></td>
 			      <td></td>
 			      <td></td>
 			      <td></td>
@@ -661,7 +662,7 @@
 			      <td></td>
 		       </tr>		      
 		      <tr style="font-weight:bold">
-			      <td>အီ / ဤ <em>i</em></td>
+			      <td>အီ (ဤ) <em>i</em></td>
 			      <td></td>
 			      <td></td>
 			      <td></td>
@@ -742,7 +743,7 @@
 			      <td colspan="11"></td>
 		      </tr>
 		      <tr style="font-weight:bold">
-			      <td>အု / ဥ <em>u.</em></td>
+			      <td>အု (ဥ) <em>u.</em></td>
 			      <td></td>
 			      <td></td>
 			      <td></td>
@@ -768,7 +769,7 @@
 			      <td></td>
 		       </tr>		      
 		      <tr style="font-weight:bold">
-			      <td>အူ / ဦ <em>u</em></td>
+			      <td>အူ (ဦ) <em>u</em></td>
 			      <td></td>
 			      <td></td>
 			      <td></td>
@@ -820,7 +821,7 @@
 			      <td></td>
 		       </tr>	
 	      		<tr style="font-weight:bold">
-				<td>အူး / ဦး <em>u:</em></td>
+				<td>အူး (ဦး) <em>u:</em></td>
 			      <td></td>
 			      <td></td>
 			      <td></td>
@@ -849,7 +850,7 @@
 			      <td colspan="11"></td>
 		      </tr>
 	      		<tr style="font-weight:bold">
-				<td>အေ / ဧ <em>e</em></td>
+				<td>အေ (ဧ) <em>e</em></td>
 			      <td></td>
 			      <td></td>
 			      <td></td>
@@ -901,7 +902,7 @@
 			      <td></td>
 		       </tr>	
 	      		<tr style="font-weight:bold">
-				<td>အေး / ဧး <em>e:</em></td>
+				<td>အေး (ဧး) <em>e:</em></td>
 			      <td></td>
 			      <td></td>
 			      <td></td>
@@ -985,7 +986,7 @@
 			      <td colspan="11"></td>
 		      </tr>
 	      		<tr style="font-weight:bold">
-				<td>အော / ဩ <em>au:</em></td>
+				<td>အော (ဩ) <em>au:</em></td>
 				<td>အောက် <em>auk</em></td>
 			      <td></td>
 			      <td></td>
@@ -1089,7 +1090,7 @@
 			      <td></td>
 		       </tr>	
 	      		<tr style="font-weight:bold">
-				<td>အော် / ဪ <em>au</em></td>
+				<td>အော် (ဪ) <em>au</em></td>
 				<td></td>
 				<td></td>
 			      <td></td>
@@ -1240,8 +1241,8 @@
 	      </table>
 <p>Some notes:</p>
 	      <ul>
-		      <li>With a single onset consonant symbol, like အ <em>a.</em>, it can have the vowel /a./, or it can be a reduced syllable and have a toneless vowel /ǝ/ (<a href="https://en.wikipedia.org/wiki/Minor_syllable" target="_blank">minor syllable</a>)</li>
-		      <li>Zero (or glottal stop) onset is indicated by အ. However, with loanwords, there is also a small set of separate symbols for zero onset plus certain rimes. (However, unlike most Indic scripts, the independent vowel symbols do not cover the entire range of vowels/rimes.) They are collated together with the regular forms with အ plus a vowel diacritic. The following are the independent vowel/rime symbols, preceded by the normal rendition formed with အ plus a vowel diacritic:
+		      <li>Syllables can be reduced (<a href="https://en.wikipedia.org/wiki/Minor_syllable" target="_blank">minor syllable</a>), if it is a non-final syllble in a word, or certain grammatical suffixes (enclitic?). When a syllable is reduced, the phonological tone and coda are stripped away, some (?) secondary articulatory feature of the onset is stripped away, and the vowel is reduced to a schwa [ǝ]. For instance, 'one' is တစ် <em>tac</em> [tɪʔ], 'two' is နှစ် <em>hnac</em> [n̥ɪʔ]. But when forming 'ten' and 'twenty', တစ် [tɪʔ] and နှစ် [n̥ɪʔ] are reduced to [tǝ] and [n̥ǝ] respectively: တစ်ဆယ် <em>tac hsai</em> [təsʰɛ̀] 'ten', နှစ်ဆယ် <em>hnac hsai</em> [n̥əsʰɛ̀] 'twenty'.</li>
+		      <li>Zero (or glottal stop) onset is indicated by အ. However, with loanwords, there is also a small set of separate symbols for zero onset plus certain vowel+tone. (However, unlike most Indic scripts, these 'independent vowel symbols' do not cover the entire range of vowels.) They are collated together with the regular forms with အ plus vowel. The following are the independent vowel symbols, preceded by the normal rendition formed with အ plus vowel:
 		      <ul>
 			      <li>အိ / ဣ <em>i.</em></li>
 			      <li>အီ / ဤ <em>i</em></li>
@@ -1253,7 +1254,7 @@
 			      <li>အော / ဩ <em>au:</em></li>
 			      <li>အော် / ဪ <em>au</em></li>
 		</ul></li>
-		      <li>*: When ံ is not accompanied by a vowel symbol, it signifies <em>am</em>, and is usually placed between အော် / ဪ <em>au</em> and အို <em>ui</em>. If there is a vowel symbol ိ i or ု u, ိံ and ုံ are collated together with ိမ် <em>im</em> or ှမ် <em>um</em> respectively</li>
+		      <li>*: When ံ is not accompanied by a vowel symbol, it signifies <em>am</em>, and is usually placed between အော် / ဪ <em>au</em> and အို <em>ui</em>. If there is a vowel symbol ိ <em>i</em> or ု <em>u</em>, ိံ <em>im</em> and ုံ <em>um</em> are then collated together with ိမ် <em>im</em> or ှမ် <em>um</em> respectively</li>
 		      <li>In the phonology of modern standard Burmese, there are only two codas left: all obstruent codas are merged into a glottal stop /-ʔ/, and the nasal codas are merged into a placeless /-N/. With /-N/, the vowel is nasalised, and it may be followed by a nasal consonant at the same place of articulation as the following consonant</li>
 		      <li>Apparently with loanwords, လ <em>l</em> ရ <em>r~j</em> ဝ <em>w</em> သ <em>s</em> can function as orthographical codas, but they are silent, and the vowel in front of it functions as if it is in an open syllable (?) (<a href="https://en.wikipedia.org/wiki/Burmese_language#Finals_in_loans" target="_blank">this</a> says so). In earlier times, အို <em>ui</em> was spelt အိုဝ်.</li>
 		      <li>With the coda symbol ည် <em>-ny</em>, the nasal is lost. The vowel is usually [ɛ] in colloquial register, and [i] in literary register. In a few cases the vowel is [e]</li>
@@ -1261,7 +1262,7 @@
 			   <ul>
 		      		      <li>No tone mark
 			      <ul>
-				      <li>no coda symbol: low tone (low tone is 'no dot' in transctiption), except အ <em>a.</em> အိ <em>i.</em> အု <em>u.</em> in creaky tone (these are short vowel symbols in corresponding Indic scripts), အဲ <em>ai:</em> [ɛ] and အို <em>au:</em> [ɔ] in high tone. Also notice that a single onset symbol with no vowel symbol like အ <em>a.</em> can either have a full syllable vowel [a̰] or a minor syllable vowel [ə] (toneless).</li>
+				      <li>no coda symbol: low tone (low tone is 'no dot' in transctiption), except အ <em>a.</em> အိ <em>i.</em> အု <em>u.</em> in creaky tone (these are short vowel symbols in corresponding Indic scripts), and အဲ <em>ai:</em> [ɛ] အို <em>au:</em> [ɔ] in high tone.</li>
 				      <li>nasal coda symbol: low tone</li>
 				      <li>obstruent coda symbol: no tonal contrast</li>      
 			      </ul></li>
@@ -1278,9 +1279,9 @@
 			      <td></td>
 		       </tr>
 		      <tr>
-			      <td>[waʔ]/[ʔʊʔ]</td>
+			      <td>[waʔ] / [ʔʊʔ]</td>
 			      <td></td>
-			      <td>[waʔ]/[ʔʊʔ]</td>
+			      <td>[waʔ] / [ʔʊʔ]</td>
 			      <td></td>
 		       </tr>	
 		      	<tr style="font-weight:bold">
@@ -1291,9 +1292,9 @@
 		       </tr>
 		      <tr>
 			      <td></td>
-			      <td>[wàN]/[ʔʊ̀N]</td>
+			      <td>[wàN] / [ʔʊ̀N]</td>
 			      <td></td>
-			      <td>[wàN]/[ʔʊ̀N]</td>
+			      <td>[wàN] / [ʔʊ̀N]</td>
 		       </tr>
 		      	<tr style="font-weight:bold">
 				<td></td>
@@ -1303,9 +1304,9 @@
 		       </tr>
 		      <tr>
 			      <td></td>
-			      <td>[wa̰N]/[ʔʊ̰N]</td>
+			      <td>[wa̰N] / [ʔʊ̰N]</td>
 			      <td></td>
-			      <td>[wa̰N]/[ʔʊ̰N]</td>
+			      <td>[wa̰N] / [ʔʊ̰N]</td>
 		       </tr>
 	      	<tr style="font-weight:bold">
 				<td></td>
@@ -1315,14 +1316,130 @@
 		       </tr>
 		      <tr>
 			      <td></td>
-			      <td>[wáN]/[ʔʊ́N]</td>
+			      <td>[wáN] / [ʔʊ́N]</td>
 			      <td></td>
-			      <td>[wáN]/[ʔʊ́N]</td>
+			      <td>[wáN] / [ʔʊ́N]</td>
 		       </tr>			
 </table>
-	      <p>In Upper Burma/Mandaley, the pronunciation is [waʔ]/[waN], while in Lower Burma/Yangoon, the pronunciation is [ʊʔ]/[ʊN], and apparently this has merged into [ɪʔ]/[ɪN] for people middle aged and younger.</p>
+	      <p>In Upper Burma/Mandaley, the pronunciation is [waʔ] / [waN], while in Lower Burma/Yangon, the pronunciation is [ʊʔ] / [ʊN], and apparently this has merged into [ɪʔ] / [ɪN] for some people middle aged and younger.</p>
 	      <h5>Rime table organised phonologically</h5>
-	      <p><strong>Currently working on this!</strong></p>	      
+<p>The following are the rimes orgnised phonologically. The onset symbol used is the symbol for zero/glottal stop onset အ, or ဝ <em>w</em> with the long form ါ <em>a</em> is required. Also read the section above for further explanations (e.g. how syllables can be reduced).</p>
+<table>
+	<tr>
+		<th></th>
+		<th></th>
+		<th>creaky tone .</th>
+		<th>low tone</th>
+		<th>high tone :</th>
+	</tr>
+	<tr>
+		<th>[a]</th>	
+		<td></td>
+		<td>အ <em>a.</em></td>
+		<td>အာ / ဝါ <em>a</em></td>
+		<td>အား / ဝါး <em>a:</em></td>
+	</tr>
+	<tr>
+		<th>[i]</th>	
+		<td></td>
+		<td>အိ (ဣ) <em>i.</em> / အည့် <em>any.</em></td>
+		<td>အီ (ဤ) <em>i</em> / အည် <em>any</em></td>
+		<td>အီး <em>i:</em> / အည်း <em>any:</em></td>
+	</tr>
+	<tr>
+		<th>[u]</th>
+		<td></td>
+		<td>အု (ဥ) <em>u.</em></td>
+		<td>အူ (ဦ) <em>u</em></td>
+		<td>အူး (ဦး) <em>u:</em></td>
+	</tr>
+	<tr>
+		<th>[e]</th>
+		<td></td>
+		<td>အေ့ <em>e.</em> (/ အည့် <em>any.</em>)</td>
+		<td>အေ (ဧ) <em>e</em> (/ အည် <em>any</em>)</td>
+		<td>အေး (ဧး) <em>e:</em> (/ အည်း <em>any:</em>)</td>
+	</tr>
+	<tr>
+		<th>[ɛ]</th>
+		<td></td>
+		<td>အဲ့ <em>ai.</em> / အည့် <em>any.</em></td>
+		<td>အယ် <em>ai</em> / အည် <em>any</em></td>
+		<td>အဲ <em>ai:</em> / အည်း <em>any:</em></td>
+	</tr>
+	<tr>
+		<th>[o]</th>
+		<td></td>
+		<td>အို့<em>ui.</em></td>
+		<td>အို <em>ui</em></td>
+		<td>အိုး <em>ui:</em></td>
+	</tr>
+	<tr>
+		<th>[ɔ]</th>
+		<td></td>
+		<td>အော့ / ဝေါ့ <em>au.</em></td>
+		<td>အော် / ဝေါ် (ဪ) <em>au</em></td>
+		<td>အော / ဝေါ (ဩ) <em>au:</em></td>
+	</tr>
+	<tr>
+		<td colspan="5"></td>
+	</tr>
+	<tr>
+		<th>[aʔ]/[aN]</th>
+		<td>အတ် <em>at</em> / အပ် <em>ap</em></td>
+		<td>အန့် <em>an.</em> / အမ့် <em>am.</em> / အံ့ <em>am.</em></td>
+		<td>အန် <em>an</em> / အမ် <em>am</em> / အံ <em>am</em></td>
+		<td>အန်း <em>an:</em> / အမ်း <em>am:</em> / အံး <em>am:</em></td>
+	</tr>
+	<tr>
+		<th>[ɪʔ]/[ɪN]</th>
+		<td>အစ် <em>ac</em></td>
+		<td>အင့် <em>ang.</em> / အဉ့် <em>any.</em></td>
+		<td>အင် <em>ang</em> / အဉ် <em>any</em></td>
+		<td>အင်း <em>ang:</em> / အဉ်း <em>any:</em></td>
+	</tr>
+	<tr>
+		<th>[ʊʔ]/[ʊN]</th>
+		<td>အွတ် <em>wat</em> / အွပ် <em>wap</em></td>
+		<td>အွန့် <em>wan.</em> / အွမ့် <em>wam.</em></td>
+		<td>အွန် <em>wan</em> / အွမ် <em>wam</em></td>
+		<td>အွန်း <em>wan:</em> / အွမ်း <em>wam:</em></td>
+	</tr>
+	<tr>
+		<th>[ɛʔ]</th>
+		<td>အက် <em>ak</em></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<th>[aɪʔ]/[aɪN]</th>
+		<td>အိုက် <em>uik</em></td>
+		<td>အိုင့် <em>uing.</em></td>
+		<td>အိုင် <em>uing</em></td>
+		<td>အိုင်း <em>uing:</em></td>
+	</tr>
+	<tr>
+		<th>[aʊʔ]/[aʊN]</th>
+		<td>အောက် <em>auk</em></td>
+		<td>အောင့် <em>aung.</em></td>
+		<td>အောင် <em>aung</em></td>
+		<td>အောင်း <em>aung:</em></td>
+	</tr>
+	<tr>
+		<th>[eɪʔ]/[eɪN]</th>
+		<td>အိတ် <em>it</em> / အိပ် <em>ip</em></td>
+		<td>အိန့် <em>in.</em> / အိမ့် <em>im</em> / အိံ့ <em>im</em></td>
+		<td>အိန် <em>in</em> / အိမ် <em>im</em>/ အိံ <em>im</em></td>
+		<td>အိန်း <em>in:</em> / အိမ်း <em>im:</em> / အိံး <em>im:</em></td>
+	</tr>
+	<tr>
+		<th>[oʊʔ]/[oʊN]</th>
+		<td>အုတ် <em>ut</em> / အုပ် <em>up</em></td>
+		<td>အုန့် <em>un.</em> / အုမ့် <em>um.</em> / အုံ့ <em>um.</em></td>
+		<td>အုန် <em>un</em> / အုမ် <em>um</em> / အုံ <em>um</em></td>
+		<td>အုန်း <em>un:</em> / အုမ်း <em>um:</em> / အုံး <em>um:</em></td>
+</table>
 	      <h3 id="georgian"><a id="georgian" class="anchor" href="#georgian" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Georgian</h3>
 	      <p>I read through this:</p>
 	      <ul>
