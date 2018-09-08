@@ -576,7 +576,7 @@ footer {
 
   section, footer {
   	position:static;
-  	flote:none;
+  	float:none;
   }
 
   section {
@@ -637,6 +637,7 @@ footer {
 
   header {
     width:170px;
+    float:none;
   }
 
 /*  header ul {
