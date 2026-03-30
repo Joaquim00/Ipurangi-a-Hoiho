@@ -9,7 +9,6 @@
   \setbeamertemplate{caption}[numbered]
 } 
 
-\usepackage[english]{babel}
 \usepackage[autostyle=true]{csquotes}
 \usepackage{xeCJK}
 \usepackage[T1]{fontenc}
@@ -196,7 +195,6 @@ Most commonly used nowadays amongst linguists:\\
             \item zero onset is represented by zero, e.g. 屋 \emph{uk1} \enquote*{house}
             \item \emph{b- p-}, \emph{d- t-} etc. are voiceless (unaspirated vs. aspirated)
             \item some speakers have merged \emph{n-} into \emph{l-}, e.g. 你 \emph{nei5} / \emph{lei5} \enquote*{you (sg)} (vs. 李 \emph{lei5} surname)
-            \item \emph{\textbf{j-}} is /j-/ (unusual for Cantonese Romanisations)
         \end{itemize}
     \end{column}
 \end{columns}
@@ -318,6 +316,8 @@ Most commonly used nowadays amongst linguists:\\
         \begin{itemize}
             \item \emph{h-} is glottal [h] (not velar [x] like Mandarin)
             \item some people merge \emph{gwo kwo} into \emph{go ko} e.g. 國 \emph{gwok3} > \emph{gok3} (= 各 \emph{gok3})
+            \item /j-/ is \emph{\textbf{j-}} (unusual for Cantonese Romanisations)
+            \item /j-/ is usually rounded in front of /y/, e.g. 完 \enquote*{end} \textbf{jyun4} /jyn˩/ [ɥyn˩]\~{}[jyn˩]
         \end{itemize}
     \end{column}
 \end{columns}
@@ -376,28 +376,72 @@ Most commonly used nowadays amongst linguists:\\
 \begin{tabular}{c|c c c c c c c c c}
     \hline
      & -0 & /-p/ & /-m/ & /-t/ & /-n/ & /-k/ & /-ŋ/ & /-j/ & /-w/\\ \hline
-    /i/ & \textbf{i} & \textbf{ip} & \textbf{im} & \textbf{it} & \textbf{in} & \textbf{ik} & \textbf{ing} & &\textbf{iu}\\
-     & [i] & [ip] & [im] & [it] & [in] & [ek] & [eŋ] & & [iu]\\ \hline
-    /u/ & \textbf{u} & & & \textbf{ut} & \textbf{un} & \textbf{uk} & \textbf{ung} & \textbf{ui} & \\
-     & [u] & & & [ut] & [un] & [ok] & [oŋ] & [ui] & \\ \hline
-    /y/ & \textbf{yu} & & & \textbf{yut} & \textbf{yun} & & & & \\
-     & [y] & & & [yt] & [yn] & & & & \\ \hline
-    /ɛ/ & \textbf{e} & \textbf{ep} & \textbf{em} & \textbf{(et)} & \textbf{(en)} & \textbf{ek} & \textbf{eng} & \textbf{ei} & \textbf{eu} \\
-     & [ɛ] & [ɛp] & [ɛm] & ([ɛt]) & ([ɛn]) & [ɛk] & [ɛŋ] & [ei] & [ɛu] \\ \hline
-    /ɔ/ & \textbf{o} & & & \textbf{ot} & \textbf{on} & \textbf{ok} & \textbf{ong} & \textbf{oi} & \textbf{ou} \\
-     & [ɔ] & & & [ɔt] & [ɔn] & [ɔk] & [ɔŋ] & [ɔi] & [ou] \\ \hline
-    /œ/ & \textbf{oe} & & & \textbf{(oet)} & & \textbf{oek} & \textbf{oeng} & & \\
-     & [œ] & & & ([œt]) & & [œk] & [œŋ] & & \\
-     & & & & \textbf{eot} & \textbf{eon} & & & \textbf{eoi} & \\
-     & & & & [ɵt] & [ɵn] & & & [ɵy] & \\ \hline
-    /ɐ/ & \textbf{(a)} & \textbf{ap} & \textbf{am} & \textbf{at} & \textbf{an} & \textbf{ak} & \textbf{ang} & \textbf{ai} & \textbf{au} \\
-     & ([ɐ]) & [ɐp] & [ɐm] & [ɐt] & [ɐn] & [ɐk] & [ɐŋ] & [ɐi] & [ɐu] \\ \hline
-    /a/ & \textbf{aa} & \textbf{aap} & \textbf{aam} & \textbf{aat} & \textbf{aan} & \textbf{aak} & \textbf{aang} & \textbf{aai} & \textbf{aau} \\
-     & [a] & [ap] & [am] & [at] & [an] & [ak] & [aŋ] & [ai] & [au] \\ \hline
+    /i/ & \textcolor{blue}{\textbf{i}} & \textcolor{blue}{\textbf{ip}} & \textcolor{blue}{\textbf{im}} & \textcolor{blue}{\textbf{it}} & \textcolor{blue}{\textbf{in}} & \textcolor{red}{\textbf{ik}} & \textcolor{red}{\textbf{ing}} & & \textcolor{blue}{\textbf{iu}}\\
+     & \textcolor{blue}{[i]} & \textcolor{blue}{[ip]} & \textcolor{blue}{[im]} & \textcolor{blue}{[it]} & \textcolor{blue}{[in]} & \textcolor{red}{[ek]} & \textcolor{red}{[eŋ]} & & \textcolor{blue}{[iu]}\\ \hline
+    /u/ & \textcolor{blue}{\textbf{u}} & & & \textcolor{blue}{\textbf{ut}} & \textcolor{blue}{\textbf{un}} & \textcolor{red}{\textbf{uk}} & \textcolor{red}{\textbf{ung}} & \textcolor{blue}{\textbf{ui}} & \\
+     & \textcolor{blue}{[u]} & & & \textcolor{blue}{[ut]} & \textcolor{blue}{[un]} & \textcolor{red}{[ok]} & \textcolor{red}{[oŋ]} & \textcolor{blue}{[ui]} & \\ \hline
+    /y/ & \textcolor{blue}{\textbf{yu}} & & & \textcolor{blue}{\textbf{yut}} & \textcolor{blue}{\textbf{yun}} & & & & \\
+     & \textcolor{blue}{[y]} & & & \textcolor{blue}{[yt]} & \textcolor{blue}{[yn]} & & & & \\ \hline
+    /ɛ/ & \textcolor{blue}{\textbf{e}} & \textcolor{blue}{\textbf{ep}} & \textcolor{blue}{\textbf{em}} & \textcolor{blue}{\textbf{(et)}} & \textcolor{blue}{\textbf{(en)}} & \textcolor{blue}{\textbf{ek}} & \textcolor{blue}{\textbf{eng}} & \textcolor{red}{\textbf{ei}} & \textcolor{blue}{\textbf{eu}} \\
+     & \textcolor{blue}{[ɛ]} & \textcolor{blue}{[ɛp]} & \textcolor{blue}{[ɛm]} & \textcolor{blue}{([ɛt])} & \textcolor{blue}{([ɛn])} & \textcolor{blue}{[ɛk]} & \textcolor{blue}{[ɛŋ]} & \textcolor{red}{[ei]} & \textcolor{blue}{[ɛu]} \\ \hline
+    /ɔ/ & \textcolor{blue}{\textbf{o}} & & & \textcolor{blue}{\textbf{ot}} & \textcolor{blue}{\textbf{on}} & \textcolor{blue}{\textbf{ok}} & \textcolor{blue}{\textbf{ong}} & \textcolor{blue}{\textbf{oi}} & \textcolor{red}{\textbf{ou}} \\
+     & \textcolor{blue}{[ɔ]} & & & \textcolor{blue}{[ɔt]} & \textcolor{blue}{[ɔn]} & \textcolor{blue}{[ɔk]} & \textcolor{blue}{[ɔŋ]} & \textcolor{blue}{[ɔi]} & \textcolor{red}{[ou]} \\ \hline
+    /œ/ & \textcolor{blue}{\textbf{oe}} & & & \textcolor{blue}{\textbf{(oet)}} & & \textcolor{blue}{\textbf{oek}} & \textcolor{blue}{\textbf{oeng}} & & \\
+     & \textcolor{blue}{[œ]} & & & \textcolor{blue}{([œt])} & & \textcolor{blue}{[œk]} & \textcolor{blue}{[œŋ]} & & \\
+     & & & & \textcolor{red}{\textbf{eot}} & \textcolor{red}{\textbf{eon}} & & & \textcolor{red}{\textbf{eoi}} & \\
+     & & & & \textcolor{red}{[ɵt]} & \textcolor{red}{[ɵn]} & & & \textcolor{red}{[ɵy]} & \\ \hline
+    /ɐ/ & \textcolor{red}{\textbf{(a)}} & \textcolor{red}{\textbf{ap}} & \textcolor{red}{\textbf{am}} & \textcolor{red}{\textbf{at}} & \textcolor{red}{\textbf{an}} & \textcolor{red}{\textbf{ak}} & \textcolor{red}{\textbf{ang}} & \textcolor{red}{\textbf{ai}} & \textcolor{red}{\textbf{au}} \\
+     & \textcolor{red}{([ɐ])} & \textcolor{red}{[ɐp]} & \textcolor{red}{[ɐm]} & \textcolor{red}{[ɐt]} & \textcolor{red}{[ɐn]} & \textcolor{red}{[ɐk]} & \textcolor{red}{[ɐŋ]} & \textcolor{red}{[ɐi]} & \textcolor{red}{[ɐu]} \\ \hline
+    /a/ & \textcolor{blue}{\textbf{aa}} & \textcolor{blue}{\textbf{aap}} & \textcolor{blue}{\textbf{aam}} & \textcolor{blue}{\textbf{aat}} & \textcolor{blue}{\textbf{aan}} & \textcolor{blue}{\textbf{aak}} & \textcolor{blue}{\textbf{aang}} & \textcolor{blue}{\textbf{aai}} & \textcolor{blue}{\textbf{aau}} \\
+     & \textcolor{blue}{[a]} & \textcolor{blue}{[ap]} & \textcolor{blue}{[am]} & \textcolor{blue}{[at]} & \textcolor{blue}{[an]} & \textcolor{blue}{[ak]} & \textcolor{blue}{[aŋ]} & \textcolor{blue}{[ai]} & \textcolor{blue}{[au]} \\ \hline
     0 & & & \textbf{m} & & & & \textbf{ng} & & \\
      & & & [m̩] & & & & [ŋ̍] & & \\ \hline
 \end{tabular}
 \end{table}
+
+\end{frame}
+
+\begin{frame}[fragile]{Rimes}
+
+粵拼 Jyut6 Ping3 vowels:
+\begin{itemize}
+    \item only contrastive long–short vowel pairs are distinguished:
+        \begin{itemize}
+            \item \textcolor{blue}{\textbf{aa} /a/} vs. \textcolor{red}{\textbf{a} /ɐ/}
+            \item \textcolor{blue}{\textbf{oe} /œ/} vs. \textcolor{red}{\textbf{eo} /ɵ/} {\scriptsize \emph{(very marginally contrastive)}}
+        \end{itemize}\\
+        (otherwise not distinguished, e.g. \textcolor{blue}{\textbf{it} [it]} vs. \textcolor{red}{\textbf{ik} [ek]})
+    \item /y/ is rendered \textcolor{blue}{\textbf{yu}} (/j-/ is \textbf{j-}), e.g. 雨 \enquote*{rain} \textbf{jyu5} /jy˩˧/ [ɥy˩˧] 
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}[fragile]{Rimes}
+Vowel length:
+
+
+\end{frame}
+
+
+\begin{frame}[fragile]{Rimes}
+Other comments on the segments:
+\begin{itemize}
+    \item /i/ /u/ /y/ (except \textcolor{red}{/u/[o]}) cannot be preceded by [ʔ-]\\
+    zero initial + high vowel \textsuperscript{initial-final model}\\ = glide onset + high vowel \textsuperscript{onset-rime model, in Jyutping}\\
+    活 \textcolor{blue}{\textbf{wut6} /(w)ut˨/ [wut˨]}, 月 \textcolor{blue}{\textbf{jyut6} /(j)yt˨/ [ɥyt˨]},\\ 熱 \textcolor{blue}{\textbf{jit6} /(j)it˨/ [jit˨]}, 翼 \textcolor{red}{\textbf{jik6} /(j)ik˨/ [jek˨]}\\ (but 屋 \textcolor{red}{\textbf{uk1} /uk˥/ [(ʔ)ok˥]})
+    \item \textcolor{blue}{\textbf{(et)}}: only in ideophones (e.g. nam4 bet6 bet6 \enquote*{(squishy)}) and \textsuperscript{\emph{perhaps}} non-native words (e.g. pet1 pet1 \enquote*{bum}, get1 \enquote*{get, comprehend})
+    \item \textcolor{blue}{\textbf{(en)}}: only in non-native words (e.g. yen1 \enquote*{(Japanese) Yen})
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}[fragile]{Rimes}
+
+\begin{itemize}
+    \item \textcolor{red}{\textbf{eot} [ɵt]} vs. \textcolor{blue}{\textbf{(oet)} ([œt])}:\\
+    \textcolor{red}{\textbf{eot} [ɵt]} is the normal allorime,\\ e.g. 出 \textcolor{red}{\textbf{ceot1} [tsʰɵt˥]} \enquote*{exit}\\
+    \textcolor{blue}{\textbf{(oet)} ([œt])} is only found in ideophones,\\ e.g. 彳亍噉轉 cit1 \textcolor{blue}{\textbf{coet1}} gam2 zyun3 \enquote*{pace back and forth}, \textcolor{blue}{\textbf{oet1 \~{} oet6} [œt˥]\~{}[œt˨]} \enquote*{belch, burp}
+\end{itemize}
 
 \end{frame}
 
