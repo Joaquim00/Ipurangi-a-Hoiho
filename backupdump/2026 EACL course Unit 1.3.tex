@@ -23,6 +23,9 @@
 \setotherlanguages{thai}
 %\XeTeXlinebreaklocale "th"
 %\XeTeXlinebreakskip = 0pt plus 1pt
+\usepackage{fontspec}
+\newfontfamily{\braillefont}{NotoSansSymbols2-Regular.ttf}
+\newcommand{\braille}[1]{{\braillefont #1}}
 
 \title[Pearl River Sinitic]{Sinitic Languages of the Pearl River Region \\ --- Unit 1.3}
 \subtitle{13ᵗʰ EACL Summer School, Universität Stuttgart}
@@ -36,15 +39,15 @@
   \titlepage
 \end{frame}
 
-\section{Cantonese Phonotactics}
+\section{Models of syllabification}
 
-\begin{frame}[fragile]{Phonotactics}
+\begin{frame}[fragile]{Models of syllabification}
 
 框 \enquote*{frame}\\
-{[}kʰ u̯ a ŋ ˥{]} (TW Mandarin; {[}˥˩{]} in BJ Mandarin)\\
-{[}[kʰ u̯ a ŋ ˥{]} (Cantonese)\\
+{[}kʰ u̯ a ŋ ˥{]} (Taiwan Mandarin; {[}˥˩{]} in Beijing Mandarin)\\
+{[}kʰ u̯ a ŋ ˥{]} (Cantonese)\\
 \bigskip
-Initial–Final model:\\ 
+Initial–Final model: (C) | (G)V(X)\textsuperscript{T}\\ 
 {\scriptsize the traditional model used for Mandarin and most Sinitic languages}\\
 \medskip
 \centering
@@ -59,7 +62,7 @@ Initial–Final model:\\
 
 \end{frame}
 
-\begin{frame}[fragile]{Phonotactics}
+\begin{frame}[fragile]{Models of syllabification}
 e.g. Mandarin Pīnyīn
 \begin{columns}
     \begin{column}{0.3\textwidth}
@@ -73,18 +76,28 @@ e.g. Mandarin Pīnyīn
         \end{figure}
     \end{column}
 \end{columns}
-
+\bigskip
+\begin{columns}
+    \begin{column}{0.5\textwidth}
+        e.g. Mainland Chinese Braille\\ 
+        \braille{⠅⠶}(\braille{⠆}) \textbf{k/q-uang(-4)} 
+    \end{column}
+    \begin{column}{0.5\textwidth}
+        e.g. Taiwanese Braille\\
+        \braille{⠇⠸⠄} \textbf{k-uang-1}
+    \end{column}
+    \end{columns}
 \end{frame}
 
-\begin{frame}[fragile]{Phonotactics}
+\begin{frame}[fragile]{Models of syllabification}
 
 框 \enquote*{frame}\\
 {[}kʰ u̯ a ŋ ˥{]} (TW Mandarin; {[}˥˩{]} in BJ Mandarin)\\
 {[}kʰ u̯ a ŋ ˥{]} (Cantonese)\\
 \bigskip
 {\scriptsize often applied to many Yuè and S Pínghuà dialects}\\
-Onset–Rime model:\\ 
-{\scriptsize (a model more familiar to SE Asia / the West)}\\
+Onset–Rime model: (C)(G) | V(X)\textsuperscript{T}\\ 
+{\scriptsize (a model more familiar to SE Asian / Western linguistics)}\\
 \medskip
 \centering
 \begin{tabular}{c c|c c}
@@ -97,7 +110,7 @@ Onset–Rime model:\\
 
 \end{frame}
 
-\begin{frame}[fragile]{Phonotactics}
+\begin{frame}[fragile]{Models of syllabification}
 
 Onset–Rime model:\\ 
 \medskip
@@ -114,17 +127,26 @@ Most Yuè and S Pínghuà dialects are poor in medial glides\\
 Standard Cantonese onsets with glides:
 {[}ku̯- kʰu̯- u̯- i̯-{]}\\
 \medskip
+
+\end{frame}
+
+\begin{frame}[fragile]{Models of syllabification}
+
 {\scriptsize (Instead of (C)(G)V(X)\textsuperscript{T})} \\
 Standard Cantonese usually analysed as \textbf{(C)V(X)}\textsuperscript{T}\\
 /kʷ- kʷʰ- w- j-/\\ 
 \medskip
-\begin{flushright}
-\emph{\scriptsize Many people do not distinguish \enquote{Initial–Final} and \enquote{Onset–Rime} \\ both are 聲母–韻母 in Chinese}
-\end{flushright}
+e.g. /kʷʰ aŋ ˥/\\
+Cantonese Braille\\
+\braille{⠻⠛} \textbf{kw-aang(-1)}\\ 
+\bigskip
+\begin{center}
+\emph{\scriptsize Many people do not distinguish the terminologies of \enquote{Initial–Final} and \enquote{Onset–Rime} \\ both are 聲母–韻母 in Chinese}
+\end{center}
 
 \end{frame}
 
-\begin{frame}[fragile]{Phonotactics}
+\begin{frame}[fragile]{Models of syllabification}
 
 The changes from C(G)GVX to \textbf{CVX}:\\
 Merger of GV, e.g.\\
@@ -139,7 +161,7 @@ Deletion of V, e.g.\\
 \quad 偏 *pʰjen\textsuperscript{A} > Canto. /pʰin˥/\\ 
 \quad \quad (cf. HK Hakka /pʰien˩˧/)\\
 \quad 勸 *kʰwjən\textsuperscript{C} > Canto. /hyn˧/\\
-\quad \quad (cf. Nanning Ping. /kʷʰin˨˥/ {\scriptsize V also deleted})\\
+\quad \quad (cf. Nanning Pinghua /kʷʰin˨˥/ {\scriptsize V also deleted})\\
 \quad \quad (cf. Sino Viet. /xwiə̯n˦\~{}˦˥/ {\scriptsize but /i/ is nucleus})\\
 \end{frame}
 
@@ -157,8 +179,7 @@ Cantonese transcription rarely taught in the education system\\
 \begin{frame}[fragile]{Romanisation}
 
 There exist many Cantonese Romanisation schemes \\ 
-{\scriptsize \emph{(systematic / semi-systematic / ad hoc spelling)}}\\ 
-\medskip
+\bigskip
 Most commonly used nowadays amongst linguists:\\
 \textbf{Jyut6 Ping3 粵拼}\\
 {\scriptsize (Linguistic Society of Hong Kong Cantonese Romanization Scheme \\ 香港語言學學會粵語拼音方案) \quad \url{https://lshk.org/jyutping-scheme/}}
@@ -225,7 +246,7 @@ Most commonly used nowadays amongst linguists:\\
     \begin{column}{0.5\textwidth} 
         \begin{itemize}
             \item \emph{z- c- s-} = /t͡s- t͡sʰ s-/
-            \item[t͡s- t͡sʰ- s-] [t͡ʃ- t͡ʃʰ- ʃ-] not contrastive, with alveolar dominant nowadays 
+            \item {[}t͡s- t͡sʰ- s-{]} [t͡ʃ- t͡ʃʰ- ʃ-] not contrastive, with alveolar dominant nowadays 
             \item historically contrastive, cf. 牛池灣 \emph{Ngau \underline{Chi} Wan}, 慈雲山 \emph{\underline{Tsz} Wan \underline{Shan}}, 散石灣 \emph{\underline{San} Shek Wan}
         \end{itemize}
     \end{column}
@@ -535,8 +556,8 @@ Other comments on the segments:
      \item \textcolor{blue}{\textbf{(et)}}: only in ideophones (e.g. nam4 bet6 bet6 \enquote*{(squishy)}) and \textsuperscript{\emph{perhaps}} non-native words (e.g. pet1 pet1 \enquote*{bum}, get1 \enquote*{get, comprehend})
     \item \textcolor{blue}{\textbf{(en)}}: only in non-native words (e.g. yen1 \enquote*{(Japanese) Yen})
     \item \textcolor{red}{\textbf{eot} [ɵt]} vs. \textcolor{blue}{\textbf{(oet)} ([œt])}:\\
-    \textcolor{red}{\textbf{eot} [ɵt]} is the normal allorime,\\ e.g. 出 \textcolor{red}{\textbf{ceot1} [tsʰɵt˥]} \enquote*{exit}\\
-    \textcolor{blue}{\textbf{(oet)} ([œt])} is only found in ideophones,\\ e.g. 彳亍噉轉 cit1 \textcolor{blue}{\textbf{coet1}} gam2 zyun3 \enquote*{pace back and forth}, \textcolor{blue}{\textbf{oet1 \~{} oet6} [œt˥]\~{}[œt˨]} \enquote*{belch, burp}
+    \textcolor{red}{\textbf{eot} [ɵt]} is the normal allorime,\\ \quad e.g. 出 \textcolor{red}{\textbf{ceot1} [tsʰɵt˥]} \enquote*{exit}\\
+    \textcolor{blue}{\textbf{(oet)} ([œt])} is only found in ideophones,\\ \quad e.g. 彳亍噉轉 cit1 \textcolor{blue}{\textbf{coet1}} gam2 zyun3 \enquote*{pace back and forth}, \textcolor{blue}{\textbf{oet1 \~{} oet6} [œt˥]\~{}[œt˨]} \enquote*{belch, burp}
 \end{itemize}
 
 \end{frame}
@@ -552,7 +573,7 @@ Other comments on the segments:
     唔 \textbf{m4} \textsc{neg}\\
     吳蜈吾梧鼯 \textbf{ng4} 五伍午忤 \textbf{ng5} 誤悟晤捂梧寤忤嗯 \textbf{ng6}\\
     (from *ŋu, cf. 五官 Canto \emph{ng5 gun1} Sino-Viet \emph{ngũ quan})
-    \item Many people has merged syllabic \textbf{ng} into \textbf{m}
+    \item Many people have merged syllabic \textbf{ng} into syllabic \textbf{m}
 \end{itemize}
 
 \end{frame}
