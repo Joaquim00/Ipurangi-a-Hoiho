@@ -18,7 +18,10 @@
 \setCJKmainfont[AutoFakeSlant=0.2]{Noto Serif CJK HK}
 \setCJKmonofont[AutoFakeSlant=0.2]{Noto Serif CJK HK}
 \usepackage{polyglossia}
+\setmainlanguage{english}
+\usepackage{csquotes}
 \usepackage{array}
+\usepackage{makecell}
 
 \title[Pearl River Sinitic]{Sinitic Languages of the Pearl River Region \\ --- Unit 2.1}
 \subtitle{13ᵗʰ EACL Summer School, Universität Stuttgart}
@@ -40,8 +43,8 @@
 \begin{tabular}{l||c >{\centering\arraybackslash}p{0.45cm} >{\centering\arraybackslash}p{0.45cm} c||c c}
     \hline
      & *平 *A & \multicolumn{2}{|c|}{*上 *B} & *去 *C & \multicolumn{2}{c}{*入 *D}\\
-     & & & & & {\scriptsize 長 L} & {\scriptsize 短 S}\\ \hline
-    陰 {\tiny *voiceless initial} & 1 ˥(\~{}˥˧) & \multicolumn{2}{|c|}{2 ˨˥\~{}˧˥} & 3 ˧ & 3 ˧ & 1 ˥\\ \hline 
+     & & & & & {\scriptsize 長 L} & \multicolumn{1}{|c}{{\scriptsize 短 S}}\\ \hline
+    陰 {\tiny *voiceless initial} & 1 ˥(\~{}˥˧) & \multicolumn{2}{|c|}{2 ˨˥\~{}˧˥} & 3 ˧ & 3 ˧ & \multicolumn{1}{|c}{1 ˥}\\ \hline 
     陽 {\tiny *voiced nasal initial} & 4 ˨˩\~{}˩ & \multicolumn{2}{|c|}{5 ˩˧} & 6 ˨ & \multicolumn{2}{c}{6 ˨}\\ \cline{4-4}
     陽 {\tiny *voiced plosive initial} & & \multicolumn{1}{|c|}{} & & & & \\ \hline
 \end{tabular}
@@ -56,17 +59,126 @@
 \begin{tabular}{l||c >{\centering\arraybackslash}p{0.45cm} >{\centering\arraybackslash}p{0.45cm} c||c c}
     \hline
      & *平 *A & \multicolumn{2}{|c|}{*上 *B} & *去 *C & \multicolumn{2}{c}{*入 *D}\\
-     & & & & & {\scriptsize 長 L} & {\scriptsize 短 S}\\ \hline
-    陰 {\tiny *voiceless initial} & 1 ˥(\~{}˥˧) & \multicolumn{2}{|c|}{2 ˨˥\~{}˧˥} & 3 ˧ & 3 ˧ & 1 ˥\\ \hline 
+     & & & & & {\scriptsize 長 L} & \multicolumn{1}{|c}{{\scriptsize 短 S}}\\ \hline
+    陰 {\tiny *voiceless initial} & 1 ˥(\~{}˥˧) & \multicolumn{2}{|c|}{2 ˨˥\~{}˧˥} & 3 ˧ & 3 ˧ & \multicolumn{1}{|c}{1 ˥}\\ \hline 
     陽 {\tiny *voiced nasal initial} & 4 ˨˩\~{}˩ & \multicolumn{2}{|c|}{5 ˩˧} & 6 ˨ & \multicolumn{2}{c}{6 ˨}\\ \cline{4-4}
     陽 {\tiny *voiced plosive initial} & & \multicolumn{1}{|c|}{} & & & & \\ \hline
 \end{tabular}
 \end{table}
 
 \begin{figure}
+\flushleft
 \includegraphics[width=0.55\textwidth]{cong1syu2zeoi3m4laan5do6}
 {\tiny canto.hk}
 \end{figure}
+\medskip
+倉\ 鼠\ 最\ 唔\ 懶\ 惰\ cong1 syu2 zeoi3 m4 laan5 do6\\
+三\ 碗\ 半\ 牛\ 腩\ 麵\ saam1 wun2 bun3 ngau4 naam5 min6\\
+三\ 九\ 四\ 零\ 五\ 二\ saam1 gau2 sei3 ling4 ng5 ji6\\
+
+\end{frame}
+
+\begin{frame}[fragile]{Tones}
+
+\begin{table}
+\begin{tabular}{l||c >{\centering\arraybackslash}p{0.45cm} >{\centering\arraybackslash}p{0.45cm} c||c c}
+    \hline
+     & *A & \multicolumn{2}{|c|}{*B} & *C & \multicolumn{2}{c}{*D}\\
+     & & & & & {\scriptsize L} & \multicolumn{1}{|c}{{\scriptsize S}}\\ \hline
+    陰 & 1 ˥(\~{}˥˧) & \multicolumn{2}{|c|}{2 ˨˥\~{}˧˥} & 3 ˧ & 3\textsuperscript{(8)} ˧ & \multicolumn{1}{|c}{1\textsuperscript{(7)} ˥}\\ \hline 
+    陽 & 4 ˨˩\~{}˩ & \multicolumn{2}{|c|}{5 ˩˧} & 6 ˨ & \multicolumn{2}{c}{6\textsuperscript{(9)} ˨}\\ \hline
+\end{tabular}
+\end{table}
+
+\begin{table}
+\flushleft
+\begin{tabular}{l r}
+\makecell[tl]{\textbf{6 tones? 9 tones?}: \\ 6 tonemes \\「九聲六調」} &
+\raisebox{-\height}{\includegraphics[width=0.4\textwidth]{sixnine}}
+\\
+\end{tabular}
+\end{table}
+\bigskip
+{\scriptsize \textit{Chinese linguistics traditionally counts tones in sonorant-ending syllables and obstruent-ending syllables separately}}\\
+
+\end{frame}
+
+\begin{frame}[fragile]{Tones}
+
+\begin{table}
+\begin{tabular}{l||c >{\centering\arraybackslash}p{0.45cm} >{\centering\arraybackslash}p{0.45cm} c||c c}
+    \hline
+     & *A & \multicolumn{2}{|c|}{*B} & *C & \multicolumn{2}{c}{*D}\\
+     & & & & & {\scriptsize L} & \multicolumn{1}{|c}{{\scriptsize S}}\\ \hline
+    陰 & 1 ˥(\~{}˥˧) & \multicolumn{2}{|c|}{2 ˨˥\~{}˧˥} & 3 ˧ & 3\textsuperscript{(8)} ˧ & \multicolumn{1}{|c}{1\textsuperscript{(7)} ˥}\\ \hline 
+    陽 & 4 ˨˩\~{}˩ & \multicolumn{2}{|c|}{5 ˩˧} & 6 ˨ & \multicolumn{2}{c}{6\textsuperscript{(9)} ˨}\\ \hline
+\end{tabular}
+\end{table}
+\bigskip
+
+Normally: 6 tones \textsuperscript{sonorant-ending} + 3 tones \textsuperscript{obstruent-ending}\\
+\medskip
+\begin{tabular}{l l}
+詩 si1 \enquote*{poem} & 唧 zit1\textsuperscript{(7)} \enquote*{tickle}\\
+史 si2 \enquote*{history} & \\
+試 si3 \enquote*{to try} & 節 zit3\textsuperscript{(8)} \enquote*{festival}\\
+時 si4 \enquote*{time} & \\
+市 si5 \enquote*{city} & \\
+事 si6 \enquote*{matter} & 截 zit6\textsuperscript{(9)} \enquote*{to sever}\\
+\end{tabular}
+
+\end{frame}
+
+\begin{frame}[fragile]{Tones}
+
+\begin{table}
+\begin{tabular}{l||c >{\centering\arraybackslash}p{0.45cm} >{\centering\arraybackslash}p{0.45cm} c||c c}
+    \hline
+     & *A & \multicolumn{2}{|c|}{*B} & *C & \multicolumn{2}{c}{*D}\\
+     & & & & & {\scriptsize L} & \multicolumn{1}{|c}{{\scriptsize S}}\\ \hline
+    陰 & 1 ˥(\~{}˥˧) & \multicolumn{2}{|c|}{2 ˨˥\~{}˧˥} & 3 ˧ & 3\textsuperscript{(8)} ˧ & \multicolumn{1}{|c}{1\textsuperscript{(7)} ˥}\\ \hline 
+    陽 & 4 ˨˩\~{}˩ & \multicolumn{2}{|c|}{5 ˩˧} & 6 ˨ & \multicolumn{2}{c}{6\textsuperscript{(9)} ˨}\\ \hline
+\end{tabular}
+\end{table}
+\medskip
+
+\begin{table}
+\flushleft
+\begin{tabular}{l l l l l l l l l}
+\multicolumn{6}{l}{\emph{\small sonorant-ending}} & \multicolumn{3}{|l}{\emph{\small obstruent-ending}}\\ \hline
+\footnotesize cong1 & \footnotesize syu2 & \footnotesize zeoi3 & \footnotesize m4 & \footnotesize laan5 & \footnotesize do6 & \footnotesize bit1\textsuperscript{(7)} & \footnotesize faat3\textsuperscript{(8)} & \footnotesize lik6\textsuperscript{(9)}\\ 
+倉 & 鼠 & 最 & 唔 & 懶 & 惰 & 必 & 發 & 力\\ 
+\footnotesize saam1 & \footnotesize wun2 & \footnotesize bun3 & \footnotesize ngau4 & \footnotesize naam5 & \footnotesize min6 & \footnotesize jat1\textsuperscript{(7)} & \footnotesize baak3\textsuperscript{(8)} & \footnotesize dip6\textsuperscript{(9)}\\ 
+三 & 碗 & 半 & 牛 & 腩 & 麵 & 一 & 百 & 碟\\ 
+\footnotesize saam1 & \footnotesize gau2 & \footnotesize sei3 & \footnotesize ling4 & \footnotesize ng5 & \footnotesize ji6 & \footnotesize cat1\textsuperscript{(7)} & \footnotesize baat3\textsuperscript{(8)} & \footnotesize luk6\textsuperscript{(9)}\\ 
+三 & 九 & 四 & 零 & 五 & 二 & 七 & 八 & 六\\ 
+\end{tabular}
+\end{table}
+\medskip
+\vfill \emph{\scriptsize (tones 7 8 9 will just be notated as tones 1 3 6, following Jyutping standard)}
+\end{frame}
+
+\begin{frame}[fragile]{Tones}
+
+\begin{table}
+\begin{tabular}{l||c >{\centering\arraybackslash}p{0.45cm} >{\centering\arraybackslash}p{0.45cm} c||c c}
+    \hline
+     & *A & \multicolumn{2}{|c|}{*B} & *C & \multicolumn{2}{c}{*D}\\
+     & & & & & {\scriptsize L} & \multicolumn{1}{|c}{{\scriptsize S}}\\ \hline
+    陰 & 1 ˥(\~{}˥˧) & \multicolumn{2}{|c|}{2 ˨˥\~{}˧˥} & 3 ˧ & 3\textsuperscript{(8)} ˧ & \multicolumn{1}{|c}{1\textsuperscript{(7)} ˥}\\ \hline 
+    陽 & 4 ˨˩\~{}˩ & \multicolumn{2}{|c|}{5 ˩˧} & 6 ˨ & \multicolumn{2}{c}{6\textsuperscript{(9)} ˨}\\ \hline
+\end{tabular}
+\end{table}
+\bigskip
+Obstruent-ending syllables, also:\\
+With suprafix tone 2:\\
+\quad 碟 dip6*2 [tiːp˨˥] \enquote*{plate}\\
+\quad 賊 caak6*2 [tsʰaːk˨˥] \enquote*{thief}\\
+Tone 4 in ideophones:\\
+\quad 𠽌𠽌聲 syut4 syut2 seng1 {\small sound of slurping e.g. noodle}\\
+\quad 軟𢴈𢴈 jyun5 det4 det4 {\small weak and flimpsy} \textsuperscript{廣州話方言詞典}\\
+\quad 濕笛笛 sap1 det4 det4\~{}zet4 zet4\~{}det6 det6\\ \quad {\small fully soaked and dripping} 
+
 
 \end{frame}
 
