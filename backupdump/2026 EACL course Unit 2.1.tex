@@ -26,7 +26,7 @@
 \title[Pearl River Sinitic]{Sinitic Languages of the Pearl River Region \\ --- Unit 2.1}
 \subtitle{13ᵗʰ EACL Summer School, Universität Stuttgart}
 \author{Hilário de Sousa 蘇沙}
-\institute{EHESS–CRLAO \\ {\tiny(membre associé)}}
+\institute{EHESS–CRLAO \\ {\tiny membre associé}}
 \date{Tuesday 28 July 2026 \\ 丙午六月十五 \\ {\footnotesize \texttt{hilario@bambooradical.com}}}
 
 \begin{document}
@@ -38,6 +38,22 @@
 \section{Tones}
 
 \begin{frame}[fragile]{Tones}
+\textbf{Tone values} (phonetics) vs. \textbf{Tone categories} (phonology)\\
+\bigskip
+Tone values 調值: phonetic shape of tones 
+\\Chao (Yuen Ren 趙元任)'s tone letters and numerals\\
+e.g. Mandarin\\ 
+官話 /kwan˥ xwa˥˩/ \textasciitilde{} /kwan⁵⁵ xwa⁵¹/\\
+你好 /ni˨˩˦꜕꜒ xao˨˩˦/ \textasciitilde{} /ni\textsuperscript{214>25} xao²¹⁴/\\
+\bigskip
+Tone categories 調類:\\ name of tones in phonological system (allotones, tonemes)\\
+tones A B C D E F G, tones 1 2 3 4 5, etc.
+{\scriptsize (with numbers, be careful whether the numbers refer to tone category or tone value)}\\
+e.g. Mandarin 起 /tɕʰi2/ [tɕʰi²⁵], Cantonese 恥 /tsʰi2/ [tsʰi²⁵], Taiwanese 持 /tʃʰi5/ [tʃʰi²⁵]
+
+\end{frame}
+
+\begin{frame}[fragile]{Tones}
 
 \begin{table}
 \begin{tabular}{l||c >{\centering\arraybackslash}p{0.45cm} >{\centering\arraybackslash}p{0.45cm} c||c c}
@@ -45,8 +61,8 @@
       & \textcolor{gray!75}{*平 *A} & \multicolumn{2}{|c|}{\textcolor{gray!75}{*上 *B}} & \textcolor{gray!75}{*去 *C} & \multicolumn{2}{c}{\textcolor{gray!75}{*入 *D}}\\
      & & & & & {\scriptsize \textcolor{gray!75}{長 L}} & \multicolumn{1}{|c}{{\scriptsize \textcolor{gray!75}{短 S}}}\\ \hline
     \textcolor{gray!75}{陰 {\tiny *voiceless initial}} & 1 ˥(\~{}˥˧) & \multicolumn{2}{|c|}{2 ˨˥\~{}˧˥} & 3 ˧ & \textcolor{gray!75}{3 ˧} & \multicolumn{1}{|c}{\textcolor{gray!75}{1 ˥}}\\ \hline 
-    \textcolor{gray!75}{陽 {\tiny *voiced nasal initial}} & 4 ˨˩\~{}˩ & \multicolumn{2}{|c|}{5 ˩˧} & 6 ˨ & \multicolumn{2}{c}{\textcolor{gray!75}{6 ˨}}\\ \cline{4-4}
-    \textcolor{gray!75}{陽 {\tiny *voiced plosive initial}} & & \multicolumn{1}{|c|}{} & & & & \\ \hline
+    \textcolor{gray!75}{陽 {\tiny *voiced sonorant initial}} & 4 ˨˩\~{}˩ & \multicolumn{2}{|c|}{5 ˩˧} & 6 ˨ & \multicolumn{2}{c}{\textcolor{gray!75}{6 ˨}}\\ \cline{4-4}
+    \textcolor{gray!75}{陽 {\tiny *voiced obstruent initial}} & & \multicolumn{1}{|c|}{} & & & & \\ \hline
 \end{tabular}
 \caption{Tones in Standard Cantonese}
 \end{table}
@@ -61,8 +77,8 @@
       & \textcolor{gray!75}{*平 *A} & \multicolumn{2}{|c|}{\textcolor{gray!75}{*上 *B}} & \textcolor{gray!75}{*去 *C} & \multicolumn{2}{c}{\textcolor{gray!75}{*入 *D}}\\
      & & & & & {\scriptsize \textcolor{gray!75}{長 L}} & \multicolumn{1}{|c}{{\scriptsize \textcolor{gray!75}{短 S}}}\\ \hline
     \textcolor{gray!75}{陰 {\tiny *voiceless initial}} & 1 ˥(\~{}˥˧) & \multicolumn{2}{|c|}{2 ˨˥\~{}˧˥} & 3 ˧ & \textcolor{gray!75}{3 ˧} & \multicolumn{1}{|c}{\textcolor{gray!75}{1 ˥}}\\ \hline 
-    \textcolor{gray!75}{陽 {\tiny *voiced nasal initial}} & 4 ˨˩\~{}˩ & \multicolumn{2}{|c|}{5 ˩˧} & 6 ˨ & \multicolumn{2}{c}{\textcolor{gray!75}{6 ˨}}\\ \cline{4-4}
-    \textcolor{gray!75}{陽 {\tiny *voiced plosive initial}} & & \multicolumn{1}{|c|}{} & & & & \\ \hline
+    \textcolor{gray!75}{陽 {\tiny *voiced sonorant initial}} & 4 ˨˩\~{}˩ & \multicolumn{2}{|c|}{5 ˩˧} & 6 ˨ & \multicolumn{2}{c}{\textcolor{gray!75}{6 ˨}}\\ \cline{4-4}
+    \textcolor{gray!75}{陽 {\tiny *voiced obstruent initial}} & & \multicolumn{1}{|c|}{} & & & & \\ \hline
 \end{tabular}
 \end{table}
 
@@ -115,9 +131,6 @@
 \end{tabular}
 \end{table}
 \bigskip
-
-Normally: 6 tones \textsuperscript{sonorant-ending} + 3 tones \textsuperscript{obstruent-ending}\\
-\medskip
 \begin{tabular}{l l}
 詩 si1 \enquote*{poem} & 唧 zit1\textsuperscript{(7)} \enquote*{tickle}\\
 史 si2 \enquote*{history} & \\
@@ -170,11 +183,11 @@ Normally: 6 tones \textsuperscript{sonorant-ending} + 3 tones \textsuperscript{o
 \end{tabular}
 \end{table}
 \bigskip
-Obstruent-ending syllables, also:\\
-With suprafix tone 2:\\
+Obstruent-ending syllables, with suprafix tone 2:\\
 \quad 碟 dip6*2 [tiːp˨˥] \enquote*{plate}\\
 \quad 賊 caak6*2 [tsʰaːk˨˥] \enquote*{thief}\\
-Tone 4 in ideophones:\\
+\medskip
+Obstruent-ending syllables, tone 4 in ideophones:\\
 \quad 𠽌𠽌聲 \underline{syut4} syut2 seng1 {\small sound of slurping e.g. noodle}\\
 \quad 軟𢴈𢴈 jyun5 \underline{det4 det4} {\small weak and flimpsy} \textsuperscript{廣州話方言詞典}\\
 \quad 濕笛笛 sap1 \underline{det4 det4} \~{} \underline{zet4 zet4} \~{} det6 det6\\ \quad {\small fully soaked and dripping} 
@@ -191,7 +204,7 @@ Tonal affixes in the case of Cantonese\\
 \textbf{tonal affix ≠ tone-sandhi}\quad {\footnotesize although both are called 變調 in Chinese}\\
 \underline{Tone-sandhi}:\\
 \textsuperscript{(largely)} automatic \& predictable process of tones changing, \\
-\quad given a particular phonological / syntactic environment\\
+\quad given a particular phonological / morphosyntactic environment\\
 \medskip
 e.g. Standard Mandarin tone 3 sandhi rule\\
 買馬 mǎi mǎ > mái mǎ (= 埋馬 mái mǎ)\\
@@ -228,7 +241,7 @@ e.g. verbal:\\
 \smallskip
 nei5 sik6*2 faan6 mei6 aa3?\\
 \textsc{2sg} eat:\textsc{pfv} rice not.yet \textsc{q}\\
-\enquote*{Have you eaten?}\\
+\enquote*{Have you eaten yet?}\\
 \bigskip
 氹 tam3 \enquote*{to coax}, \enquote*{to cheer s.o. up}\\
 tam3*2\~{}tam3 (= tam3 jat1 tam3 氹一氹 coax:\textsc{delim})\\
@@ -249,11 +262,11 @@ e.g. adjectival:\\
 \smallskip
 sik6 dou3 pei4fu1 waat6*2\~{}waat6\\
 eat till skin smooth:extraordinary\\
-\enquote*{Eat this and skin becomes smooth as hell.}\\
+\enquote*{Eat this and the skin becomes smooth as hell.}\\
 {\tiny \texttt{https://hkppltravel.com/23966/foods/【滑溜溜豆腐花！】/}}\\
 
 \bigskip
-紅 hung4 \enquote*{red} > hung4\~{}hung4*2-dei2 \enquote*{red-ish}\\
+紅 hung4 \enquote*{red} > hung4\~{}hung4*2-dei2 \enquote*{somewhat red}\\
 
 \end{frame}
 
@@ -526,7 +539,7 @@ Best theory so far: < \textsc{dim} suffix -兒 -ɲi4*1
 車兒 tʃʰɛ˥˧ ɲi˨˩ \~{} ˥˧ (vehicle-\textsc{dim})\\
 鐺兒 tʃʰɛŋ˥˧ ɲi˥˧ (wok-\textsc{dim})\\
 \medskip
-桂平白話 (Cantonese Yue, central east Guangxi)\\
+桂平白話 (Cantonese Yue, central eastern Guangxi)\\
 only -ŋi˥, e.g\\
 雞兒 kɐi˥ ŋi˥\\
 \medskip
@@ -556,17 +569,18 @@ Standard Cantonese, fossilised cases of -兒 ji2*1\\
 \bigskip
 so... perhaps mui6*2 \& -mui6*1 < 妹兒 mui6 ji4*1 (?)\\
 \smallskip
-\emph{\footnotesize (see also de Sousa (2024) for criticisms of this theory)}
+\emph{\footnotesize (The 兒 theory is the best theory so far; see also de Sousa (2024) for criticisms of this theory)}
 
 \end{frame}
 
 \begin{frame}[fragile]{Suprafixes}
 
-仔 zai2: another possible origin of the lexical suprafixes, however\\
+仔 zai2: another possible origin of the lexical suprafixes.\\ 
+However:\\
 \begin{itemize}
     \item 仔 zai2 was in ordinary tone 2 and not suprafix tone 2*\\
-    \item the 仔 zai2 theory explains tone 2* [˨˥] reasonably, but tone 1* [˥] less well\\
-     %\item lexical suprafixes and -仔 -zai2 already coexisted in the 19\textsuperscript{th} century Cantonese textbooks, e.g. 檯仔 toi4*2 zai2 (table \textsc{dim})\\
+    \item 仔 zai2 explains tone 2* [˨˥] reasonably, but tone 1* [˥] not well\\
+    \item lexical suprafixes and -仔 -zai2 already coexisted in the 19\textsuperscript{th} century Cantonese textbooks, e.g. 檯仔 toi4*2 zai2 (table \textsc{dim})\\
 \end{itemize}
 \smallskip
 {\footnotesize However, 仔 zai2 could have inspired further suprafixed forms, e.g. 麻仔 maa4 zai2 > maa4*2 \enquote*{measles} (Kwok 2016: 307)}
@@ -574,6 +588,33 @@ so... perhaps mui6*2 \& -mui6*1 < 妹兒 mui6 ji4*1 (?)\\
 \vfill \setstretch{0.65}{\tiny Kwok, Bit‑Chee 郭必之. 2016. 粵語方言小稱變音的類型及其歷史來源
 \emph{Chinese Studies} 漢學研究 34: 281–31.\\
 de Sousa, Hilário. 2024. Some observations on the Cantonese lexical suprafixes. \emph{Languages} 9 (10). 311. \url{https://doi.org/10.3390/languages9100311}}
+
+\end{frame}
+
+\begin{frame}[fragile]{Suprafixes}
+\begin{table}
+\begin{tabular}{l||c >{\centering\arraybackslash}p{0.45cm} >{\centering\arraybackslash}p{0.45cm} c||c c}
+    \hline
+     & *A & \multicolumn{2}{|c|}{*B} & *C & \multicolumn{2}{c}{*D}\\
+     & & & & & {\scriptsize L} & \multicolumn{1}{|c}{{\scriptsize S}}\\ \hline
+    陰 & 1 ˥(\~{}˥˧) & \multicolumn{2}{|c|}{2 ˨˥\~{}˧˥} & 3 ˧ & 3 ˧ & \multicolumn{1}{|c}{1 ˥}\\ \hline 
+    陽 & 4 ˨˩\~{}˩ & \multicolumn{2}{|c|}{5 ˩˧} & 6 ˨ & \multicolumn{2}{c}{6 ˨}\\ \hline
+\end{tabular}
+\end{table}
+\medskip
+Quiz for Cantonese speakers:\\
+What is the citation tone of these syllables pronounced \textbf{jyun2}?\\
+\begin{table}
+    \flushleft
+    \begin{tabular}{r l l l l}
+    & & Cantonese & \textcolor{gray!75}{Mandarin} & \textcolor{gray!75}{Sino-Viet}\\
+    garden & 園 & jyun? & \textcolor{gray!75}{yuán} & \textcolor{gray!75}{viên / vườn}\\
+    pellet & 丸 & jyun? & \textcolor{gray!75}{wán} & \textcolor{gray!75}{hoàn}\\
+    courtyard & 院 & jyun? & \textcolor{gray!75}{yuàn} & \textcolor{gray!75}{viện}\\
+    (surname) & 阮 & jyun? & \textcolor{gray!75}{ruǎn} & \textcolor{gray!75}{nguyễn}\\
+    garden & 苑 & jyun? & \textcolor{gray!75}{yuàn} & \textcolor{gray!75}{uyển / uốn}\\ 
+    \end{tabular}
+\end{table}
 
 \end{frame}
 
