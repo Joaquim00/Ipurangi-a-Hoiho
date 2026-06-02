@@ -1,0 +1,147 @@
+\documentclass{beamer}
+
+\mode<presentation>
+{
+  \usetheme{Singapore}      % or try Darmstadt, Madrid, Warsaw, ...
+  \usecolortheme{crane} % or try albatross, beaver, crane, ...
+  \usefonttheme{serif}  % or try serif, structurebold, ...
+  \setbeamertemplate{navigation symbols}{}
+  \setbeamertemplate{caption}[numbered]
+} 
+
+\usepackage[autostyle=true]{csquotes}
+\usepackage{xeCJK}
+\usepackage[T1]{fontenc}
+\usepackage{xcolor}
+\usepackage{setspace}
+\setmainfont[AutoFakeSlant=0.2]{Charis SIL}
+\setCJKmainfont[AutoFakeSlant=0.2]{Noto Serif CJK HK}
+\setCJKmonofont[AutoFakeSlant=0.2]{Noto Serif CJK HK}
+\usepackage{polyglossia}
+\setmainlanguage{english}
+\usepackage{csquotes}
+\usepackage{array}
+\usepackage{makecell}
+\usepackage{changepage}
+\usepackage{textcomp}
+
+\title[Pearl River Sinitic]{Sinitic Languages of the Pearl River Region \\ --- Unit 3.2}
+\subtitle{13ᵗʰ EACL Summer School, Universität Stuttgart}
+\author{Hilário de Sousa 蘇沙}
+\institute{EHESS–CRLAO \\ {\tiny membre associé}}
+\date{Wednesday 29 July 2026 \\ 丙午六月十六 \\ {\footnotesize \texttt{hilario@bambooradical.com}}}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\section{Yue-Pinghua}
+
+\begin{frame}[fragile]{Yue–Pinghua}
+Various ways of classification;\\ (good ones are) good for different purposes.\\
+\medskip
+Some questions:\\
+1. Definition of Yue / Pinghua\\
+2. Internal classification of Yue / Pinghua\\
+3a. Relationship between Yue \& Pinghua\\
+3b. Boundary between Yue \& Pinghua {\scriptsize(if they are considered separate)}\\
+
+\end{frame}
+
+\begin{frame}[fragile]{Yue–Pinghua}
+\begin{figure}
+\includegraphics[width=0.8\textwidth]{farsouthernsinitic}
+\caption{\scriptsize \label{fig:farsougthernsinitic}Some Southern Sinitic dialect groups per \textit{Language Atlas of China}}
+\end{figure}
+What is Yue/Pinghua? {\scriptsize Not explicitly mentioned in the LAC; \\ Preconceived categories of \enquote{Yue} \& \enquote{Pinghua}. Sinitic dialects in and around Guangdong/Guangxi which are not Hakka/Min/Mandarin/Xiang/\enquote{土話 Tuhua}.}\\
+
+\end{frame}
+
+\begin{frame}[fragile]{Yue–Pinghua}
+
+{\small
+Language Atlas of China (2\textsuperscript{nd} ed.) B1-18 粤语 (by 伍巍)\\
+\bigskip
+粤语内部有几个相对统一的特点：\\
+\medskip
+(1) 古全浊声母在多数方言中清化。清化后，有的读送气音，有的读不送气音，也有的平声、上声送气，去声、入声不送气。\\
+{\scriptsize[MC voiced obstruent initials have become voiceless in \underline{most} dialects. After becoming voiceless, they are aspirated in some dialects, unaspirated in some dialects, and aspirated in tones AB, unaspirated in tones CD in some dialects.]}\\
+\medskip
+(2) 古微母字今读双唇音，如“舞”、“文”、“万”、“网”等字今声母一律读[m-]，舞=母、尾=美、文=门、万=慢。\\
+{\scriptsize[MC 微 [mw-/ɱ-] initial characters are pronounced bilabial in the modern language, e.g. 舞文万 all pronounced [m-] nowadays, e.g. [Cantonese] 舞 mou5 = 母 mou5, 尾 mei5 = 美 mei5, 文 man4 = 門 mun4, 萬 maan6 = 慢 maan6}
+}
+\end{frame}
+
+\begin{frame}[fragile]{Yue–Pinghua}
+
+{\small
+(3) 齿音声母一般只有一套，多数方言读舌叶音[tʃ- tʃ'- ʃ-]。\\
+{\scriptsize[There is usually only one set of sibilants, in most dialects they are laminal [tʃ- tʃʰ- ʃ-].]\\
+\smallskip
+\textcolor{red}{[Actually not uncommon to have 2 series, especially e.g. /ʃ/ vs. /ɬ-/]}
+}\\
+\medskip
+(4) 见组及晓母字不论洪细音，声母多不腭化，今读舌根音[k- k'- ŋ- h-]，娇≠焦、溪≠妻、件≠践、惊≠精、脚≠雀、晓≠小。\\
+{\scriptsize[MC 見 [k-] series and 曉 [h-] initial characters, no matter whether it is followed by 洪 [open vowels / u] or 細 [i / y], the initial is usually not 腭化 palatalised, they are nowadays pronounced velar [k- kʰ- ŋ- h-], [Cantonese] 嬌 giu1 ≠ 焦 ziu1, 溪 kai1 ≠ 妻 cai1, 件 gin6 ≠ 踐 cin5, 驚 ging1 ≠ 精 zing1, 腳 goek3 ≠ 雀 zoek3, 曉 hiu2 ≠ 小 siu2]}\\
+\smallskip
+部分方言流、深、臻三摄牙音细音字声母有齿化现象。
+{\scriptsize[In some dialects, there is dentalisation with MC 流 [-iw], 深 [-im], 臻 [-in] groups of finals in front of 細音 [i / y]}\\
+e.g. 玉林\ 九 tʃau˧ 球 tʃau˩˧˩ 金 tʃam˥˦ {\scriptsize[Canto. 九 kɐu˧˥ 球 kʰɐu˩ 金 kɐm˥]}
+}
+\end{frame}
+
+\begin{frame}[fragile]{Yue–Pinghua}
+
+{\small
+(5) 古溪母开口常用字多有读清喉擦音[h-]的现象；古溪母合口字（多与古晓母合口字合流）今多读[f-]，如广州话：苦=虎=府[fu˧˥]，宽=欢[fun˥]。\\
+{\scriptsize[With 常用字 common characters, MC 開口 non-rounded 溪[kʰ-] initial often has the phenomenon of being pronounced as 清喉擦 voiceless glottal fricative [h-]; MC 合口 rounded 溪[kʰ-] initial is (mostly merged with MC 合口 rounded 曉 [h-] initial) now often pronounced [f-], e.g. Canton dialect 苦=虎=府[fu˧˥]，寬=歡[fun˥].]}\\
+\medskip
+{[Canto. 開 hoi1 口 hau2 坑 haang1]}\\
+}
+\end{frame}
+
+\begin{frame}[fragile]{Yue–Pinghua}
+
+{\small
+(6) 除邕浔粤语外，大多数方言无舌尖元音韵母。绝大多数粤语止摄开口齿音字韵母为舌面元音[-i]，部分粤语止摄开口精、庄组字韵母为[-y]或[-u]。\\
+{\scriptsize[Other than 邕潯 Jung1 Cam4 ／ Yōngxún Yue, most dialects do not have 韻母 finals with 舌尖元音 apical vowels. In the vast majority of Yue dialects, MC 開口 non-rounded 止 [i] group of finals with 齒音 coronal initial is pronounced with 舌面元音 \enquote{normal} vowel [-i], in some Yue dialects MC 開口 non-rounded 止 [i] group of finals with 精 [ts-] 莊 [ʈʂ-] series of initials is pronounced as [-y] or [-u].]}\\
+\medskip
+[資\ 廣州 Canto. tsi˥ 桂平 Canto. tsz̩˥ 百色 Canto. ɬɮ̍˥ 順德大良 tsy˥˧]\\
+\medskip
+(7) 长短元音[a]与[ɐ(e)]基本成系统对立，如广州话：街 kai˥≠鸡 kɐi˥，三 ʃam˥≠心 ʃɐm˥，蛮 man˨˩≠民 mɐn˨˩，彭 p'aŋ˨˩≠凭 p'ɐŋ˨˩。在音质上，[a、ɐ]不但有时值长短的区别，也同时有舌位高低的区别。 
+}
+\end{frame}
+
+\begin{frame}[fragile]{Yue–Pinghua}
+
+{\small
+(8) 流摄、臻摄开口一等与三等字不分洪细音，多数方言同韵。\\
+{\scriptsize[MC 流 and 臻 groups of finals, first (uw ən) and third grade (juw jiw (j)in jɨn) characters, no metter folowed by 洪 or 細 vowels, in most dialect they are the same final]}\\
+\smallskip
+[Canto. 樓=流 lau4, 走=酒 zau2, 狗=九 gau2, 根=斤 gan1]\\
+\medskip
+(9) 古阳声韵和入声韵今分别读[-m、-n、-ŋ]和[-p、-t、-k]两套阳、入配的韵尾。\\
+{\scriptsize[MC 陽聲韻 nasal-ending finals and 入聲韻 plosive-ending finals are now read with [-m -n -ŋ] [-p -t -k] two sets of nasal and plosive codas]}\\
+\smallskip
+{[Canto. 針 zam1 汁 zap1 文 man4 物 mat6 江 gong 1 覺 gok3]}\\
+\medskip
+(10) 平、上、去、入四调均分阴阳，入声调中阴入上下两分，有的阳入也上下两分，所以入声调通常有3个或4个。\\
+{\scriptsize[Tones ABCD all split into upper and lower, tone D1 is also split into two, in some dialects tone D2 is also split into two, so there are usually 3 or 4 tone D's.]}\\
+{[Canto. tone DS1 必 bit1 (*bat1), tone DL1 鱉 bit3, tone D2 別 bit6]}
+}
+\end{frame}
+
+\begin{frame}[fragile]{Yue–Pinghua}
+
+{\small
+(11) 常用词汇中，家多称“屋企”，东西多称“嘢”，公鸡、母鸡说成“鸡公”、“鸡乸”，什么说成“乜”，视觉动词为“睇”，宰杀称“劏”，判断动词多为“系”。\\
+{\scriptsize[a]}\\
+\medskip
+(12) 量词独用具有指示功能，如“件衫好靚”（这件衣服很漂亮）、“部车坏左”（这辆车坏了）、“啲人走晒”（这些人跑光了），其中“件”、“部”、“啲”分别相当于北京话“这件”、“这辆”、“这些”。表示动作行为或现象持续的助词用“紧”，如“讲紧”（正在说话），“落紧雨”（正下着雨）；表示动作行为回复的助词一般都用“翻”，如“找翻两文我”（找回我两块钱）、“做翻先前[啲嘢]”（重新做起以前的那些工作）。\\
+{\scriptsize[a]}\\
+}
+\end{frame}
+
+\end{document}
