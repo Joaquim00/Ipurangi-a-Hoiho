@@ -1,0 +1,493 @@
+\documentclass{beamer}
+
+\mode<presentation>
+{
+  \usetheme{Singapore}      % or try Darmstadt, Madrid, Warsaw, ...
+  \usecolortheme{crane} % or try albatross, beaver, crane, ...
+  \usefonttheme{serif}  % or try serif, structurebold, ...
+  \setbeamertemplate{navigation symbols}{}
+  \setbeamertemplate{caption}[numbered]
+} 
+
+\usepackage[english]{babel}
+\usepackage[autostyle=true]{csquotes}
+\usepackage{xeCJK}
+\usepackage[T1]{fontenc}
+\usepackage{xcolor}
+\usepackage{setspace}
+\usepackage{twemojis}
+\setmainfont[AutoFakeSlant=0.2]{Charis SIL}
+\setCJKmainfont[AutoFakeSlant=0.2]{Noto Serif CJK HK}
+\setCJKmonofont[AutoFakeSlant=0.2]{Noto Serif CJK HK}
+
+\title[Pearl River Sinitic]{Language classification in the \\ Pearl River Region}
+\subtitle{Grambank –\ The Next Generation; MPI EVA Leipzig}
+\author{Hilário de Sousa}
+\institute{Centre de recherches linguistiques sur l'Asie orientale\\ {\tiny membre associé}}
+\date{Tuesday 24 November 2026 \\ 丙午十月十六 \ \twemoji{full moon face} \\ {\footnotesize \texttt{ hilario@bambooradical.com}}}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\section{Hilário}
+
+\begin{frame}{Myself}
+\begin{itemize}
+    \item \textbf{Hilário de Sousa} {\tiny Portuguese /iˈlaɾiu dɨ ˈsouzɐ/ (Macau ˨+˥*, SEP H+L*), \\ NZ English /hɪˈlaːɹɪɐʉ/\textasciitilde/hɪˈlɛːɹɪɐʉ/, Dutch /ɦiˈlaːɾijoː/, French /ilaʁjo/, etc.}
+    \item any animate pronoun, Dr.
+    \item hilario.bambooradical.com
+    \item {\scriptsize membre associé of} CRLAO \twemoji{fr}; \twemoji{house}: \twemoji{flag: Netherlands}
+    \item Research involvements {\tiny past / forthcoming publications with my name in it}
+    \begin{itemize}
+        \item Grambank \twemoji{partying face}
+        \item Switch-reference, Melanesia \\ \quad {\scriptsize Mid-North New Guinea, Southern Vanuatu} 
+        \item Psycholinguistics, Semantic typology
+        \item Writing systems
+        \item Typology: Southern China as Mainland Southeast Asia
+        \item Phonology, morphosyntax, history in Far Southern China: \quad {\scriptsize Yue, Pinghua, Zhongshan Min, Sino-Vietnamese}
+        \item Chinese diaspora in Oceania
+    \end{itemize} 
+\end{itemize}
+\end{frame}
+
+\section{Pearl River}
+
+\begin{frame}[fragile]{Pearl River Basin/Region}
+
+\begin{figure}
+\includegraphics[width=0.8\textwidth]{pearlriver}
+\caption{\label{fig:pearlriver}Pearl River Basin}
+\end{figure}
+
+\vfill {\tiny \setstretch{1}Based on \url{https://en.wikipedia.org/wiki/Pearl_River#/media/File:Zhujiangrivermap.png}\\}
+
+\end{frame}
+
+\begin{frame}{Pearl River Basin/Region}
+
+\begin{figure}
+\includegraphics[width=0.6\textwidth]{watershedseng}
+\caption{\label{fig:watershedseng}Some watersheds in East Asia}
+\end{figure}
+
+\vfill {\tiny \setstretch{1}Based on \url{https://decolonialatlas.wordpress.com/wp-content/uploads/2019/11/world-watersheds-blank.png}\\}
+\end{frame}
+
+\section{Language families}
+
+\begin{frame}[fragile]{Language families}
+
+{\small Ethnolinguistic situation before the Hàn expansion was \underline{something} like this: \scriptsize{ \textit{(i.e. there are various theories)}} \\}
+
+    \centering
+    \includegraphics[width=0.6\linewidth]{southchina}
+
+{\flushleft
+\vfill \setstretch{0.5} {\tiny 
+  Li, Hui et al. 2007. Mitochondrial DNA diversity and population differentiation in southern East Asia. \textit{American Journal of Physical Anthropology} 134(4). 481–488. \url{https://doi.org/10.1002/ajpa.20690} \url{https://loca.fudan.edu.cn/Doc/A35.pdf}\par}}
+
+\end{frame}
+
+\begin{frame}[fragile]{Language families}
+
+\begin{columns}[t]
+\begin{column}[t]{0.5\textwidth}
+Kra-Dai {\scriptsize (Tai-Kadai)} 壯侗／侗台\\
+{\scriptsize
+\begin{itemize}
+    \item Tai 台/壯傣/偙 {\tiny(NT: unaspirated)}
+    \item Be {\tiny(Ong-Be)} 臨高
+    \item Kam-Sui 侗水 {\tiny(侗 dòng dung6)}
+    \item Hlai 黎
+    \item Kra 仡央 {\tiny(仡佬–布央)}
+    \item Biao–Lakkja 標–拉珈
+\end{itemize}}
+
+\flushleft
+    \includegraphics[width=1\linewidth]{kradailiao2023}
+{\vfill \setstretch{0.5} {\tiny Liao, Hanbo. 2023. Tonal Behavior as of Areal and Typological Concerns: Centering on the Sinitic and Kam-Tai Languages in Lingnan. \textit{Languages} 8(2). 148. \url{https://doi.org/10.3390/languages8020148}}\par}
+
+\end{column}
+\begin{column}[t]{0.5\textwidth}
+    \flushright
+    \includegraphics[width=1\linewidth]{kradaimap}
+\end{column}
+\end{columns}
+
+\end{frame}
+
+\begin{frame}[fragile]{Language families}
+
+Sino-Tibetan 漢藏 / Trans-Himalayan 跨喜瑪拉雅
+
+\begin{columns}
+\begin{column}{0.8\textwidth}
+   \includegraphics[width=1\linewidth]{sinotibetan}
+\end{column}
+\begin{column}{0.2\textwidth}
+    {\footnotesize \enquote{Tibeto-Burman} 藏緬} {\scriptsize = non-Sinitic Sino-Tibetan languages\\ (one node? multiple nodes?)\\ \smallskip Is Sinitic a first order branch?\\
+    \bigskip
+    Pearl River Basin: Sinitic and Loloish (\enquote{Luóluó 倮倮}, i.e. Yí 彝 and relatives)
+    
+    }
+\end{column}
+\end{columns}
+
+\end{frame}
+
+\begin{frame}[fragile]{Language families}
+
+\begin{columns}[t]
+\begin{column}[t]{0.3\textwidth}
+Hmong-Mien 苗瑤\\
+\bigskip
+{\footnotesize Slight influences in the Pearl River region\\
+e.g. Yue-Hashimoto (1991) claims that Cantonese mass classifier 啲 di1 is from Hmgon-Mien}\\
+
+\bigskip
+{\tiny Yue-Hashimoto, Anne Oi-kan. 1991. The Yue dialect. In Wang, William S. Y. (ed.), \textit{Languages and Dialects of China} (Journal of Chinese Linguistics Monograph Series Number 3), 292–322.
+}
+
+\end{column}
+\begin{column}[t]{0.7\textwidth}
+    \flushright
+    \includegraphics[width=1\linewidth]{hmongmien}
+\end{column}
+\end{columns}
+
+\end{frame}
+
+\begin{frame}[fragile]{Language families}
+
+\begin{columns}[t]
+\begin{column}[t]{0.3\textwidth}
+Austroasiatic 南亞\\
+\bigskip
+Pearl River Basin: Bolyu 倈 (Pakanic)\\
+Vietnamese \textsuperscript{a little bit}
+
+\end{column}
+\begin{column}[t]{0.7\textwidth}
+    \flushright
+    \includegraphics[width=1\linewidth]{austroasiatic}
+\end{column}
+\end{columns}
+
+\end{frame}
+
+\section{Classification of Sinitic langs}
+
+\begin{frame}[fragile]{Sinitic languages}
+
+\begin{figure}
+\includegraphics[width=1\textwidth]{innovationretention}
+\caption{\label{fig:innovationretention}Some approaches to language/dialect classification}
+\end{figure}
+
+\end{frame}
+
+\begin{frame}[fragile]{Sinitic languages}
+
+\begin{figure}
+\includegraphics[width=0.55\textwidth]{lacdhuangetal2024}
+\caption{\label{fig:LACDRGB}RGB–Multidimensional Scaling map of Southeastern Sinitic}
+\end{figure}
+
+\vfill {\tiny \setstretch{1}Huang, He \& Grieve, Jack \& Jiao, Lei \& Cai, Zhuo. 2024. Geographic structure of Chinese dialects: a computational dialectometric approach. \emph{Linguistics} 62(4). 937–976. \url{https://doi.org/10.1515/ling-2021-0138} \\ Based on data from the \emph{Linguistic Atlas of Chinese Dialects 汉语方言地图集}\\}
+
+\end{frame}
+
+\begin{frame}[fragile]{Sinitic languages}
+
+\begin{figure}
+\includegraphics[width=0.55\textwidth]{lacdhuangetal2024cont}
+\caption{\label{fig:LACDRGBcont}Some Sinitic dialect continua}
+\end{figure}
+
+\vfill {\tiny \setstretch{1}Base map from Huang et al. (2024), based on 510 features in the \emph{LACD}\\}
+
+\end{frame}
+
+\begin{frame}[fragile]{Sinitic languages}
+
+\begin{figure}
+\includegraphics[width=0.40\textwidth]{chineseliwurm}
+\caption{\label{fig:chineseliwurm}Dial. groups in Language Atlas of China 1\textsuperscript{st} ed.  \textsuperscript{\emph{phonology based}}}
+\end{figure}
+
+\vfill {\tiny \setstretch{1}Huang, He \& Grieve, Jack \& Jiao, Lei \& Cai, Zhuo. 2024. Geographic structure of Chinese dialects: a computational dialectometric approach. \emph{Linguistics} 62(4). 937–976. \url{https://doi.org/10.1515/ling-2021-0138} \\ Wurm, S.A. \& Li, Rong (eds.). 1987. \emph{Language Atlas of China}. 1st edn. Hong Kong: Longman Group (Far East) Ltd.\\}
+
+\end{frame}
+
+\begin{frame}[fragile]{Sinitic languages}
+
+    \begin{columns}
+        % Left Column
+        \begin{column}{0.5\textwidth}
+            \begin{itemize}
+                {\scriptsize
+                \item 官話 Guānhuà / Gun1 Waa2
+                \item 晉 Jìn / Zeon3
+                \item 湘 Xiāng / Soeng1
+                \item 贛 Gàn / Gam3
+                \item 徽 Huī / Fai1
+                \item 吳 Wú / Ng4
+                \item 閩 Mǐn / Man5
+                \item 客家 Kèjiā / Haak3 Gaa1
+                \item 粵 Yuè / Jyut6
+                \item 平話 Pínghuà / Ping4 Waa2
+                \item (+ smaller unclassified groups)}
+            \end{itemize}
+        \end{column}
+        
+        % Right Column
+        \begin{column}{0.5\textwidth}
+            \begin{figure}
+                \includegraphics[width=\textwidth]{southsinitic}
+                \caption{\label{fig:southsinitic}Southern Sinitic dialect groups}
+            \end{figure}
+        \end{column}
+    \end{columns}
+
+\vfill \tiny \setstretch{1}\url{https://en.wikipedia.org/wiki/Sinitic_languages#/media/File:Map_of_sinitic_languages_full-en.svg} Based on 1\textsuperscript{st} ed. of the \emph{Language Atlas of China 中国语言地图集\\}
+
+\end{frame}
+
+\section{Classification of Pinghua \& Yue}
+
+\begin{frame}[fragile]{Pinghua–Yue \scriptsize{LAC 2012}}
+
+\begin{figure}
+\includegraphics[width=0.90\textwidth]{pingyuedialectmap}
+\caption{\label{fig:pingyuedialectmap}Subgroups within Pinghua \& Yue in LAC-1  \textsuperscript{\emph{phonology based}}}
+\end{figure}
+
+\vfill {\tiny \setstretch{1}\url{https://en.wikipedia.org/wiki/Yue_Chinese#/media/File:Ping_and_Yue_dialect_map.svg}\\Wurm, S.A. \& Li, Rong (eds.). 1987. \emph{Language Atlas of China}. 1st edn. Hong Kong: Longman Group (Far East) Ltd.\\}
+
+\end{frame}
+
+\begin{frame}[fragile]{Pinghua–Yue \scriptsize{LAC 2012}}
+
+{\small
+\begin{tabular}{l|l l l l l l}
+    \hline
+     & `heart' & `door' & `sugar' & `ten' & `seven' & `six' \\
+     & 心 & 門 & 糖 & 十 & 七 & 六\\ \hline
+    Mid. Chin. & si\textbf{m}\textsuperscript{A} & muə\textbf{n}\textsuperscript{A} & da\textbf{ŋ}\textsuperscript{A} & dʑi\textbf{p} & tsʰi\textbf{t} & ljuʷ\textbf{k}\\  
+    \hline
+    Guìlín Mand. & ɕin˧ & mən˨˩ & tʰaŋ˨˩ & sz̩˨˩ & tɕʰi˨˩ & nu˨˩\\
+    Línguì N Píng. & san˧˥ & man˨˩ & tʰɔ˩˨ & ɕe˩˨ & tsʰe˥ & li˩˨\\ \hline
+    Nánníng S Píng. & ɬɐm˥˧ & mun˨˩ & taŋ˨˩ & ɬɐp˨ & tʃʰɐt˧ & lʊk˨˧\\
+    Nánníng Canto. & ɬɐm˥ & mun˨˩ & tʰɔŋ˨˩ & ʃɐp˨ & tʃʰɐt˥ & lʊk˨\\
+    Sino-Viet & tâm & môn & đường & thập & thất & lục\\ \hline     
+  \end{tabular}\\}
+\medskip
+{\footnotesize
+\textbf{Northern Pínghuà}: Under the influence of SW Mandarin (+ Xiāng \textasciitilde \ S Húnán), Middle Chinese codas of -m -p -t -k have not been preserved; \\fewer tones on average\\
+\textbf{Southern Pínghuà}: usually conservative of of the Middle Chinese codas of -m -n -ŋ -p -t -k, similar to Yuè and Sino-Vietnamese; \\more tones on average
+
+\bigskip 
+{\scriptsize Línguì N. Píng.= Liǎngjiāng 兩江; Nánníng S. Píng. = Wèizǐlù 位子淥}
+}
+
+\end{frame}
+
+\begin{frame}[fragile]{Yue–Pinghua \scriptsize{Sung 2026}}
+
+Dialectometry, e.g. (Sung 2026) {\tiny(: 38)}\\
+\begin{figure}
+    \centering
+    \includegraphics[width=0.9\linewidth]{sung38}
+\end{figure}
+\vfill \setstretch{0.5} {\tiny 
+  Sung, Ho Wang Matthew. 2026. \textit{Advancing Explanatory and Tonal Dialectometry} (LOT 709). Amsterdam: Landelijke Onderzoekschool Taalwetenschap. \url{https://doi.org/10.48273/LOT0709}\par}
+\end{frame}
+
+\begin{frame}[fragile]{Yue–Pinghua \scriptsize{Sung 2026}}
+
+Pairwise segmental distance calculation, e.g. 雀 `bird':\\
+\begin{figure}
+    \centering
+    \includegraphics[width=1\linewidth]{sung39}
+\end{figure}
+\centering
+{\tiny Sung (2026: 39)}
+\end{frame}
+
+\begin{frame}[fragile]{Yue–Pinghua \scriptsize{Sung 2026}}
+
+\begin{columns}[b]
+    \begin{column}{0.9\textwidth}
+        \begin{figure}
+        \includegraphics[width=1\linewidth]{sung66}
+        \end{figure}
+    \end{column}
+    \begin{column}{0.15\textwidth}
+        {\scriptsize \enquote{Lingui}= 臨桂五通}\\
+        {\tiny Sung (2026:66)}
+    \end{column}
+\end{columns}
+
+\end{frame}
+
+\begin{frame}[fragile]{Yue–Pinghua \scriptsize{Sung 2026}}
+
+\begin{columns}[b]
+    \begin{column}{0.75\textwidth}
+        \begin{figure}
+        \includegraphics[width=1\linewidth]{sung70}
+        \end{figure}
+    \end{column}
+    \begin{column}{0.25\textwidth}
+        {\tiny Sung (2026:70)}
+    \end{column}
+\end{columns}
+
+\end{frame}
+
+\begin{frame}[fragile]{Yue–Pinghua \scriptsize{Sung 2026}}
+
+\begin{columns}[b]
+    \begin{column}{0.75\textwidth}
+        \begin{figure}
+        \includegraphics[width=1\linewidth]{sung71}
+        \end{figure}
+    \end{column}
+    \begin{column}{0.25\textwidth}
+        {\tiny Sung (2026:71)}
+    \end{column}
+\end{columns}
+
+\end{frame}
+
+\begin{frame}[fragile]{Yue–Pinghua \scriptsize{Sung 2026}}
+
+\begin{columns}[b]
+    \begin{column}{0.85\textwidth}
+        \begin{figure}
+        \includegraphics[width=1\linewidth]{sung79}
+        \end{figure}
+    \end{column}
+    \begin{column}{0.15\textwidth}
+        {\tiny Sung (2026:79)}
+    \end{column}
+\end{columns}
+
+\end{frame}
+
+\begin{frame}[fragile]{Yue–Pinghua \scriptsize{Sung 2026}}
+
+\begin{columns}[b]
+    \begin{column}{1\textwidth}
+        \begin{figure}
+        \includegraphics[width=1\linewidth]{sung83}
+        \end{figure}
+    \end{column}
+    \begin{column}{0.15\textwidth}
+        {\tiny Sung (2026:83)}
+    \end{column}
+\end{columns}
+
+\end{frame}
+
+\begin{frame}[fragile]{Yue–Pinghua \scriptsize{Sung 2026}}
+
+\begin{columns}[b]
+    \begin{column}{0.65\textwidth}
+        \begin{figure}
+        \includegraphics[width=1\linewidth]{sung163}
+        \end{figure}
+    \end{column}
+    \begin{column}{0.35\textwidth}
+        Tones:\\
+        \medskip
+        {\scriptsize
+        \textcolor{cyan}{Cantonese or similar}\\
+        \textcolor{red}{core Sìyì 四邑}}\\
+        {\tiny Sung (2026:163)}
+    \end{column}
+\end{columns}
+
+\end{frame}
+
+\begin{frame}[fragile]{Yue–Pinghua \scriptsize{Sung 2026}}
+Amongst the many merits of Sung (2026):
+\begin{itemize}
+    \item criticisms of the subgrouping of Yue and Pinghua dialects in the LAC\\
+    \item dealing with a very large number of features (no cherry-picking of which features should have more weighting)\\
+    \item {[...]}
+\end{itemize}
+One criticism: Used the LAC's definition of Yue and Pinghua as a starting point. My questions are, e.g.\\
+\begin{itemize}
+    \item Why should the Sìyì dialects be considered Yue?\\
+    \item Should some of the Hakka / Hakka-like dialects be considered Yue? (i.e. is the Yue-Hakka boundary as clear as assumed?)
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Yue–Pinghua \scriptsize{Sung \& de Sousa forthcoming}}
+
+\begin{columns}[b]
+    \begin{column}{0.8\textwidth}
+        \begin{figure}
+        \includegraphics[width=1\linewidth]{sungmdswardsmethod10cluster20261113}
+        \end{figure}
+    \end{column}
+    \begin{column}{0.35\textwidth}
+        {\scriptsize 
+        \textit{(work in progress)}\\
+        \bigskip
+        MDS plot (10-cluster solution, Ward's Method)}
+    \end{column}
+\end{columns}
+
+\end{frame}
+
+\begin{frame}[fragile]{Yue–Pinghua \scriptsize{Sung \& de Sousa forthcoming}}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=1.05\linewidth]{sungclustermap10cluster20261113}
+\caption{Cluster Map (Ward's Method)}
+\end{figure}
+
+\end{frame}
+
+\begin{frame}[fragile]{Yue–Pinghua \scriptsize{Chan 2025}}
+    
+    \centering
+    \includegraphics[width=1\linewidth]{changamjyutbundei2025south}
+
+\vfill {\tiny \url{https://zhuanlan.zhihu.com/p/30911789139}}
+\end{frame}
+
+\begin{frame}[fragile]{Yue–Pinghua \scriptsize{Chan 2025}}
+
+{\small 
+1)內轉一等韻三等韻主元音央低化(至少不在i u的位置上)：\\
+此點指九狗巾根金亙吉乞急刻等字的主元音不高於ǝ。[...]\\
+主元音為[ɐ或ə或ɯ的]現象。\\
+\smallskip
+\textcolor{red}{Basically: i/u splitting \& lowering, e.g. -iC > -jəC (> -əC)}\\
+\begin{table}
+    \flushleft
+    \begin{tabular}{c|c c c c c}
+         & 狗 & 九 & 陳 & 十 & 金\\
+        MC & kuw\textsuperscript{B} & kjuw\textsuperscript{B} & ɖin\textsuperscript{A} & dʑip\textsuperscript{D} & kim\textsuperscript{A}\\ \hline
+        香港客 & kiw˧˩ & kiw˧˩ & tsʰin˩ & sip˥ & kim˨˧\\
+        惠城 & kjaw˧˥ & kiw˧˥ & tɕʰin˩ & ɕip˨˩ & kim˧\\
+        台山 & kew˥ & kiw˥ & tsʰin˨ & sip˧˨ & kim˧\\ \cline{1-2} \cline{4-4}
+        儋州\textsuperscript{文} & \multicolumn{1}{c|}{kɔw˥} & \multicolumn{1}{c|}{kjew˥} & \multicolumn{1}{c|}{sɔn˩} & sip˥ & kim˨\\ \cline{3-3} \cline{5-5}
+        Sn-Viet & <cẩu> & <cửu> & <trần> & \multicolumn{1}{c|}{<thập>} & <kim> \\ \cline{1-1} \cline{6-6}
+        儋州\textsuperscript{白} & kaw˨ & kɔw˨ & sɔn˥ & tɔp˥ & kɔm˧˥\\
+        Canto. & kɐw˧˥ & kɐw˧˥ & tsʰɐn˩ & sɐp˨ & kɐm˥\\
+        陽江 & kɐw˨˩ & kjɐw˨˩ & tsʰɐn˦˧ & sɐp˥˦ & kjɐm˧\\
+        南寧平 & kɐw˧ & kəw˧ & tʃɐn˨˩ & ɬɐp˨ & kɐm˥˧\\     
+    \end{tabular}
+\end{table}
+}
+\end{frame}
+
+\end{document}
