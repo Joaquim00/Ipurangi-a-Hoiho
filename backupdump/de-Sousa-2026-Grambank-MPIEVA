@@ -23,8 +23,8 @@
 \title[Pearl River Sinitic]{Language classification in the \\ Pearl River Region}
 \subtitle{Grambank –\ The Next Generation; MPI EVA Leipzig}
 \author{Hilário de Sousa}
-\institute{Centre de recherches linguistiques sur l'Asie orientale\\ {\tiny membre associé}}
-\date{Tuesday 24 November 2026 \\ 丙午十月十六 \ \twemoji{full moon face} \\ {\footnotesize \texttt{ hilario@bambooradical.com}}}
+\institute{Centre de recherches linguistiques sur l'Asie orientale\\ \textit{\tiny membre associé}}
+\date{Tuesday 24 November 2026 \\ 丙午十月十六 \ \twemoji{full moon} \\ {\footnotesize \texttt{ hilario@bambooradical.com}}}
 
 \begin{document}
 
@@ -38,22 +38,31 @@
 \begin{itemize}
     \item \textbf{Hilário de Sousa} {\tiny Portuguese /iˈlaɾiu dɨ ˈsouzɐ/ (Macau ˨+˥*, SEP H+L*), \\ NZ English /hɪˈlaːɹɪɐʉ/\textasciitilde/hɪˈlɛːɹɪɐʉ/, Dutch /ɦiˈlaːɾijoː/, French /ilaʁjo/, etc.}
     \item any animate pronoun, Dr.
-    \item hilario.bambooradical.com
-    \item {\scriptsize membre associé of} CRLAO \twemoji{fr}; \twemoji{house}: \twemoji{flag: Netherlands}
-    \item Research involvements {\tiny past / forthcoming publications with my name in it}
+    \item \url{https://hilario.bambooradical.com}
+    \item {\scriptsize \textit{membre associé} of} CRLAO \twemoji{fr}; \twemoji{house}: \twemoji{flag: Netherlands}
+    \item Research involvements {\tiny past / future publications with me being one of the authors}
+    {\small
     \begin{itemize}
         \item Grambank \twemoji{partying face}
-        \item Switch-reference, Melanesia \\ \quad {\scriptsize Mid-North New Guinea, Southern Vanuatu} 
+        \item Switch-reference \& co., Melanesia\\ \quad {\scriptsize Mid-North New Guinea, Southern Vanuatu} 
         \item Psycholinguistics, Semantic typology
         \item Writing systems
-        \item Typology: Southern China as Mainland Southeast Asia
-        \item Phonology, morphosyntax, history in Far Southern China: \quad {\scriptsize Yue, Pinghua, Zhongshan Min, Sino-Vietnamese}
+        \item Areal linguistics / typology:\\ \quad Southern China as {\tiny part of} Mainland Southeast Asia
+        \item Phonology, morphosyntax, history in Far Southern China:\\ \quad {\scriptsize Yue, Pinghua, Zhongshan Min, Sino-Vietnamese}
         \item Chinese diaspora in Oceania
-    \end{itemize} 
+    \end{itemize}} 
 \end{itemize}
 \end{frame}
 
 \section{Pearl River}
+
+\begin{frame}[fragile]{Pearl River Basin/Region}
+
+\centering
+\includegraphics[width=0.9\textwidth]{eastsouthasiawatersheds}
+
+\vfill {\tiny \setstretch{1} \url{https://openrivers.lib.umn.edu/article/hydrology-and-world-history/watershed-map3/}\\}
+\end{frame}
 
 \begin{frame}[fragile]{Pearl River Basin/Region}
 
@@ -95,10 +104,10 @@
 
 \begin{columns}[t]
 \begin{column}[t]{0.5\textwidth}
-Kra-Dai {\scriptsize (Tai-Kadai)} 壯侗／侗台\\
+Kra-Dai {\scriptsize (Tai-Kadai)} 壯侗～侗台\\
 {\scriptsize
 \begin{itemize}
-    \item Tai 台/壯傣/偙 {\tiny(NT: unaspirated)}
+    \item Tai 台～壯傣～偙 {\tiny(NT: unaspirated)}
     \item Be {\tiny(Ong-Be)} 臨高
     \item Kam-Sui 侗水 {\tiny(侗 dòng dung6)}
     \item Hlai 黎
@@ -180,7 +189,7 @@ Vietnamese \textsuperscript{a little bit}
 
 \section{Classification of Sinitic langs}
 
-\begin{frame}[fragile]{Sinitic languages}
+\begin{frame}[fragile]{Language classification}
 
 \begin{figure}
 \includegraphics[width=1\textwidth]{innovationretention}
@@ -304,7 +313,7 @@ e.g. Cantonese speakers listening to Táishān 台山
     Línguì N Píng. & san˧˥ & man˨˩ & tʰɔ˩˨ & ɕe˩˨ & tsʰe˥ & li˩˨\\ \hline
     Nánníng S Píng. & ɬɐm˥˧ & mun˨˩ & taŋ˨˩ & ɬɐp˨ & tʃʰɐt˧ & lʊk˨˧\\
     Nánníng Canto. & ɬɐm˥ & mun˨˩ & tʰɔŋ˨˩ & ʃɐp˨ & tʃʰɐt˥ & lʊk˨\\
-    Sino-Viet & tâm & môn & đường & thập & thất & lục\\ \hline     
+    Sino-Viet. & tâm & môn & đường & thập & thất & lục\\ \hline     
   \end{tabular}\\}
 \medskip
 {\footnotesize
@@ -348,7 +357,7 @@ Pairwise segmental distance calculation, e.g. 雀 `bird':\\
         \end{figure}
     \end{column}
     \begin{column}{0.15\textwidth}
-        {\scriptsize \enquote{Lingui}= 臨桂五通}\\
+        {\scriptsize \enquote{Lingui}= Línguì Wǔtōng\\臨桂五通}\\
         {\tiny Sung (2026:66)}
     \end{column}
 \end{columns}
@@ -541,8 +550,7 @@ Glottolog 5.4 counts \textbf{10} languages for what China considers Northern Zhu
     \begin{column}{0.6\textwidth}
      \includegraphics[width=1\linewidth]{zhuangdialectsmap}
      {\scriptsize \textit{(North of the dotted line is Northern Daic-Sek)}}
-     \vfill \setstretch{0.5} {\flushleft{\tiny \url{https://hilario.bambooradical.com/study-notes.html#zhuang-dialects/}}}\par   
-%     {\tiny \url{https://hilario.bambooradical.com/study-notes.html#zhuang-dialects}}\\
+     \vfill \setstretch{0.5} {\flushleft{\tiny \url{https://hilario.bambooradical.com/study-notes.html#zhuang-dialects/}}}\par
     \end{column}
 \end{columns}
 
@@ -550,54 +558,21 @@ Glottolog 5.4 counts \textbf{10} languages for what China considers Northern Zhu
 
 \begin{frame}[fragile]{Language?}
 
-Glottolog 5.4 counts (just!) \textbf{3} languages for Pínghuà–Yuè, \\ and \textbf{2} languages for Hakka \twemoji{grimacing face} \twemoji{fearful face} 
+Glottolog 5.4 counts (just!) \textbf{3} languages for Pínghuà–Yuè, \\ and \textbf{2} languages for (what LAC considers) Hakka \twemoji{grimacing face} \twemoji{fearful face} 
 \bigskip
 
 \includegraphics[width=0.8\linewidth]{glottolog5.4sinitic}
 
 \end{frame}
 
-\end{document}
+\begin{frame}[fragile]{Yue–Pinghua \scriptsize{Chan 2025}}
     
-%        Northern Daic-Sek (15)
-%        \begin{itemize}
-%          \item Northern Daic (14)
-%              \begin{itemize}
-%                  \item Northern Tai (11)
-%                      \begin{itemize}
-%                          \item \textbf{Bouyei}
-%                          \item \textbf{Guibei Zhuang}
-%                          \item Hongshui He (3)
-%                              \begin{itemize}
-%                                  \item \textbf{Liuqian Zhuang}
-%                                  \item Western Hongshui He (2)
-%                                      \begin{itemize}
-%                                          \item \textbf{Central Hongshuihe Zhuang}
-%                                          \item \textbf{Eastern Hongshuihe Zhuang}
-%                                      \end{itemize}
-%                              \end{itemize}
-%                          \item Lianshan-Liujiang (2)
-%                              \begin{itemize}
-%                                  \item \textbf{Lianshan Zhuang}
-%                                  \item \textbf{Liujiang Zhuang}
-%                              \end{itemize}
-%                          \item Unclassified Northern Tai (1)
-%                              \begin{itemize}
-%                                  \item \textbf{E}
-%                              \end{itemize}
-%                          \item Yei Zhuang (2)
-%                              \begin{itemize}
-%                                  \item \textbf{Guibian Zhuang}
-%                                  \item \textbf{Qiubei Zhuang}
-%                              \end{itemize}
-%                          \item \textbf{Youjiang Zhuang}
-%                      \end{itemize}
-%                  \item Yongnan-Yongbei (2)
-%                      \begin{itemize}
-%                          \item \textbf{Yongbei Zhuang}
-%                          \item \textbf{Yongnan Zhuang}
-%                      \end{itemize}
-%                  \item \textbf{Zuojiang Zhuang}
-%              \end{itemize}
-%          \item \textbf{Saek}
-%        \end{itemize}
+    \centering
+    \includegraphics[width=1\linewidth]{chanfaanjyutsiukeoi2025}
+
+Something like this? Yuè–Pínghuà as 8? 10? 12? languages?\\
+\vfill \setstretch{0.5} {\tiny \url{https://zhuanlan.zhihu.com/p/685087866}}
+
+\end{frame}
+
+\end{document}
