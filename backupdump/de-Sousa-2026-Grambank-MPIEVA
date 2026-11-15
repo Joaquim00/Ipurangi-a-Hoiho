@@ -256,6 +256,28 @@ Vietnamese \textsuperscript{a little bit}
 
 \end{frame}
 
+\begin{frame}[fragile]{Pinghua–Yue}
+
+Many Yuè dialects are not intelligible to the people of Canton \textsuperscript{\emph{without prior exposure}}.\\
+e.g. Cantonese speakers listening to Táishān 台山
+
+\begin{columns}
+    \begin{column}{0.5\textwidth}
+        \begin{figure}
+            \includegraphics[width=1\textwidth]{brittanyhoisan}
+            {\tiny \url{https://www.youtube.com/watch?v=nuXg6KhpwXc}}
+        \end{figure}    
+    \end{column}
+    \begin{column}{0.5\textwidth}
+        \begin{figure}
+            \includegraphics[width=1\textwidth]{bilibilihoisan}
+            {\tiny \url{https://www.bilibili.com/video/BV1dW41137NS/}}
+        \end{figure}    
+    \end{column}
+\end{columns}
+
+\end{frame}
+
 \section{Classification of Pinghua \& Yue}
 
 \begin{frame}[fragile]{Pinghua–Yue \scriptsize{LAC 2012}}
@@ -297,7 +319,7 @@ Vietnamese \textsuperscript{a little bit}
 
 \begin{frame}[fragile]{Yue–Pinghua \scriptsize{Sung 2026}}
 
-Dialectometry, e.g. (Sung 2026) {\tiny(: 38)}\\
+\textbf{Dialectometry, e.g. Sung 2026} {\tiny(: 38)}\\
 \begin{figure}
     \centering
     \includegraphics[width=0.9\linewidth]{sung38}
@@ -456,38 +478,126 @@ One criticism: Used the LAC's definition of Yue and Pinghua as a starting point.
 \end{frame}
 
 \begin{frame}[fragile]{Yue–Pinghua \scriptsize{Chan 2025}}
-    
+
+\textbf{Historical linguistics, e.g. Chan 2025}\\
     \centering
     \includegraphics[width=1\linewidth]{changamjyutbundei2025south}
 
-\vfill {\tiny \url{https://zhuanlan.zhihu.com/p/30911789139}}
+\vfill \setstretch{0.5} {\flushleft{\tiny Chan, Kwíngiem 陳泂龑. 2025. 泛粵語的語言特徵、分區分片與原始語構擬. Paper presented at Forum on Languages in South China (FoLiSC)-5. \url{https://zhuanlan.zhihu.com/p/2037678751337722052}, \url{https://www.bilibili.com/video/BV1yce5zmEcK/?vd_source=921d60258b6f28b75a778221169178bd}\\ \smallskip
+This map comes from something else: \url{https://zhuanlan.zhihu.com/p/30911789139}}}\par
+
 \end{frame}
 
 \begin{frame}[fragile]{Yue–Pinghua \scriptsize{Chan 2025}}
 
 {\small 
-1)內轉一等韻三等韻主元音央低化(至少不在i u的位置上)：\\
-此點指九狗巾根金亙吉乞急刻等字的主元音不高於ǝ。[...]\\
-主元音為[ɐ或ə或ɯ的]現象。\\
-\smallskip
-\textcolor{red}{Basically: i/u splitting \& lowering, e.g. -iC > -jəC (> -əC)}\\
+\textcolor{red}{Pan-Yuè innovation {\scriptsize (just stating one here)}:\\ (rather) consistent vowel breaking of \textit{i} in \textit{-iC}:\\ \textit{-iC} > \textit{-jəC} (> \textit{-əC})\\
+\quad \textit{nucleus something like [ɐ ə ɯ]}}
 \begin{table}
     \flushleft
-    \begin{tabular}{c|c c c c c}
-         & 狗 & 九 & 陳 & 十 & 金\\
-        MC & kuw\textsuperscript{B} & kjuw\textsuperscript{B} & ɖin\textsuperscript{A} & dʑip\textsuperscript{D} & kim\textsuperscript{A}\\ \hline
-        香港客 & kiw˧˩ & kiw˧˩ & tsʰin˩ & sip˥ & kim˨˧\\
-        惠城 & kjaw˧˥ & kiw˧˥ & tɕʰin˩ & ɕip˨˩ & kim˧\\
-        台山 & kew˥ & kiw˥ & tsʰin˨ & sip˧˨ & kim˧\\ \cline{1-2} \cline{4-4}
-        儋州\textsuperscript{文} & \multicolumn{1}{c|}{kɔw˥} & \multicolumn{1}{c|}{kjew˥} & \multicolumn{1}{c|}{sɔn˩} & sip˥ & kim˨\\ \cline{3-3} \cline{5-5}
-        Sn-Viet & <cẩu> & <cửu> & <trần> & \multicolumn{1}{c|}{<thập>} & <kim> \\ \cline{1-1} \cline{6-6}
-        儋州\textsuperscript{白} & kaw˨ & kɔw˨ & sɔn˥ & tɔp˥ & kɔm˧˥\\
-        Canto. & kɐw˧˥ & kɐw˧˥ & tsʰɐn˩ & sɐp˨ & kɐm˥\\
-        陽江 & kɐw˨˩ & kjɐw˨˩ & tsʰɐn˦˧ & sɐp˥˦ & kjɐm˧\\
-        南寧平 & kɐw˧ & kəw˧ & tʃɐn˨˩ & ɬɐp˨ & kɐm˥˧\\     
+    \begin{tabular}{c|c c c c}
+         & `nine' & \textit{\scriptsize{surname}} & `ten' & `gold'\\
+         & 九 & 陳 & 十 & 金\\
+        MC & kjuw\textsuperscript{B} & ɖin\textsuperscript{A} & dʑip\textsuperscript{D} & kim\textsuperscript{A}\\ \hline
+        HK Hakka & kiw˧˩ & tsʰin˩ & sip˥ & kim˨˧\\
+        Huizhou City & kiw˧˥ & tɕʰin˩ & ɕip˨˩ & kim˧\\
+        Taishan & kiw˥ & tsʰin˨ & sip˧˨ & kim˧\\ \cline{1-3}
+        Danzhou \textsuperscript{Lt} & kjew˥ & \multicolumn{1}{c|}{sɔn˩} & sip˥ & kim˨\\ \cline{4-4} 
+        Sino-Viet & <cửu> & <trần> & \multicolumn{1}{c|}{<thập>} & <kim> \\ \cline{1-1} \cline{5-5}
+        Danzhou \textsuperscript{Col} & kɔw˨ & sɔn˥ & tɔp˥ & kɔm˧˥\\
+        Cantonese & kɐw˧˥ & tsʰɐn˩ & sɐp˨ & kɐm˥\\
+        Yangjiang Yue & kjɐw˨˩ & tsʰɐn˦˧ & sɐp˥˦ & kjɐm˧\\
+        Nanning Ping & kəw˧ & tʃɐn˨˩ & ɬɐp˨ & kɐm˥˧\\     
     \end{tabular}
 \end{table}
 }
 \end{frame}
 
+\section {Languages?}
+
+\begin{frame}[fragile]{Language?}
+
+    \centering
+    \includegraphics[width=1\linewidth]{900langs}
+
+\vfill \setstretch{0.5} {\flushleft{\tiny \url{ https://www.reddit.com/r/LinguisticMaps/comments/ge1j0d/there_are_more_languages_native_to_the_green_area/}}}\par
+
+\end{frame}
+
+\begin{frame}[fragile]{Language?}
+
+    \centering
+    \includegraphics[width=1\linewidth]{900langsfarsouthchina}
+
+\end{frame}
+
+\begin{frame}[fragile]{Language?}
+Glottolog 5.4 counts \textbf{10} languages for what China considers Northern Zhuàng.
+\bigskip
+\begin{columns}[b]
+    \begin{column}{0.4\textwidth}
+    \includegraphics[width=1\linewidth]{glottolog5.4northerndaicsek}
+    \end{column}
+    \begin{column}{0.6\textwidth}
+     \includegraphics[width=1\linewidth]{zhuangdialectsmap}
+     {\scriptsize \textit{(North of the dotted line is Northern Daic-Sek)}}
+     \vfill \setstretch{0.5} {\flushleft{\tiny \url{https://hilario.bambooradical.com/study-notes.html#zhuang-dialects/}}}\par   
+%     {\tiny \url{https://hilario.bambooradical.com/study-notes.html#zhuang-dialects}}\\
+    \end{column}
+\end{columns}
+
+\end{frame}
+
+\begin{frame}[fragile]{Language?}
+
+Glottolog 5.4 counts (just!) \textbf{3} languages for Pínghuà–Yuè, \\ and \textbf{2} languages for Hakka \twemoji{grimacing face} \twemoji{fearful face} 
+\bigskip
+
+\includegraphics[width=0.8\linewidth]{glottolog5.4sinitic}
+
+\end{frame}
+
 \end{document}
+    
+%        Northern Daic-Sek (15)
+%        \begin{itemize}
+%          \item Northern Daic (14)
+%              \begin{itemize}
+%                  \item Northern Tai (11)
+%                      \begin{itemize}
+%                          \item \textbf{Bouyei}
+%                          \item \textbf{Guibei Zhuang}
+%                          \item Hongshui He (3)
+%                              \begin{itemize}
+%                                  \item \textbf{Liuqian Zhuang}
+%                                  \item Western Hongshui He (2)
+%                                      \begin{itemize}
+%                                          \item \textbf{Central Hongshuihe Zhuang}
+%                                          \item \textbf{Eastern Hongshuihe Zhuang}
+%                                      \end{itemize}
+%                              \end{itemize}
+%                          \item Lianshan-Liujiang (2)
+%                              \begin{itemize}
+%                                  \item \textbf{Lianshan Zhuang}
+%                                  \item \textbf{Liujiang Zhuang}
+%                              \end{itemize}
+%                          \item Unclassified Northern Tai (1)
+%                              \begin{itemize}
+%                                  \item \textbf{E}
+%                              \end{itemize}
+%                          \item Yei Zhuang (2)
+%                              \begin{itemize}
+%                                  \item \textbf{Guibian Zhuang}
+%                                  \item \textbf{Qiubei Zhuang}
+%                              \end{itemize}
+%                          \item \textbf{Youjiang Zhuang}
+%                      \end{itemize}
+%                  \item Yongnan-Yongbei (2)
+%                      \begin{itemize}
+%                          \item \textbf{Yongbei Zhuang}
+%                          \item \textbf{Yongnan Zhuang}
+%                      \end{itemize}
+%                  \item \textbf{Zuojiang Zhuang}
+%              \end{itemize}
+%          \item \textbf{Saek}
+%        \end{itemize}
